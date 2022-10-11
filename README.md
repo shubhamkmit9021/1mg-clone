@@ -8,3 +8,8 @@
 - Shubham Kr Rai            pa01_041           home page
 - Yogesh Kumar Singh        pw05_188           product info page
 
+### Note
+- everyone pull first
+- then install all packages
+- then create your seperate branch
+- and in last push code in your branch
