@@ -1,6 +1,6 @@
 # [1mg-clone](https://www.1mg.com/)
 
-## Team Members ----------Roll Code --------------- Tasks
+## Team Members ----------Roll Code ----------- Tasks
 - Abhishek Mahakud ---------------- pw06_015  --------------- login/signup
 - Deepak Singh Rathore ------------ pw06_021  --------------- cart/payment
 - Niranjan Ajay Ghone ------------- pw3_192   --------------- products page
