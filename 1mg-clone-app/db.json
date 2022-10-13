@@ -2,43 +2,53 @@
   "sec1": [
     {
       "img" : "https://onemg.gumlet.io/de43ae64-d8d7-485b-ab91-0af519ed941d_1663831589.png?w=899&h=200&format=auto",
-      "alt" : "sec1_img1"
+      "alt" : "sec1_img1",
+      "id" : 1
     },
     {
       "img" : "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/8f58c83e-8fc3-4a45-9278-e30a6859ba9d.png",
-      "alt" : "sec1_img2"
+      "alt" : "sec1_img2",
+      "id" : 2
     },
     {
       "img" : "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/f4ead24d-add9-42fe-a508-c62f4f1feeff.png",
-      "alt" : "sec1_img3"
+      "alt" : "sec1_img3",
+      "id" : 3
     },
     {
       "img" : "https://onemg.gumlet.io/a_ignore,w_480,h_200,c_fit,q_auto,f_auto/14eaa65a-0b73-4f77-9ed4-504f910c1d49.png",
-      "alt" : "sec1_img4"
+      "alt" : "sec1_img4",
+      "id" : 4
     },
     {
       "img" : "https://onemg.gumlet.io/19a4fe54-3a77-411b-9e53-9adbacfbd9e9_1664865792.jpg?w=899&h=200&format=auto",
-      "alt" : "sec1_img5"
+      "alt" : "sec1_img5",
+      "id" : 5
     },
     {
       "img" : "https://onemg.gumlet.io/assets/3b2c7f48-49f2-11ed-ab8f-0a674cab797e.png?format=auto",
-      "alt" : "sec1_img6"
+      "alt" : "sec1_img6",
+      "id" : 6
     },
     {
       "img" : "https://onemg.gumlet.io/35d1fb1e-d2da-433b-9f78-54c9f2e49165_1664894436.png?w=899&h=200&format=auto",
-      "alt" : "sec1_img7"
+      "alt" : "sec1_img7",
+      "id" : 7
     },
     {
       "img" : "https://onemg.gumlet.io/a5da0db7-ddf0-4890-9829-02d20285e859_1663825108.png?w=899&h=200&format=auto",
-      "alt" : "sec1_img8"
+      "alt" : "sec1_img8",
+      "id" : 8
     },
     {
       "img" : "https://onemg.gumlet.io/ca163b43-ce33-4440-b5c8-cb4d7ff58e43_1664853845.jpg?w=899&h=200&format=auto",
-      "alt" : "sec1_img9"
+      "alt" : "sec1_img9",
+      "id" : 9
     },
     {
       "img" : "https://onemg.gumlet.io/a6cc9e12-5384-4790-a546-d5424f58d037_1665558947.jpg?w=899&h=200&format=auto",
-      "alt" : "sec1_img10"
+      "alt" : "sec1_img10",
+      "id" : 10
     }
   ],
     
