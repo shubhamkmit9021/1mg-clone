@@ -1,11 +1,14 @@
-import { Box, Grid, GridItem, Image, Flex, Text } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Image, Flex, Text, Show } from "@chakra-ui/react";
 import React from "react";
+import Footer4 from "./Footer4";
+import Footer5 from "./Footer5";
 
 const Footer3 = () => {
   return (
-    <Box bg="#fffcf8" h="40rem" borderY="1px solid #bfbfbf" pt="9" mb="50px">
+    <Box bg="#fffcf8" h="max-content" borderY={{ base: 'none', sm: 'none', md: "1px solid #bfbfbf", lg: "1px solid #bfbfbf"}} py={{ base: '2', sm: '2', md: '9', lg: '9'}}>
       <Box w="90%" m="auto">
-        <Grid templateColumns="17% 17% 13% 25% 18%" gap="8">
+        <Grid templateColumns={{ base: "90%", sm: "90%", md: "30% 30% 30% ", lg: "17% 17% 13% 25% 18%"}} gap="8">
+        <Show above='sm'>
           <GridItem w="100%">
             <Box>
               <Box my="4">
@@ -238,85 +241,44 @@ const Footer3 = () => {
               </Box>
             </Box>
           </GridItem>
+          </Show>
 
-          <GridItem w="100%">
+          <GridItem w="100%" textAlign={{base: 'center', sm: 'center', md: 'left', lg: 'left'}}>
             <Box>
               <Box my="4">
                 <Text as="b" fontSize="16px" color="#000000">
                   Download App
                 </Text>
               </Box>
-              <Box w="136px" my="2">
+              <Box w={{base: '50%', sm: '50%', md: '65%', lg: '70%'}} m={{base: 'auto', sm: 'auto', md: '10px 0px', lg: "10px 0px" }} my="4" display={{base: 'block', sm: 'block'  }}>
                 <Image
                   _hover={{ cursor: "pointer" }}
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png"
                   w="100%"
-                  m="auto"
-                  alt="footer_linkedin_logo"
+                  // m="auto"
+                  alt="Google_play_logo"
                 />
               </Box>
-              <Box w="136px" my="2">
+              <Box w={{base: '50%', sm: '50%', md: '65%', lg: '70%'}} m={{base: 'auto', sm: 'auto', md: '10px 0px', lg: "10px 0px" }} my="4" display={{base: 'block', sm: 'block'  }}>
                 <Image
                   _hover={{ cursor: "pointer" }}
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1200px-Download_on_the_App_Store_Badge.svg.png"
                   w="100%"
-                  m="auto"
-                  alt="footer_linkedin_logo"
+                  // m="auto"
+                  alt="App_store_logo"
                 />
               </Box>
             </Box>
           </GridItem>
         </Grid>
       </Box>
-      <Box w="90%" m="auto" py="10">
-        <hr />
-      </Box>
-      <Box w="90%" m="auto">
-        <Grid templateColumns="repeat(3, 1fr)" gap={6} justifyContent='center'>
-          <GridItem>
-            <Box border='1px solid black'>
-              <Flex m='auto'>
-                <Box>
-                  <Image src="" alt="" />
-                </Box>
-                <Box>
-                  <Box><Text as='b' >Reliable</Text></Box>
-                  <Box></Box>
-                </Box>
-              </Flex>
-            </Box>
-          </GridItem>
 
-          <GridItem>
-            <Box>
-              <Flex m='auto'>
-                <Box>
-                  <Image src="" alt="" />
-                </Box>
-                <Box>
-                  <Box><Text as='b' >Reliable</Text></Box>
-                  <Box></Box>
-                </Box>
-              </Flex>
-            </Box>
-          </GridItem>
+     <>
+     <Footer4/>
+     <Footer5/>
+     </>
 
-          <GridItem>
-            <Box>
-              <Flex m='auto'>
-                <Box>
-                  <Image src="" alt="" />
-                </Box>
-                <Box>
-                  <Box><Text as='b' >Reliable</Text></Box>
-                  <Box></Box>
-                </Box>
-              </Flex>
-            </Box>
-          </GridItem>
-
-        </Grid>
-      </Box>
+      
     </Box>
   );
 };
