@@ -1,20 +1,10 @@
-
-import { Box } from '@chakra-ui/react';
-import './App.css';
-import LowerNav from './Components/Navbar/LowerNav';
-import MiddleNav from './Components/Navbar/MiddleNav';
-import UpperNav from './Components/Navbar/UpperNav';
-
-
+import "./App.css";
+import { Box } from "@chakra-ui/react";
+import Cart from "./Components/Cart/Cart";
 function App() {
   return (
-    <Box>
-      <UpperNav />
-      <hr />
-      <MiddleNav />
-      <hr />
-      <LowerNav />
-      <hr />
+    <Box className="App">
+      <Cart />
     </Box>
   );
 }
