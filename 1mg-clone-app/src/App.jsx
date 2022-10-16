@@ -1,23 +1,24 @@
 import { Box } from "@chakra-ui/react";
 import "./App.css";
-import Footer2 from "./Components/Footer/Footer2";
+import Cart from "./Components/Cart/Cart";
 import Footer1 from "./Components/Footer/Footer1";
-import { UpperHeading } from "./Components/Middle/UpperHeading";
-import { UpperMiddle } from "./Components/Middle/UpperMiddle";
-import UpperPoster from "./Components/Middle/UpperPoster";
-import LowerNav from "./Components/Navbar/LowerNav";
-import MiddleNav from "./Components/Navbar/MiddleNav";
+import Home from "./pages/Home";
 import UpperNav from "./Components/Navbar/UpperNav";
-import Footer3 from "./Components/Footer/Footer3";
-import Carousel from "./Components/Carousel/Carousel.jsx";
+import { Route, Routes, Router } from "react-router-dom";
+import Multivitamins from "./pages/Multivitamins";
+import Devices from "./pages/Devices";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <Box>
       <UpperNav />
-      <UpperMiddle />
-      <UpperHeading />
-      <UpperPoster />
-      <Footer1 />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/cart" element={<Cart />}></Route>
+        <Route path="/multivitamins" element={<Multivitamins />}></Route>
+        <Route path="/devices" element={<Devices />}></Route>
+      </Routes>
+      <Footer />
     </Box>
   );
 }

@@ -1,12 +1,16 @@
 import { Box, Flex, Spacer } from "@chakra-ui/react";
 import { greyColor } from "../../Colors/Color";
 import { useState, useRef } from "react";
+import { increment } from "../../Redux/action";
+import { useDispatch, useSelector } from "react-redux";
 
 export default function CartItems(props) {
   const { dummyItems } = props;
   const { name, desc, price, discount, quantity } = dummyItems;
   const [itemCount, SetItemCount] = useState(1);
   const ref = useRef(null);
+  const count = useSelector((store) => store.count);
+  const dispatch = useDispatch();
   return (
     <Box
       ref={ref}
@@ -58,10 +62,10 @@ export default function CartItems(props) {
               src="https://www.1mg.com/images/minus-cart.svg"
               style={{ cursor: "pointer" }}
               onClick={() => {
-                SetItemCount(itemCount - 1);
+                dispatch(increment(count));
               }}
             />
-            <p style={{ marginTop: "4px" }}>{itemCount}</p>
+            <p style={{ marginTop: "4px" }}>{count}</p>
             <img
               src="https://www.1mg.com/images/plus-cart.svg"
               style={{ cursor: "pointer" }}
