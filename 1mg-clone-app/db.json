@@ -1,0 +1,986 @@
+{
+  "sec1": [
+    {
+      "img" : "https://onemg.gumlet.io/de43ae64-d8d7-485b-ab91-0af519ed941d_1663831589.png?w=899&h=200&format=auto",
+      "alt" : "sec1_img1",
+      "id" : 1
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/8f58c83e-8fc3-4a45-9278-e30a6859ba9d.png",
+      "alt" : "sec1_img2",
+      "id" : 2
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/f4ead24d-add9-42fe-a508-c62f4f1feeff.png",
+      "alt" : "sec1_img3",
+      "id" : 3
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_480,h_200,c_fit,q_auto,f_auto/14eaa65a-0b73-4f77-9ed4-504f910c1d49.png",
+      "alt" : "sec1_img4",
+      "id" : 4
+    },
+    {
+      "img" : "https://onemg.gumlet.io/19a4fe54-3a77-411b-9e53-9adbacfbd9e9_1664865792.jpg?w=899&h=200&format=auto",
+      "alt" : "sec1_img5",
+      "id" : 5
+    },
+    {
+      "img" : "https://onemg.gumlet.io/assets/3b2c7f48-49f2-11ed-ab8f-0a674cab797e.png?format=auto",
+      "alt" : "sec1_img6",
+      "id" : 6
+    },
+    {
+      "img" : "https://onemg.gumlet.io/35d1fb1e-d2da-433b-9f78-54c9f2e49165_1664894436.png?w=899&h=200&format=auto",
+      "alt" : "sec1_img7",
+      "id" : 7
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a5da0db7-ddf0-4890-9829-02d20285e859_1663825108.png?w=899&h=200&format=auto",
+      "alt" : "sec1_img8",
+      "id" : 8
+    },
+    {
+      "img" : "https://onemg.gumlet.io/ca163b43-ce33-4440-b5c8-cb4d7ff58e43_1664853845.jpg?w=899&h=200&format=auto",
+      "alt" : "sec1_img9",
+      "id" : 9
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a6cc9e12-5384-4790-a546-d5424f58d037_1665558947.jpg?w=899&h=200&format=auto",
+      "alt" : "sec1_img10",
+      "id" : 10
+    }
+  ],
+    
+  "sec2" : [
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e3katuw3w1qdfiv0cbjn.png",
+       "alt" : "sec2_img1",
+       "title" : "Diabetes Care" 
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/bal76mxxccyhrti2erkn.png",
+       "alt" : "sec2_img2",
+       "title" : "Cardiac Care" 
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/l2zrxcsfyguccggnkp4m.png",
+       "alt" : "sec2_img3",
+       "title" : "Stomach Care" 
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/klrkvhzloqbyt6z8cvgv.png",
+       "alt" : "sec2_img4",
+       "title" : "Liver Care" 
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/zd1jcixlqcmxlxlmgitc.png",
+       "alt" : "sec2_img5",
+       "title" : "Bone, Joint & Muscle Care" 
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/c0o3w8wdjnzesk2pshcr.png",
+       "alt" : "sec2_img6",
+       "title" : "Kidney Care" 
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/vsyneobahnsdqzllvzuv.png",
+       "alt" : "sec2_img7",
+       "title" : "Pain Relief" 
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/wgixpbxnlrd79lzhpsi3.png",
+       "alt" : "sec2_img8",
+       "title" : "Respiratory Care" 
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/laztovaqkws3bo1ywff0.png",
+       "alt" : "sec2_img9",
+       "title" : "Eye Care" 
+    }
+
+  ],
+
+  "brands" : [
+    {
+     "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d8cf5b43-f660-47af-be76-c203f422650e.png",
+      "alt" : "brand_img1",
+      "title" : "Dr. Morepen"
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/38e1f526-af63-4ed9-9382-1c807aaf9aab.png",
+       "alt" : "brand_img2",
+       "title" : "Hansaplast"
+     },
+     {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d1c09b4a-0bf0-42cf-806d-28e0f7b031bf.png",
+       "alt" : "brand_img3",
+       "title" : "Dabur"
+     },
+     {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e16980e0-61f0-4215-bbb9-f1403c23cd52.png",
+       "alt" : "brand_img4",
+       "title" : "Protinex"
+     },
+     {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d60a9791-bf2c-40b7-b782-2b5e7d069f8a.jpg",
+       "alt" : "brand_img5",
+       "title" : "Optimum Nutrition"
+     },
+     {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/1e238702-1383-4186-81aa-39db49890337.png",
+       "alt" : "brand_img6",
+       "title" : "Revital"
+     },
+     {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/1eb7fdd0-bb11-4b5a-aab9-7f99776192b5.png",
+       "alt" : "brand_img7",
+       "title" : "Organic India"
+     },
+     {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/34c3b73d-1f59-4f23-9c79-beef864b4bc1.png",
+       "alt" : "brand_img8",
+       "title" : "Himalaya"
+     },
+     {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e2b00f58-40d9-4766-9956-3c50e620450a.png",
+       "alt" : "brand_img9",
+       "title" : "Zandu"
+     }
+
+  ],
+
+  "Top_Sellers" : [
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ll16prunudl5wg9dkjyo.jpg",
+      "alt" : "top_sellers_img1",
+      "title" : "Mamaearth Onion Hair Oil",
+      "desc" : "bottle of 150 ml oil",
+      "striked" : {
+        "s1" : "MRP",
+        "s2" : "₹419",
+        "s3" : "23% off"
+      },
+      "price" : "₹323"
+    },
+    {
+      "img" : "",
+      "alt" : "top_sellers_img1",
+      "title" : "",
+      "desc" : "",
+      "striked" : {
+        "s1" : "MRP",
+        "s2" : "₹419",
+        "s3" : "23% off"
+      },
+      "price" : "₹323"
+    },
+    {
+      "img" : "",
+      "alt" : "top_sellers_img1",
+      "title" : "",
+      "desc" : "",
+      "striked" : {
+        "s1" : "MRP",
+        "s2" : "₹419",
+        "s3" : "23% off"
+      },
+      "price" : "₹323"
+    },
+
+    {
+      "img" : "",
+      "alt" : "top_sellers_img1",
+      "title" : "",
+      "desc" : "",
+      "striked" : {
+        "s1" : "MRP",
+        "s2" : "₹419",
+        "s3" : "23% off"
+      },
+      "price" : "₹323"
+    }, {
+      "img" : "",
+      "alt" : "top_sellers_img1",
+      "title" : "",
+      "desc" : "",
+      "striked" : {
+        "s1" : "MRP",
+        "s2" : "₹419",
+        "s3" : "23% off"
+      },
+      "price" : "₹323"
+    },
+    {
+      "img" : "",
+      "alt" : "top_sellers_img1",
+      "title" : "",
+      "desc" : "",
+      "striked" : {
+        "s1" : "MRP",
+        "s2" : "₹419",
+        "s3" : "23% off"
+      },
+      "price" : "₹323"
+    },
+    {
+      "img" : "",
+      "alt" : "top_sellers_img1",
+      "title" : "",
+      "desc" : "",
+      "striked" : {
+        "s1" : "MRP",
+        "s2" : "₹419",
+        "s3" : "23% off"
+      },
+      "price" : "₹323"
+    },
+    {
+      "img" : "",
+      "alt" : "top_sellers_img1",
+      "title" : "",
+      "desc" : "",
+      "striked" : {
+        "s1" : "MRP",
+        "s2" : "₹419",
+        "s3" : "23% off"
+      },
+      "price" : "₹323"
+    },
+    {
+      "img" : "",
+      "alt" : "top_sellers_img1",
+      "title" : "",
+      "desc" : "",
+      "striked" : {
+        "s1" : "MRP",
+        "s2" : "₹419",
+        "s3" : "23% off"
+      },
+      "price" : "₹323"
+    }
+
+  ],
+  "multivitamins": [
+    {
+        "id": 1,
+        "name": "HealthVit Vitamin B12 500mcg Tablet",
+        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/devq94ucekijc0d7vlbd/healthvit-vitamin-b12-500mcg-tablet.jpg",
+        "price": 200,
+        "final_price": 128,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "category":"HealthVit"
+    }, 
+    {
+        "id": 2,
+        "name": "HealthVit Cenvitan Multivitamin Tablet",
+        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/a7xr3jsvuophvvsn7yua/healthvit-cenvitan-men-multivitamin-multimineral-tablet.jpg",
+        "price": 500,
+        "final_price": 299,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "category":"HealthVit"
+    }, 
+    {
+        "id": 3,
+        "name": "HealthVit ZMA Multivitamins Capsule",
+        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/oxxwpcvmknokvhnmex04/healthvit-zma-capsule.jpg",
+        "price": 1100,
+        "final_price": 649,
+        "ratings": 4.3,
+        "detail": "bottle of 90 capsules",
+        "category":"HealthVit"
+    }, 
+    {
+        "id": 4,
+        "name": "HealthyHey Nutrition Selenium+Natural Vitamin E Vegetable Capsule",
+        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/beohs1b4nqzd5jg1pghg/healthyhey-nutrition-selenium-natural-vitamin-e-vegetable-capsule.jpg",
+        "price": 1599,
+        "final_price": 799,
+        "ratings": 4.5,
+        "detail": "bottle of 120 vegicaps",
+        "category":"HealthyHey"
+    },
+    {
+        "id": 5,
+        "name": "HealthyHey Nutrition CoQ 10+Bioperine 125mg Vegetable Capsule",
+        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/3367a0a2ac7b4463b3b96be7c42d7dff/healthyhey-nutrition-coq-10-bioperine-125mg-vegetable-capsule.jpg",
+        "price": 1999,
+        "final_price": 1399,
+        "ratings": 4.1,
+        "detail": "bottle of 60 vegicaps",
+        "category":"HealthyHey"
+    }, 
+    {
+        "id": 6,
+        "name": "HealthyHey Nutrition Gold Series Hydrolysed Bovine Collagen",
+        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/m347nngafmfpohyazlls/healthyhey-nutrition-gold-series-hydrolysed-bovine-collagen-type-1-3-orange.jpg",
+        "price": 2499,
+        "final_price": 1299,
+        "ratings": 4.5,
+        "detail": "Jar of 200gm powder",
+        "category":"HealthyHey"
+    }, 
+    {
+        "id": 7,
+        "name": "Inlife Vitamin B12 ALA Tablet with vitamin B12",
+        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/mzik3zmrcgmafcg0gdyr/inlife-vitamin-b12-ala-tablet.png",
+        "price": 600,
+        "final_price": 399,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "category":"Inlife"
+    }, 
+    {
+        "id": 8,
+        "name": "Inlife Iron Folic Acid Supplement with Vitamin C, E, B12, Zinc & Selenium Tablet",
+        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/tjoec3grck4nnmnx2pzx/inlife-iron-folic-acid-supplement-with-vitamin-c-e-b12-zinc-selenium-tablet.jpg",
+        "price": 600,
+        "final_price": 300,
+        "ratings": 4.4,
+        "detail": "bottle of 60 tablets",
+        "category":"Inlife"
+    },
+    {
+        "id": 9,
+        "name": "Inlife Hair, Skin & Nails Gummies Strawberry Gluten Free",
+        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/usbzyvwnnmrvpyzhakqo/inlife-hair-skin-nails-gummies-strawberry-gluten-free.jpg",
+        "price": 699,
+        "final_price": 384,
+        "ratings": 3.8,
+        "detail": "bottle of 60 tablets",
+        "category":"Inlife"
+    }, 
+    {
+        "id": 10,
+        "name": "NOW Foods Potassium Citrate 99mg Capsule",
+        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/c6yswyvohau8ur6njjoc/now-foods-potassium-citrate-99mg-capsule.jpg",
+        "price": 2000,
+        "final_price": 1920,
+        "ratings": 4.0,
+        "detail": "bottle of 90 capsules",
+        "category":"Now Foods"
+    }, 
+    {
+        "id": 11,
+        "name": "NOW Foods Liver Refresh Veg Capsule",
+        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/qm9tmat3g6pqfmuka7hz/now-foods-liver-refresh-veg-capsule.jpg",
+        "price": 3199,
+        "final_price": 2502,
+        "ratings": 4.2,
+        "detail": "bottle of 110 capsules",
+        "category":"Now Foods"
+    }, 
+    {
+        "id": 12,
+        "name": "NOW Foods Calcium D-Glucarate 500mg Veg Capsule",
+        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/zghxv9iw6f9v0x3sjpr2/now-foods-calcium-d-glucarate-500mg-veg-capsule.jpg",
+        "price": 3999,
+        "final_price": 3999,
+        "ratings": 4.2,
+        "detail": "bottle of 90 capsules",
+        "category":"Now Foods"
+    },
+    {
+        "id": 13,
+        "name": "GNC Triple Strength Fish Oil Softgel for Bones",
+        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/cropped/knpi7bseg4px54e3bs4k/gnc-triple-strength-fish-oil-softgel.jpg",
+        "price": 1599,
+        "final_price": 943,
+        "ratings": 4.5,
+        "detail": "bottle of 60 soft gelatin capsules",
+        "category":"GNC"
+    }, 
+    {
+        "id": 14,
+        "name": "GNC Pro Performance AMP Gold Series BCAA Advanced Tangy Orange",
+        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/oxyfi9owon6pcagjmtdp/gnc-pro-performance-amp-gold-series-bcaa-advanced-tangy-orange.jpg",
+        "price": 2299,
+        "final_price": 1799,
+        "ratings": 4.1,
+        "detail": "bottle of 60 soft gelatin capsules",
+        "category":"GNC"
+    }, 
+    {
+        "id": 15,
+        "name": "GNC Pro Performance 100% Whey Protein Chocolate Supreme",
+        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/tufbxxd6ooedkb38yw5v/gnc-pro-performance-100-whey-protein-chocolate-supreme.jpg",
+        "price": 8499,
+        "final_price": 7124,
+        "ratings": 4.4,
+        "detail": "Jar of 2 kg powder",
+        "category":"GNC"
+    },
+    {
+        "id": 16,
+        "name": "HealthVit Vitamin B12 500mcg Tablet",
+        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/devq94ucekijc0d7vlbd/healthvit-vitamin-b12-500mcg-tablet.jpg",
+        "price": 200,
+        "final_price": 128,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "category":"HealthVit"
+    }, 
+    {
+        "id": 17,
+        "name": "HealthVit Cenvitan Multivitamin Tablet",
+        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/a7xr3jsvuophvvsn7yua/healthvit-cenvitan-men-multivitamin-multimineral-tablet.jpg",
+        "price": 500,
+        "final_price": 299,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "category":"HealthVit"
+    }, 
+    {
+        "id": 18,
+        "name": "HealthVit ZMA Multivitamins Capsule",
+        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/oxxwpcvmknokvhnmex04/healthvit-zma-capsule.jpg",
+        "price": 1100,
+        "final_price": 649,
+        "ratings": 4.3,
+        "detail": "bottle of 90 capsules",
+        "category":"HealthVit"
+    }, 
+    {
+        "id": 19,
+        "name": "HealthyHey Nutrition Selenium+Natural Vitamin E Vegetable Capsule",
+        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/beohs1b4nqzd5jg1pghg/healthyhey-nutrition-selenium-natural-vitamin-e-vegetable-capsule.jpg",
+        "price": 1599,
+        "final_price": 799,
+        "ratings": 4.5,
+        "detail": "bottle of 120 vegicaps",
+        "category":"HealthyHey"
+    },
+    {
+        "id": 20,
+        "name": "HealthyHey Nutrition CoQ 10+Bioperine 125mg Vegetable Capsule",
+        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/3367a0a2ac7b4463b3b96be7c42d7dff/healthyhey-nutrition-coq-10-bioperine-125mg-vegetable-capsule.jpg",
+        "price": 1999,
+        "final_price": 1399,
+        "ratings": 4.1,
+        "detail": "bottle of 60 vegicaps",
+        "category":"HealthyHey"
+    }, 
+    {
+        "id": 21,
+        "name": "HealthyHey Nutrition Gold Series Hydrolysed Bovine Collagen",
+        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/m347nngafmfpohyazlls/healthyhey-nutrition-gold-series-hydrolysed-bovine-collagen-type-1-3-orange.jpg",
+        "price": 2499,
+        "final_price": 1299,
+        "ratings": 4.5,
+        "detail": "Jar of 200gm powder",
+        "category":"HealthyHey"
+    }, 
+    {
+        "id": 22,
+        "name": "Inlife Vitamin B12 ALA Tablet with vitamin B12",
+        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/mzik3zmrcgmafcg0gdyr/inlife-vitamin-b12-ala-tablet.png",
+        "price": 600,
+        "final_price": 399,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "category":"Inlife"
+    }, 
+    {
+        "id": 23,
+        "name": "Inlife Iron Folic Acid Supplement with Vitamin C, E, B12, Zinc & Selenium Tablet",
+        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/tjoec3grck4nnmnx2pzx/inlife-iron-folic-acid-supplement-with-vitamin-c-e-b12-zinc-selenium-tablet.jpg",
+        "price": 600,
+        "final_price": 300,
+        "ratings": 4.4,
+        "detail": "bottle of 60 tablets",
+        "category":"Inlife"
+    },
+    {
+        "id": 24,
+        "name": "Inlife Hair, Skin & Nails Gummies Strawberry Gluten Free",
+        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/usbzyvwnnmrvpyzhakqo/inlife-hair-skin-nails-gummies-strawberry-gluten-free.jpg",
+        "price": 699,
+        "final_price": 384,
+        "ratings": 3.8,
+        "detail": "bottle of 60 tablets",
+        "category":"Inlife"
+    }, 
+    {
+        "id": 25,
+        "name": "NOW Foods Potassium Citrate 99mg Capsule",
+        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/c6yswyvohau8ur6njjoc/now-foods-potassium-citrate-99mg-capsule.jpg",
+        "price": 2000,
+        "final_price": 1920,
+        "ratings": 4.0,
+        "detail": "bottle of 90 capsules",
+        "category":"Now Foods"
+    }, 
+    {
+        "id": 26,
+        "name": "NOW Foods Liver Refresh Veg Capsule",
+        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/qm9tmat3g6pqfmuka7hz/now-foods-liver-refresh-veg-capsule.jpg",
+        "price": 3199,
+        "final_price": 2502,
+        "ratings": 4.2,
+        "detail": "bottle of 110 capsules",
+        "category":"Now Foods"
+    }, 
+    {
+        "id": 27,
+        "name": "NOW Foods Calcium D-Glucarate 500mg Veg Capsule",
+        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/zghxv9iw6f9v0x3sjpr2/now-foods-calcium-d-glucarate-500mg-veg-capsule.jpg",
+        "price": 3999,
+        "final_price": 3999,
+        "ratings": 4.2,
+        "detail": "bottle of 90 capsules",
+        "category":"Now Foods"
+    },
+    {
+        "id": 28,
+        "name": "GNC Triple Strength Fish Oil Softgel for Bones",
+        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/cropped/knpi7bseg4px54e3bs4k/gnc-triple-strength-fish-oil-softgel.jpg",
+        "price": 1599,
+        "final_price": 943,
+        "ratings": 4.5,
+        "detail": "bottle of 60 soft gelatin capsules",
+        "category":"GNC"
+    }, 
+    {
+        "id": 29,
+        "name": "GNC Pro Performance AMP Gold Series BCAA Advanced Tangy Orange",
+        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/oxyfi9owon6pcagjmtdp/gnc-pro-performance-amp-gold-series-bcaa-advanced-tangy-orange.jpg",
+        "price": 2299,
+        "final_price": 1799,
+        "ratings": 4.1,
+        "detail": "bottle of 60 soft gelatin capsules",
+        "category":"GNC"
+    }, 
+    {
+        "id": 30,
+        "name": "GNC Pro Performance 100% Whey Protein Chocolate Supreme",
+        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/tufbxxd6ooedkb38yw5v/gnc-pro-performance-100-whey-protein-chocolate-supreme.jpg",
+        "price": 8499,
+        "final_price": 7124,
+        "ratings": 4.4,
+        "detail": "Jar of 2 kg powder",
+        "category":"GNC"
+    }
+],
+"devices": [
+    {
+        "id": 1,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 2,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 3,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 4,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    },
+    {
+        "id": 5,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 6,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 7,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 8,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    },
+    {
+        "id": 9,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 10,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 11,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 12,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    },
+    {
+        "id": 13,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 14,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 15,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 16,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    },
+    {
+        "id": 17,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 18,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 19,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 20,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    },
+    {
+        "id": 21,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 22,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 23,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 24,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    },
+    {
+        "id": 25,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 26,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 27,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 28,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    },
+    {
+        "id": 29,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }, 
+    {
+        "id": 30,
+        "name": "Accu-Chek Active Test Strip",
+        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }
+],
+"TopDealsMV":[
+    {
+        "id": 1,
+        "name": "HealthVit Vitamin B12 500mcg Tablet",
+        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/devq94ucekijc0d7vlbd/healthvit-vitamin-b12-500mcg-tablet.jpg",
+        "price": 200,
+        "final_price": 128,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets"
+    },
+    {
+        "id": 7,
+        "name": "Inlife Vitamin B12 ALA Tablet with vitamin B12",
+        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/mzik3zmrcgmafcg0gdyr/inlife-vitamin-b12-ala-tablet.png",
+        "price": 600,
+        "final_price": 399,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets"
+    },
+    {
+        "id": 3,
+        "name": "HealthVit ZMA Multivitamins Capsule",
+        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/oxxwpcvmknokvhnmex04/healthvit-zma-capsule.jpg",
+        "price": 1100,
+        "final_price": 649,
+        "ratings": 4.3,
+        "detail": "bottle of 90 capsules"
+    },
+    {
+        "id": 4,
+        "name": "HealthyHey Nutrition CoQ 10 125mg",
+        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/3367a0a2ac7b4463b3b96be7c42d7dff/healthyhey-nutrition-coq-10-bioperine-125mg-vegetable-capsule.jpg",
+        "price": 1999,
+        "final_price": 1399,
+        "ratings": 4.1,
+        "detail": "bottle of 60 vegicaps"
+    },
+    {
+        "id": 5,
+        "name": "NOW Foods Potassium Citrate 99mg Capsule",
+        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/c6yswyvohau8ur6njjoc/now-foods-potassium-citrate-99mg-capsule.jpg",
+        "price": 2000,
+        "final_price": 1920,
+        "ratings": 4.0,
+        "detail": "bottle of 90 capsules"
+    }
+],
+"TopDealsDV":[
+    {
+        "id": 1,
+        "name": "Accu-Chek Active Test Strip (Box of 10 Test strips Free)",
+        "url": "https://onemg.gumlet.io/images/w_150,h_150,c_fit,q_auto,f_auto/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    },
+    {
+        "id": 2,
+        "name": "Dr. Morepen Biotin+ Tablet for Healthy Hair, Skin & Nails Tablet",
+        "url": "https://onemg.gumlet.io/images/w_150,h_150,c_fit,q_auto,f_auto/pc0kfczcu5phbkk5sy41/dr-morepen-gluco-one-bg-03-blood-glucose-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    },
+    {
+        "id": 3,
+        "name": "Accu-Chek Active Blood Glucometer Kit (Box of 10 Test strips Free)",
+        "url": "https://onemg.gumlet.io/images/w_150,h_150,c_fit,q_auto,f_auto/0bede5b02bf743ddb910721e0ece0fc7/accu-chek-active-blood-glucometer-kit-box-of-10-test-strips-free.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    },
+    {
+        "id": 4,
+        "name": "Dr Morepen BG 03 Gluco One Glucose Monitoring System",
+        "url": "https://onemg.gumlet.io/images/w_150,h_150,c_fit,q_auto,f_auto/qd8eaznzsf3det7qrytk/dr-morepen-bg-03-gluco-one-glucose-monitoring-system-with-gluco-one-bg-03-blood-glucose-25-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    },
+    {
+        "id": 5,
+        "name": "Contour Plus Blood Glucose Test Strip with25 Test Strip",
+        "url": "https://onemg.gumlet.io/images/w_150,h_150,c_fit,q_auto,f_auto/xf6ogn1ygwsa8jgbcfaq/contour-plus-blood-glucose-test-strip.jpg",
+        "price": 995,
+        "final_price": 358,
+        "ratings": 4.5,
+        "detail": "box of 50 Test Strips"
+    }
+],
+"categoriesMV":[
+    {
+        "id": 1,
+        "name": "Multivitamins",
+        "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/mrntmv3lpb7tjzdlkdnc.png"
+    },
+    {
+        "id": 2,
+        "name": "Calcium And Minerals",
+        "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/ljyfbx2xugr0evrtzn8y.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Plant Based Suppliments",
+        "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/wdmr9b68xfgac9po9c4v.png"
+    },
+    {
+        "id": 4,
+        "name": "Biotin",
+        "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/nga8o103x9tr0tnxa9ci.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Immunity Boosters",
+        "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/nsqbbcpoksf2hgexpkud.png"
+    }
+],
+"categoriesDV":[
+    {
+        "id": 1,
+        "name":"Accu-check",
+        "url" : "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/eswhdjdi9mzq1ntjy59m.png"
+    },
+    {
+        "id": 2,
+        "name":"AccuSure",
+        "url" : "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/hq2yxyge4lsxeyvlvjga.png"
+    },
+    {
+        "id": 3,
+        "name":"Dr Morepen",
+        "url" : "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/vnb0nghatul3fy9grums.png"
+    },
+    {
+        "id": 4,
+        "name":"OneTouch",
+        "url" : "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/xrxttu6kyxmbjmt5xsps.jpg"
+    },
+    {
+        "id": 5,
+        "name":"BeatO",
+        "url" : "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/mjsaizdmejqbdokg3olk.png"
+    }
+]
+}
