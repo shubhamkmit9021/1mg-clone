@@ -158,9 +158,6 @@ const Footer1 = () => {
           </Text>
         </Box>
       </Box>
-
-      <Footer2/>
-    
     </>
   );
 };
