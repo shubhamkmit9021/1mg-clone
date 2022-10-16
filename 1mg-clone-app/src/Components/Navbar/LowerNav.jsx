@@ -7,10 +7,12 @@ import {
   MenuButton,
   MenuList,
   MenuItem,
+  Link,
 } from "@chakra-ui/react";
 import { BiChevronDown } from "react-icons/bi";
 
 import React from "react";
+import DropDown from "../DropDown";
 
 const LowerNav = () => {
   return (
@@ -27,13 +29,13 @@ const LowerNav = () => {
           <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Health Resource Center </Text>
           </MenuButton>
-          <MenuList>
-            <MenuItem>Download</MenuItem>
-            <MenuItem>Create a Copy</MenuItem>
-            <MenuItem>Mark as Draft</MenuItem>
-            <MenuItem>Delete</MenuItem>
-            <MenuItem>Attend a Workshop</MenuItem>
-          </MenuList>
+          <DropDown
+            first="Multivitamins"
+            second="Devices"
+            third="Vitamins A-Z"
+            fourth="Mineral Supplements"
+            fifth="Adult Daily Nutrition"
+          />
           <Box
             _hover={{ color: "tomato", cursor: "pointer" }}
             pl={1}
@@ -49,13 +51,13 @@ const LowerNav = () => {
           <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Vitamins & Nutrition </Text>
           </MenuButton>
-          <MenuList>
-            <MenuItem>Download</MenuItem>
-            <MenuItem>Create a Copy</MenuItem>
-            <MenuItem>Mark as Draft</MenuItem>
-            <MenuItem>Delete</MenuItem>
-            <MenuItem>Attend a Workshop</MenuItem>
-          </MenuList>
+          <DropDown
+            first="Multivitamins"
+            second="Devices"
+            third="Vitamins A-Z"
+            fourth="Mineral Supplements"
+            fifth="Adult Daily Nutrition"
+          />
           <Box
             _hover={{ color: "tomato", cursor: "pointer" }}
             pl={1}
@@ -71,13 +73,13 @@ const LowerNav = () => {
           <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Diabetes </Text>
           </MenuButton>
-          <MenuList>
-            <MenuItem>Download</MenuItem>
-            <MenuItem>Create a Copy</MenuItem>
-            <MenuItem>Mark as Draft</MenuItem>
-            <MenuItem>Delete</MenuItem>
-            <MenuItem>Attend a Workshop</MenuItem>
-          </MenuList>
+          <DropDown
+            first="Multivitamins"
+            second="Devices"
+            third="Vitamins A-Z"
+            fourth="Mineral Supplements"
+            fifth="Adult Daily Nutrition"
+          />
           <Box
             _hover={{ color: "tomato", cursor: "pointer" }}
             pl={1}
@@ -93,13 +95,13 @@ const LowerNav = () => {
           <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Healthcare Devices </Text>
           </MenuButton>
-          <MenuList>
-            <MenuItem>Download</MenuItem>
-            <MenuItem>Create a Copy</MenuItem>
-            <MenuItem>Mark as Draft</MenuItem>
-            <MenuItem>Delete</MenuItem>
-            <MenuItem>Attend a Workshop</MenuItem>
-          </MenuList>
+          <DropDown
+            first="Multivitamins"
+            second="Devices"
+            third="Vitamins A-Z"
+            fourth="Mineral Supplements"
+            fifth="Adult Daily Nutrition"
+          />
           <Box
             _hover={{ color: "tomato", cursor: "pointer" }}
             pl={1}
@@ -115,13 +117,14 @@ const LowerNav = () => {
           <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Personal Care </Text>
           </MenuButton>
-          <MenuList>
-            <MenuItem>Download</MenuItem>
-            <MenuItem>Create a Copy</MenuItem>
-            <MenuItem>Mark as Draft</MenuItem>
-            <MenuItem>Delete</MenuItem>
-            <MenuItem>Attend a Workshop</MenuItem>
-          </MenuList>
+
+          <DropDown
+            first="Multivitamins"
+            second="Devices"
+            third="Vitamins A-Z"
+            fourth="Mineral Supplements"
+            fifth="Adult Daily Nutrition"
+          />
           <Box
             _hover={{ color: "tomato", cursor: "pointer" }}
             pl={1}
@@ -137,13 +140,13 @@ const LowerNav = () => {
           <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Health Conditions </Text>
           </MenuButton>
-          <MenuList>
-            <MenuItem>Download</MenuItem>
-            <MenuItem>Create a Copy</MenuItem>
-            <MenuItem>Mark as Draft</MenuItem>
-            <MenuItem>Delete</MenuItem>
-            <MenuItem>Attend a Workshop</MenuItem>
-          </MenuList>
+          <DropDown
+            first="Multivitamins"
+            second="Devices"
+            third="Vitamins A-Z"
+            fourth="Mineral Supplements"
+            fifth="Adult Daily Nutrition"
+          />
           <Box
             _hover={{ color: "tomato", cursor: "pointer" }}
             pl={1}
@@ -159,13 +162,13 @@ const LowerNav = () => {
           <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Ayurveda Products </Text>
           </MenuButton>
-          <MenuList>
-            <MenuItem>Download</MenuItem>
-            <MenuItem>Create a Copy</MenuItem>
-            <MenuItem>Mark as Draft</MenuItem>
-            <MenuItem>Delete</MenuItem>
-            <MenuItem>Attend a Workshop</MenuItem>
-          </MenuList>
+          <DropDown
+            first="Multivitamins"
+            second="Devices"
+            third="Vitamins A-Z"
+            fourth="Mineral Supplements"
+            fifth="Adult Daily Nutrition"
+          />
           <Box
             _hover={{ color: "tomato", cursor: "pointer" }}
             pl={1}
@@ -181,13 +184,13 @@ const LowerNav = () => {
           <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Homeopathy </Text>
           </MenuButton>
-          <MenuList>
-            <MenuItem>Download</MenuItem>
-            <MenuItem>Create a Copy</MenuItem>
-            <MenuItem>Mark as Draft</MenuItem>
-            <MenuItem>Delete</MenuItem>
-            <MenuItem>Attend a Workshop</MenuItem>
-          </MenuList>
+          <DropDown
+            first="Multivitamins"
+            second="Devices"
+            third="Vitamins A-Z"
+            fourth="Mineral Supplements"
+            fifth="Adult Daily Nutrition"
+          />
           <Box
             _hover={{ color: "tomato", cursor: "pointer" }}
             pl={1}
@@ -203,13 +206,13 @@ const LowerNav = () => {
           <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Featured </Text>
           </MenuButton>
-          <MenuList>
-            <MenuItem>Download</MenuItem>
-            <MenuItem>Create a Copy</MenuItem>
-            <MenuItem>Mark as Draft</MenuItem>
-            <MenuItem>Delete</MenuItem>
-            <MenuItem>Attend a Workshop</MenuItem>
-          </MenuList>
+          <DropDown
+            first="Multivitamins"
+            second="Devices"
+            third="Vitamins A-Z"
+            fourth="Mineral Supplements"
+            fifth="Adult Daily Nutrition"
+          />
           <Box
             _hover={{ color: "tomato", cursor: "pointer" }}
             pl={1}
@@ -225,13 +228,13 @@ const LowerNav = () => {
           <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Covid Essentials </Text>
           </MenuButton>
-          <MenuList>
-            <MenuItem>Download</MenuItem>
-            <MenuItem>Create a Copy</MenuItem>
-            <MenuItem>Mark as Draft</MenuItem>
-            <MenuItem>Delete</MenuItem>
-            <MenuItem>Attend a Workshop</MenuItem>
-          </MenuList>
+          <DropDown
+            first="Multivitamins"
+            second="Devices"
+            third="Vitamins A-Z"
+            fourth="Mineral Supplements"
+            fifth="Adult Daily Nutrition"
+          />
           <Box
             _hover={{ color: "tomato", cursor: "pointer" }}
             pl={1}

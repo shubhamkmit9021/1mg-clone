@@ -3,6 +3,7 @@ import React from "react";
 import { GrCart } from "react-icons/gr";
 import LowerNav from "./LowerNav";
 import MiddleNav from "./MiddleNav";
+import { Link } from "react-router-dom";
 
 const UpperNav = () => {
   return (
@@ -16,12 +17,14 @@ const UpperNav = () => {
           justifyContent="space-evenly"
         >
           <Box>
-            <Image
-              src="https://www.1mg.com/images/tata_1mg_logo.svg"
-              alt="logo"
-              _hover={{ cursor: "pointer" }}
-              w="100px"
-            />
+            <Link to="/">
+              <Image
+                src="https://www.1mg.com/images/tata_1mg_logo.svg"
+                alt="logo"
+                _hover={{ cursor: "pointer" }}
+                w="100px"
+              />
+            </Link>
           </Box>
           <Show above="lg">
             <Box>
@@ -107,7 +110,9 @@ const UpperNav = () => {
             }}
             _hover={{ cursor: "pointer" }}
           >
-            <GrCart onClick={() => {}} />
+            <Link to="/cart">
+              <GrCart />
+            </Link>
           </Box>
           <Show above="xl">
             <Box>
