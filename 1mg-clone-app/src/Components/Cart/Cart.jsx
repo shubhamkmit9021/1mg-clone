@@ -7,6 +7,7 @@ import CheckoutButton from "./CheckoutButton";
 import Coupon from "./Coupon";
 import EmptyCart from "./EmptyCart";
 import TotalBill from "./TotalBill";
+import Slick from "./Slick";
 
 export default function Cart() {
   let dummyItems = {
