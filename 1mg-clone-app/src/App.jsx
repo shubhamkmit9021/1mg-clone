@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+import "./App.css";
+import { Box } from "@chakra-ui/react";
+import Cart from "./Components/Cart/Cart";
+function App() {
+  return (
+    <Box className="App">
+      <Cart />
+=======
 
 import { Box } from '@chakra-ui/react';
 import './App.css';
@@ -34,6 +43,7 @@ function App() {
       <hr />
       <Carousel />
       {/* <Sec1Img/> */}
+>>>>>>> c8eb08110967bb01a6ef6cb3a254652f9abe2fc1
     </Box>
   );
 }
