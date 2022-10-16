@@ -1,17 +1,18 @@
-import { FormControl, Input, Stack, Heading, Text, Button, Container, Link, HStack, Box, useToast, } from "@chakra-ui/react";
+import { FormControl, Input, Stack, Heading, Text, Button, Container, Link, HStack, Box, useToast, VStack, Image, Flex, Spacer } from "@chakra-ui/react";
 import React from "react";
 import { useState } from "react";
 import { Navigate, NavLink } from 'react-router-dom';
 import SlidePhoto from "./sld";
+import "./login.css"
 
 const InitState = {
     email: "",
     password: ""
-  };
+};
 
 const Login = () => {
     const [values, setValues] = useState(InitState);
-    const [Nav, setNav]= useState(false);
+    const [Nav, setNav] = useState(false);
     const toast = useToast();
 
     const handleChange = (e) => {
@@ -39,7 +40,7 @@ const Login = () => {
                 status: "success",
                 duration: 4000,
                 isClosable: true,
-                position:"top"
+                position: "top"
             });
             setNav(true);
         } else {
@@ -49,13 +50,13 @@ const Login = () => {
                 status: "error",
                 duration: 4000,
                 isClosable: true,
-                position:"top"
+                position: "top"
             });
         }
 
     };
 
-    if(Nav){
+    if (Nav) {
         <Navigate to="/" />
     }
 
@@ -69,55 +70,71 @@ const Login = () => {
                 </Box>
 
                 <Box w='500px' h='500px' bg='white' p='20px' borderRadius='20px'>
-                    <Heading mb={4} ml='0px' mt='10px'>Login</Heading>
-                    <Text fontSize='10px' color='grey'>
-                        Get access to your orders, lab tests & doctor consultations
-                    </Text>
+                    <VStack>
+                        <Box className="crossBox" w='100%'>
+                            <Flex>
+                                <Box >
+                                    
+                                </Box>
+                                <Spacer />
+                                <Box >
+                                    <Image src='https://www.1mg.com/images/cross_icon_18.svg' alt='close icon' />
+                                </Box>
+                            </Flex>
+                            
+                        </Box>
+                        <Box className="mainBox">
+                            <Heading mb={4} ml='0px' >Login</Heading>
+                            <Text fontSize='10px' color='grey'>
+                                Get access to your orders, lab tests & doctor consultations
+                            </Text>
 
-                    <form onSubmit={handleClick}>
-                    <Input
-                        width='300px'
-                        mt='60px'
-                        label="Email"
-                        value={values.email}
-                        name="email"
-                        // size="lg"
-                        type="email"
-                        onChange={handleChange}
-                        required
-                        placeholder="Enter Email ID"
-                    />
-                    <Input
-                        width='300px'
-                        mt='30px'
-                        label="Password"
-                        id="typePassword"
-                        // size="lg"
-                        name="password"
-                        placeholder="Password"
-                        type="password"
-                        value={values.password}
-                        onChange={handleChange}
-                        maxLength="8"
-                    />
-                    
-                        <Button mt='60px' w='300px' colorScheme='orange' type="submit" >LOGIN</Button>
-                    
-                    </form>
-                    <Text fontSize='14px' mt='20px' color='grey'>
-                        New on 1mg? Sign Up
-                    </Text>
+                            <form onSubmit={handleClick}>
+                                <Input
+                                    width='300px'
+                                    mt='60px'
+                                    label="Email"
+                                    value={values.email}
+                                    name="email"
+                                    // size="lg"
+                                    type="email"
+                                    onChange={handleChange}
+                                    required
+                                    placeholder="Enter Email ID"
+                                />
+                                <Input
+                                    width='300px'
+                                    mt='30px'
+                                    label="Password"
+                                    id="typePassword"
+                                    // size="lg"
+                                    name="password"
+                                    placeholder="Password"
+                                    type="password"
+                                    value={values.password}
+                                    onChange={handleChange}
+                                    maxLength="8"
+                                />
 
-                    <Text fontSize='10px' color='grey'>
-                        By logging in, you agree to our
-                    </Text>
-                    <Text fontSize='10px' color='grey'>
-                        <Link>Terms and Conditions</Link> & <Link>Privacy Policy</Link>
-                    </Text>
+                                <Button mt='60px' w='300px' colorScheme='red' type="submit" >LOGIN</Button>
+                            </form>
+                            <Text fontSize='14px' mt='20px' color='grey'>
+                                New on 1mg? <Link color='rgb(255, 111, 97)' href="">Sign Up</Link>
+                            </Text>
 
-                    <Text fontSize='10px' color='crimson'>
-                        Need Help? Get In Touch
-                    </Text>
+                            <Text fontSize='10px' color='grey'>
+                                By logging in, you agree to our
+                            </Text>
+                            <Text fontSize='10px' color='grey'>
+                                <Link href="https://www.1mg.com/tnc">Terms and Conditions</Link> & <Link href="https://www.1mg.com/privacypolicy">Privacy Policy</Link>
+                            </Text>
+
+                            <Text fontSize='10px' color='rgb(255, 111, 97)'>
+                                Need Help? Get In Touch
+                            </Text>
+                        </Box>
+                    </VStack>
+
 
 
                 </Box>
