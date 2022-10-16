@@ -1,4 +1,16 @@
 {
-  "data": []
-    
+  "users": [
+    {
+      "name": "abhi",
+      "email": "abhi@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "dsfd",
+      "email": "s@gmail.com",
+      "password": "sfasf",
+      "id": 2
+    }
+  ]
 }

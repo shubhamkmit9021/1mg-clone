@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Login from "./Components Abhishek/login"
-// import ReactDOM from "react-dom";
-// import MyOwlCarousel from './Components Abhishek/owl';
+import ReactDOM from "react-dom";
+import Signup from './Components Abhishek/signup';
+import SlidePhoto from './Components Abhishek/sld';
 
 function App() {
   return (
     <div className="App">
-      <Login/>
-      {/* <MyOwlCarousel/> */}
+      {/* <Login/> */}
+      <Signup/>
+      {/* <SlidePhoto /> */}
     </div>
   );
 }
