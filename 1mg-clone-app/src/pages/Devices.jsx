@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import { Link } from "react-router-dom";
+import axios from "axios"
 import {
   Checkbox,
   InputGroup,
   InputLeftElement,
   Divider,
-  Input,
+  Input
 } from "@chakra-ui/react";
 import {
   Box,
@@ -33,42 +33,64 @@ import {
   AlertTitle,
   AlertDescription,
 } from "@chakra-ui/react";
+// import {
+//   MDBPagination,
+//   MDBPaginationItem,
+//   MDBPaginationLink
+// } from "mdb-react-ui-kit";
 import { lightOrange } from "../Colors/Color";
-const Devices = () => {
+
+
+function Multivitamins () {
   const [loading, setLoading] = useState(false);
-  const [products, setProducts] = useState([]);
+  const [data, setData] = useState([]);
   const [deals, setDeals] = useState([]);
   const [categories, setCategories] = useState([]);
   const [error, setError] = useState(false);
+  const [sortValue,setSortValue] = useState([])
 
-  // const changeValue = document.getElementById('filterby').value
-
-  // const url = `http://localhost:8080/multivitamins`
-
-  // if(changeValue=='LtH'){
-  //   url+='?_sort=price&_order=asc'
-  // }
-  // else if(changeValue=='HtL'){
-  //   url+='?_sort=price&_order=desc'
-  // }
-  // else if (changeValue=='Ratings'){
-  //   url+='?_sort=ratings&_order=asc'
-  // }
-  // else{
-  //   url
-  // }
 
   useEffect(() => {
-    setLoading(true);
-    fetch("http://localhost:8080/multivitamins")
-      .then((res) => res.json())
-      .then((res) => setProducts(res))
-      .catch(() => setError(true))
-      .finally(() => setLoading(false));
+    loadProducts()
   }, []);
+
+  const sortOptions = ['Ratings','Price : Low To High' , 'Price : High To Low']
+
+  const loadProducts = async () => {
+    return await axios.get(`http://localhost:8080/multivitamins`  )
+    .then((response) => setData(response.data))
+    .catch((err)=>console.log(err))
+  }
+
+  const handleSort = async (e) => {
+    let value = e.target.value
+    setSortValue(value)
+    if(value == 'Ratings'){
+      return await axios.get(`http://localhost:8080/multivitamins?_sort=ratings&_order=desc`)
+      .then((response) => setData(response.data))
+      .catch((err)=>console.log(err))
+    }
+    else if(value == 'Price : Low To High'){
+      return await axios.get(`http://localhost:8080/devices?_sort=final_price&_order=asc`)
+      .then((response) => setData(response.data))
+      .catch((err)=>console.log(err))
+    }
+    else if(value == 'Price : High To Low'){
+      return await axios.get(`http://localhost:8080/devices?_sort=final_price&_order=desc`)
+      .then((response) => setData(response.data))
+      .catch((err)=>console.log(err))
+    }
+    else{
+      return await axios.get(`http://localhost:8080/devices`)
+      .then((response) => setData(response.data))
+      .catch((err)=>console.log(err))
+    }
+    
+  }
+
   useEffect(() => {
     setLoading(true);
-    fetch(`http://localhost:8080/TopDealsMV`)
+    fetch(`http://localhost:8080/TopDealsDV`)
       .then((res) => res.json())
       .then((res) => setDeals(res))
       .catch(() => setError(true))
@@ -76,7 +98,7 @@ const Devices = () => {
   }, []);
   useEffect(() => {
     setLoading(true);
-    fetch(`http://localhost:8080/categoriesMV`)
+    fetch(`http://localhost:8080/categoriesDV`)
       .then((res) => res.json())
       .then((res) => setCategories(res))
       .catch(() => setError(true))
@@ -110,14 +132,16 @@ const Devices = () => {
   }
   return (
     <Box margin="auto" bg="#f6f6f6">
-      <Box display="flex">
-        <Box width="25%" bg="white">
+      <Box display="flex"
+      margin='auto'
+      justifyContent='space-between'>
+        <Box width="23%" bg="#f6f6f6" padding='3%'>
           <VStack>
             <Box>
-              <h3>Categories</h3>
+              <Heading fontSize='25px' pb='10px'>Categories</Heading>
               <Divider orientation="horizontal" color="black.400" />
-              <Text ml="10%">VITAMINS & NUTRITIONS</Text>
-              <Box ml="17%">
+              <Text pt='10px' width='100%'>VITAMINS & NUTRITIONS</Text>
+              <Box ml='10px' fontSize='15px' lineHeight='30px' width='100%'>
                 <Link>
                   <Text color="black">Vitamins & Suppliments +</Text>
                 </Link>
@@ -140,20 +164,20 @@ const Devices = () => {
                   <Text color="black">Specialty Suppliments +</Text>
                 </Link>
                 <Link>
-                  <Text color="black">Weight Management +</Text>
+                  <Text color="black"pb='10px'>Weight Management +</Text>
                 </Link>
               </Box>
               <Divider orientation="horizontal" color="black.400" />
-              <h3>FILTERS</h3>
+              <Heading fontSize='20px' pt='10px'pb='10px'>FILTERS</Heading>
               <Divider orientation="horizontal" color="black.400" />
-              <h3 ml="7%">Brands</h3>
-              <Stack spacing={4} ml="17%">
+              <Heading  fontSize='25px' pb='10px' pt='10px'>Brands</Heading>
+              <Stack   ml='10px' spacing={4} width='100%' pt='10px'pb='10px'>
                 <InputGroup>
                   <InputLeftElement pointerEvents="none" />
                   <Input w="150px" type="brand" placeholder="Search Brands" />
                 </InputGroup>
               </Stack>
-              <Box ml="17%" lineHeight={2}>
+              <Box   ml='10px' lineHeight={2} pb='10px'>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
                     HealthyHey
@@ -231,14 +255,14 @@ const Devices = () => {
                 </Stack>
               </Box>
               <Divider orientation="horizontal" color="black.400" />
-              <h3 ml="7%">Uses</h3>
-              <Stack spacing={4} ml="17%">
+              <Heading  fontSize='25px' pb='10px' pt='10px'>Uses</Heading>
+              <Stack  ml='10px' spacing={4} width='100%' pt='10px'pb='10px'>
                 <InputGroup>
                   <InputLeftElement pointerEvents="none" />
-                  <Input w="150px" type="brand" placeholder="Search Brands" />
+                  <Input w="150px" type="brand" placeholder="Search Uses" />
                 </InputGroup>
               </Stack>
-              <Box ml="17%" lineHeight={2}>
+              <Box  ml='10px'  lineHeight={2} fontSize='15px' pb='10px'>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
                     Nutritional Deficiencies
@@ -261,7 +285,7 @@ const Devices = () => {
                 </Stack>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
-                    Bone, Joint & Muscle Care
+                    Joint & Muscle Care
                   </Checkbox>
                 </Stack>
                 <Stack spacing={5} direction="row">
@@ -286,8 +310,8 @@ const Devices = () => {
                 </Stack>
               </Box>
               <Divider orientation="horizontal" color="black.400" />
-              <h3 ml="7%">Discount</h3>
-              <Box ml="17%" lineHeight={2}>
+              <Heading  fontSize='25px' pb='10px' pt='10px'>Discount</Heading>
+              <Box  ml='10px' lineHeight={2} pb='10px'>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
                     Less than 10%
@@ -310,14 +334,14 @@ const Devices = () => {
                 </Stack>
               </Box>
               <Divider orientation="horizontal" color="black.400" />
-              <h3 ml="7%">Product Form</h3>
-              <Stack spacing={4} ml="17%">
+              <Heading  fontSize='25px' pb='10px' pt='10px'>Product Form</Heading>
+              <Stack  ml='10px' spacing={4} width='100%' pt='10px'pb='10px' pb='10px' >
                 <InputGroup>
                   <InputLeftElement pointerEvents="none" />
                   <Input w="150px" type="brand" placeholder="Search Brands" />
                 </InputGroup>
               </Stack>
-              <Box ml="17%" lineHeight={2}>
+              <Box  ml='10px' lineHeight={2} pb='10px'>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
                     Tablet
@@ -365,14 +389,14 @@ const Devices = () => {
                 </Stack>
               </Box>
               <Divider orientation="horizontal" color="black.400" />
-              <h3 ml="7%">Product Tag</h3>
-              <Stack spacing={4} ml="17%">
+              <Heading  fontSize='25px' pb='10px' pt='10px'>Product Tag</Heading>
+              <Stack  ml='10px' spacing={4} width='100%' pt='10px'pb='10px' >
                 <InputGroup>
                   <InputLeftElement pointerEvents="none" />
                   <Input w="150px" type="brand" placeholder="Search Brands" />
                 </InputGroup>
               </Stack>
-              <Box ml="17%" lineHeight={2}>
+              <Box pb='10px'  ml='10px' lineHeight={2}>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
                     Antioxidant
@@ -420,8 +444,8 @@ const Devices = () => {
                 </Stack>
               </Box>
               <Divider orientation="horizontal" color="black.400" />
-              <h3 ml="7%">Age</h3>
-              <Box ml="17%" lineHeight={2}>
+              <Heading  fontSize='25px' pb='10px' pt='10px'>Age</Heading>
+              <Box pb='10px'  ml='10px' lineHeight={2}>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
                     All
@@ -443,8 +467,9 @@ const Devices = () => {
                   </Checkbox>
                 </Stack>
               </Box>
-              <h3 ml="7%">Gender</h3>
-              <Box ml="17%" lineHeight={2}>
+              <Divider orientation="horizontal" color="black.400" />
+              <Heading pb='10px' pt='10px' fontSize='25px' pb='10px' pt='10px'>Gender</Heading>
+              <Box  ml='10px' lineHeight={2}>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
                     Unisex
@@ -464,9 +489,9 @@ const Devices = () => {
             </Box>
           </VStack>
         </Box>
-        <Box width="70%">
+        <Box width="73%" bg="#f6f6f6" padding='3%'>
           <Box>
-            <VStack width="98%" padding="10px">
+            <VStack  padding="10px">
               <Breadcrumb align="left" w="100%" color={lightOrange}>
                 <BreadcrumbItem>
                   <BreadcrumbLink href="#">Home</BreadcrumbLink>
@@ -485,10 +510,10 @@ const Devices = () => {
               <Heading align="left" w="95%">
                 VITAMINS & SUPPLEMENTS
               </Heading>
-              <Box width="98%" padding="10px">
+              <Box  padding="10px">
                 <Box padding="10px">
                   <Box>
-                    <h3>Shop By Categories</h3>
+                    <Heading>Shop By Categories</Heading>
                   </Box>
                 </Box>
                 <Box>
@@ -496,12 +521,11 @@ const Devices = () => {
                     templateColumns="repeat(5, 1fr)"
                     gap={25}
                     p="2%"
-                    bg="gray.50"
+                    bg="#f6f6f6"
                   >
                     {categories.map((category) => (
                       <GridItem w="100%" p="2%">
                         <Box
-                          border="1px solid black"
                           boxShadow="dark-lg"
                           p="6"
                           rounded="md"
@@ -528,14 +552,14 @@ const Devices = () => {
                   </Grid>
                 </Box>
               </Box>
-              <Box mt="20" width="98%">
+              <Box  padding="10px">
                 <Box
                   display="flex"
                   justifyContent="space-between"
                   padding="10px"
                 >
                   <Box>
-                    <h3>Top Deals</h3>
+                    <Heading>Top Deals</Heading>
                   </Box>
                   <Box>
                     <Button
@@ -549,15 +573,13 @@ const Devices = () => {
                 </Box>
                 <Box>
                   <Grid
-                    templateColumns="repeat(5, 1fr)"
-                    gap={8}
-                    p="2%"
-                    bg="gray.50"
+                    templateColumns="repeat(3, 1fr)"
+                    gap={4}
+                    bg="#f6f6f6"
                   >
                     {deals.map((deal) => (
-                      <GridItem w="100%" p="2%">
+                      <GridItem>
                         <Box
-                          border="1px solid black"
                           boxShadow="dark-lg"
                           p="6"
                           rounded="md"
@@ -602,25 +624,25 @@ const Devices = () => {
                   </Grid>
                 </Box>
               </Box>
-              <Box mt="20">
-                <VStack>
-                  <Box w="95%" padding="10px">
+              <Box   padding="10px">
+                
+                  <Box padding="10px" alignItems="center">
                     <Flex>
                       <Box>
-                        <h3>All Products</h3>
+                        <Heading>All Products</Heading>
                       </Box>
                       <Spacer />
-                      <Box>
+                      <Box alignItems="center">
                         <Flex alignItems="center" gap="5px">
                           <Box>
                             <Text>Sort By : </Text>
                           </Box>
                           <Spacer />
                           <Box>
-                            <Select placeholder="Select option" id="filterby">
-                              <option value="Rating">Customer Rating</option>
-                              <option value="LtH">Price : Low to High</option>
-                              <option value="HtL">Price : High to Low</option>
+                            <Select placeholder="Select option" id="filterby" onChange={handleSort} value={sortValue}>
+                              {sortOptions.map((item,index)=>(
+                                <option value={item} key={index}>{item}</option>
+                              ))}
                             </Select>
                           </Box>
                         </Flex>
@@ -628,23 +650,34 @@ const Devices = () => {
                     </Flex>
                   </Box>
                   <Box>
-                    <Grid templateColumns="repeat(3, 1fr)" gap={5}>
-                      {products.map((product) => (
+                    <Grid bg="#f6f6f6" templateColumns="repeat(3, 1fr)" gap={5}>
+                      {data.map((item) => (
                         <GridItem w="100%" p="2%" bg="white">
                           <Box
-                            border="1px solid black"
                             boxShadow="dark-lg"
                             p="6"
-                            rounded="md"
                             borderRadius="2xl"
-                            height="400px"
+                            height="450px"
                           >
-                            <Box bg="green" width="50px" color="white" p="2%">
-                              Sale
+                            <Box width="90%"
+                                  display="flex"
+                                  justifyContent="space-between"
+                                  alignItems="center"
+                                  margin='auto'
+                                  pb="15px">
+                              <Box bg="green" width="auto" color="white" 
+                                  padding='2%'borderRadius='10px'>
+                                Sale
+                              </Box>
+                              <Box bg="green" width="auto" color="white" 
+                                  padding='2%'
+                                  borderRadius='10px'>
+                                {item.ratings} ★
+                              </Box>
                             </Box>
                             <Center>
                               <Image
-                                src={product.url}
+                                src={item.url}
                                 align="center"
                                 height="150px"
                               />
@@ -652,11 +685,11 @@ const Devices = () => {
                             <Center>
                               <VStack>
                                 <Text align="center" justify="inherit">
-                                  {product.name}
+                                  {item.name}
                                 </Text>
 
                                 <Text align="center" justify="inherit">
-                                  {product.detail}
+                                  {item.detail}
                                 </Text>
 
                                 <Flex>
@@ -666,7 +699,7 @@ const Devices = () => {
                                       as="s"
                                       justify="inherit"
                                     >
-                                      MRP : ₹ {product.price}
+                                      MRP : ₹ {item.price}
                                     </Text>
                                   </Box>
                                 </Flex>
@@ -677,7 +710,7 @@ const Devices = () => {
                                   justifyContent="space-between"
                                   alignItems="center"
                                 >
-                                  <Text>₹ {product.final_price}</Text>
+                                  <Text>₹ {item.final_price}</Text>
                                   <Button
                                     bg="white"
                                     _hover={{ bg: "whilte" }}
@@ -692,9 +725,10 @@ const Devices = () => {
                         </GridItem>
                       ))}
                     </Grid>
+                    
                   </Box>
-                </VStack>
               </Box>
+
             </VStack>
           </Box>
         </Box>
@@ -703,4 +737,7 @@ const Devices = () => {
   );
 };
 
-export default Devices;
+export default Multivitamins;
+
+
+
