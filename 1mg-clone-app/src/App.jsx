@@ -1,7 +1,6 @@
 import "./App.css";
 import { Box } from "@chakra-ui/react";
 import Cart from "./Components/Cart/Cart";
-import { Box } from "@chakra-ui/react";
 import Footer2 from "./Components/Footer/Footer2";
 import Footer1 from "./Components/Footer/Footer1";
 import { UpperHeading } from "./Components/Middle/UpperHeading";
