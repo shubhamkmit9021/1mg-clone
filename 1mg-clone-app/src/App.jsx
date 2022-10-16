@@ -11,7 +11,6 @@ import MiddleNav from "./Components/Navbar/MiddleNav";
 import UpperNav from "./Components/Navbar/UpperNav";
 import Footer3 from "./Components/Footer/Footer3";
 import Carousel from "./Components/Carousel/Carousel.jsx";
-import { Sec1Img } from "./Components/GetData/Sec1Img";
 
 function App() {
   return (
