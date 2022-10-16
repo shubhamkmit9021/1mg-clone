@@ -25,12 +25,12 @@ export default function TotalBill() {
       </Box>
       <Box style={boxStyle}>
         <Box>Price Discount</Box>
-        <Box>₹620</Box>
+        <Box>₹0</Box>
       </Box>
       <hr />
       <Box style={boxStyle}>
         <Box>Shipping Fee</Box>
-        <Box>₹620</Box>
+        <Box>₹20</Box>
       </Box>
       <hr />
       <Box style={boxStyle} fontSize="14px" fontWeight="700">

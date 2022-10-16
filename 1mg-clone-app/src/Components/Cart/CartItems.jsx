@@ -1,11 +1,15 @@
 import { Box, Flex, Spacer } from "@chakra-ui/react";
 import { greyColor } from "../../Colors/Color";
+import { useState, useRef } from "react";
 
 export default function CartItems(props) {
   const { dummyItems } = props;
   const { name, desc, price, discount, quantity } = dummyItems;
+  const [itemCount, SetItemCount] = useState(1);
+  const ref = useRef(null);
   return (
     <Box
+      ref={ref}
       style={{
         boxShadow:
           "rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px",
@@ -31,7 +35,14 @@ export default function CartItems(props) {
         </Box>
       </Flex>
       <Flex>
-        <Box p="4">
+        <Box
+          p="4"
+          style={{ cursor: "pointer" }}
+          onClick={(e) => {
+            console.log(ref.current);
+            ref.current.visiblity = "hidden";
+          }}
+        >
           <div style={{ display: "flex", gap: "5px" }}>
             <img
               src="https://img.1mg.com/images/delete_icon.svg"
@@ -46,11 +57,17 @@ export default function CartItems(props) {
             <img
               src="https://www.1mg.com/images/minus-cart.svg"
               style={{ cursor: "pointer" }}
+              onClick={() => {
+                SetItemCount(itemCount - 1);
+              }}
             />
-            <p style={{ marginTop: "4px" }}>1</p>
+            <p style={{ marginTop: "4px" }}>{itemCount}</p>
             <img
               src="https://www.1mg.com/images/plus-cart.svg"
               style={{ cursor: "pointer" }}
+              onClick={() => {
+                SetItemCount(itemCount + 1);
+              }}
             />
           </div>
         </Box>

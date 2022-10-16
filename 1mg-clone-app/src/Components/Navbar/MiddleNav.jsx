@@ -7,8 +7,9 @@ import {
   Spacer,
   Button,
   Input,
+  Heading,
 } from "@chakra-ui/react";
-import React from "react";
+import React, { useRef } from "react";
 import { BsFillLightningChargeFill } from "react-icons/bs";
 import { BiCurrentLocation } from "react-icons/bi";
 import { ImLocation } from "react-icons/im";

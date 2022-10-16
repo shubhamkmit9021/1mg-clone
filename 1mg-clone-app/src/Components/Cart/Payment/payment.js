@@ -5,10 +5,7 @@ export default function payment() {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      items: [
-        { id: 1, quantity: 1, price: 40, name: "First" },
-        { id: 2, quantity: 1, price: 40, name: "Second" },
-      ],
+      items: [{ id: 1, quantity: 1, price: 620, name: "1mg Product" }],
       urls: {
         success: `http://localhost:3000/`,
         cancle: `http://localhost:3000/`,
