@@ -1,39 +1,43 @@
 
 import { Box } from '@chakra-ui/react';
 import './App.css';
-import Footer2 from './Components/Footer/Footer2';
-import Footer1 from './Components/Footer/Footer1';
+
+import  ScrollToTop  from './Components/Scroll/ScrollToTop'
+import  ScrollToBottom  from './Components/Scroll/ScrollToBottom'
+
+import UpperNav from './Components/Navbar/UpperNav';
+
+
 import { UpperHeading } from './Components/Middle/UpperHeading';
 import { UpperMiddle } from './Components/Middle/UpperMiddle';
 import UpperPoster from './Components/Middle/UpperPoster';
-import LowerNav from './Components/Navbar/LowerNav';
-import MiddleNav from './Components/Navbar/MiddleNav';
-import UpperNav from './Components/Navbar/UpperNav';
-import Footer3 from './Components/Footer/Footer3';
-import Carousel  from "./Components/Carousel/Carousel.jsx"
-import { Sec1Img } from './Components/GetData/Sec1Img';
 
+import Ayurveda from './Components/Products/Ayurveda/Ayurveda';
+import MineralSupliment from './Components/Products/Mineral Supplements/MineralSupliment';
+
+import Footer1 from './Components/Footer/Footer1';
+import DiseaseSec from './Components/Products/Disease/DiseaseSec';
+import Brands from './Components/Products/Featured brands/Brands';
 
 function App() {
   return (
     <Box>
+      
+      <ScrollToTop/>
+      <ScrollToBottom/>
       <UpperNav />
-      <hr />
-      <MiddleNav />
-      <hr />
-      <LowerNav />
-      <hr />
       <UpperMiddle/>
       <UpperHeading/>
-      <hr />
       <UpperPoster/>
-      <hr />
+      <DiseaseSec/>
+      <Brands/>
+      <MineralSupliment/>
+      <Ayurveda/>
       <Footer1/>
-      <Footer2/>
-      <Footer3/>
-      <hr />
-      <Carousel />
-      {/* <Sec1Img/> */}
+
+    
+  
+
     </Box>
   );
 }
