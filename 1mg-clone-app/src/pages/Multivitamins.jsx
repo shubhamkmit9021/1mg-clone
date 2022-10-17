@@ -1,15 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { addtocart } from "../Redux/action";
-import axios from "axios";
+import axios from "axios"
 import {
   Checkbox,
   InputGroup,
   InputLeftElement,
   Divider,
   Input,
-} from "@chakra-ui/react";
-import {
   Box,
   Center,
   Select,
@@ -21,8 +18,6 @@ import {
   Text,
   Flex,
   Spacer,
-} from "@chakra-ui/react";
-import {
   Button,
   Heading,
   Grid,
@@ -32,7 +27,7 @@ import {
   Alert,
   AlertIcon,
   AlertTitle,
-  AlertDescription,
+  AlertDescription
 } from "@chakra-ui/react";
 // import {
 //   MDBPagination,
@@ -40,56 +35,54 @@ import {
 //   MDBPaginationLink
 // } from "mdb-react-ui-kit";
 import { lightOrange } from "../Colors/Color";
-import { useDispatch, useSelector } from "react-redux";
 
-function Multivitamins() {
+
+function Multivitamins () {
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState([]);
   const [deals, setDeals] = useState([]);
   const [categories, setCategories] = useState([]);
   const [error, setError] = useState(false);
-  const [sortValue, setSortValue] = useState([]);
+  const [sortValue,setSortValue] = useState([])
+
 
   useEffect(() => {
-    loadProducts();
+    loadProducts()
   }, []);
 
-  const sortOptions = ["Ratings", "Price : Low To High", "Price : High To Low"];
+  const sortOptions = ['Ratings','Price : Low To High' , 'Price : High To Low']
 
   const loadProducts = async () => {
-    return await axios
-      .get(`http://localhost:8080/multivitamins`)
-      .then((response) => setData(response.data))
-      .catch((err) => console.log(err));
-  };
-  let dispatch = useDispatch();
+    return await axios.get(`http://localhost:8080/multivitamins`  )
+    .then((response) => setData(response.data))
+    .catch((err)=>console.log(err))
+  }
+
   const handleSort = async (e) => {
-    let value = e.target.value;
-    setSortValue(value);
-    if (value == "Ratings") {
-      return await axios
-        .get(`http://localhost:8080/multivitamins?_sort=ratings&_order=desc`)
-        .then((response) => setData(response.data))
-        .catch((err) => console.log(err));
-    } else if (value == "Price : Low To High") {
-      return await axios
-        .get(`http://localhost:8080/multivitamins?_sort=final_price&_order=asc`)
-        .then((response) => setData(response.data))
-        .catch((err) => console.log(err));
-    } else if (value == "Price : High To Low") {
-      return await axios
-        .get(
-          `http://localhost:8080/multivitamins?_sort=final_price&_order=desc`
-        )
-        .then((response) => setData(response.data))
-        .catch((err) => console.log(err));
-    } else {
-      return await axios
-        .get(`http://localhost:8080/multivitamins`)
-        .then((response) => setData(response.data))
-        .catch((err) => console.log(err));
+    let value = e.target.value
+    setSortValue(value)
+    if(value == 'Ratings'){
+      return await axios.get(`http://localhost:8080/multivitamins?_sort=ratings&_order=desc`)
+      .then((response) => setData(response.data))
+      .catch((err)=>console.log(err))
     }
-  };
+    else if(value == 'Price : Low To High'){
+      return await axios.get(`http://localhost:8080/multivitamins?_sort=final_price&_order=asc`)
+      .then((response) => setData(response.data))
+      .catch((err)=>console.log(err))
+    }
+    else if(value == 'Price : High To Low'){
+      return await axios.get(`http://localhost:8080/multivitamins?_sort=final_price&_order=desc`)
+      .then((response) => setData(response.data))
+      .catch((err)=>console.log(err))
+    }
+    else{
+      return await axios.get(`http://localhost:8080/multivitamins`)
+      .then((response) => setData(response.data))
+      .catch((err)=>console.log(err))
+    }
+    
+  }
 
   useEffect(() => {
     setLoading(true);
@@ -133,21 +126,18 @@ function Multivitamins() {
       </Box>
     );
   }
-
   return (
     <Box margin="auto" bg="#f6f6f6">
-      <Box display="flex" margin="auto" justifyContent="space-between">
-        <Box width="23%" bg="#f6f6f6" padding="3%">
+      <Box display="flex"
+      margin='auto'
+      justifyContent='space-between'>
+        <Box width="23%" bg="#f6f6f6" padding='3%'>
           <VStack>
             <Box>
-              <Heading fontSize="25px" pb="10px">
-                Categories
-              </Heading>
+              <Heading fontSize='25px' pb='10px'>Categories</Heading>
               <Divider orientation="horizontal" color="black.400" />
-              <Text pt="10px" width="100%">
-                VITAMINS & NUTRITIONS
-              </Text>
-              <Box ml="10px" fontSize="15px" lineHeight="30px" width="100%">
+              <Text pt='10px' width='100%'>VITAMINS & NUTRITIONS</Text>
+              <Box ml='10px' fontSize='15px' lineHeight='30px' width='100%'>
                 <Link>
                   <Text color="black">Vitamins & Suppliments +</Text>
                 </Link>
@@ -170,34 +160,28 @@ function Multivitamins() {
                   <Text color="black">Specialty Suppliments +</Text>
                 </Link>
                 <Link>
-                  <Text color="black" pb="10px">
-                    Weight Management +
-                  </Text>
+                  <Text color="black"pb='10px'>Weight Management +</Text>
                 </Link>
               </Box>
               <Divider orientation="horizontal" color="black.400" />
-              <Heading fontSize="20px" pt="10px" pb="10px">
-                FILTERS
-              </Heading>
+              <Heading fontSize='20px' pt='10px'pb='10px'>FILTERS</Heading>
               <Divider orientation="horizontal" color="black.400" />
-              <Heading fontSize="25px" pb="10px" pt="10px">
-                Brands
-              </Heading>
-              <Stack ml="10px" spacing={4} width="100%" pt="10px" pb="10px">
+              <Heading  fontSize='25px' pb='10px' pt='10px'>Brands</Heading>
+              <Stack   ml='10px' spacing={4} width='100%' pt='10px'pb='10px'>
                 <InputGroup>
                   <InputLeftElement pointerEvents="none" />
                   <Input w="150px" type="brand" placeholder="Search Brands" />
                 </InputGroup>
               </Stack>
-              <Box ml="10px" lineHeight={2} pb="10px">
+              <Box   ml='10px' lineHeight={2} pb='10px'>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
-                    HealthyHey
+                   HealthVit
                   </Checkbox>
                 </Stack>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
-                    Inlife
+                    Inlife 
                   </Checkbox>
                 </Stack>
                 <Stack spacing={5} direction="row">
@@ -212,7 +196,7 @@ function Multivitamins() {
                 </Stack>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
-                    Dr Willmar Schwabe
+                    HealthVit
                   </Checkbox>
                 </Stack>
                 <Stack spacing={5} direction="row">
@@ -267,16 +251,14 @@ function Multivitamins() {
                 </Stack>
               </Box>
               <Divider orientation="horizontal" color="black.400" />
-              <Heading fontSize="25px" pb="10px" pt="10px">
-                Uses
-              </Heading>
-              <Stack ml="10px" spacing={4} width="100%" pt="10px" pb="10px">
+              <Heading  fontSize='25px' pb='10px' pt='10px'>Uses</Heading>
+              <Stack  ml='10px' spacing={4} width='100%' pt='10px'pb='10px'>
                 <InputGroup>
                   <InputLeftElement pointerEvents="none" />
                   <Input w="150px" type="brand" placeholder="Search Uses" />
                 </InputGroup>
               </Stack>
-              <Box ml="10px" lineHeight={2} fontSize="15px" pb="10px">
+              <Box  ml='10px'  lineHeight={2} fontSize='15px' pb='10px'>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
                     Nutritional Deficiencies
@@ -324,10 +306,8 @@ function Multivitamins() {
                 </Stack>
               </Box>
               <Divider orientation="horizontal" color="black.400" />
-              <Heading fontSize="25px" pb="10px" pt="10px">
-                Discount
-              </Heading>
-              <Box ml="10px" lineHeight={2} pb="10px">
+              <Heading  fontSize='25px' pb='10px' pt='10px'>Discount</Heading>
+              <Box  ml='10px' lineHeight={2} pb='10px'>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
                     Less than 10%
@@ -350,16 +330,14 @@ function Multivitamins() {
                 </Stack>
               </Box>
               <Divider orientation="horizontal" color="black.400" />
-              <Heading fontSize="25px" pb="10px" pt="10px">
-                Product Form
-              </Heading>
-              <Stack ml="10px" spacing={4} width="100%" pt="10px" pb="10px">
+              <Heading  fontSize='25px' pb='10px' pt='10px'>Product Form</Heading>
+              <Stack  ml='10px' spacing={4} width='100%' pt='10px'pb='10px' pb='10px' >
                 <InputGroup>
                   <InputLeftElement pointerEvents="none" />
                   <Input w="150px" type="brand" placeholder="Search Brands" />
                 </InputGroup>
               </Stack>
-              <Box ml="10px" lineHeight={2} pb="10px">
+              <Box  ml='10px' lineHeight={2} pb='10px'>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
                     Tablet
@@ -407,16 +385,14 @@ function Multivitamins() {
                 </Stack>
               </Box>
               <Divider orientation="horizontal" color="black.400" />
-              <Heading fontSize="25px" pb="10px" pt="10px">
-                Product Tag
-              </Heading>
-              <Stack ml="10px" spacing={4} width="100%" pt="10px" pb="10px">
+              <Heading  fontSize='25px' pb='10px' pt='10px'>Product Tag</Heading>
+              <Stack  ml='10px' spacing={4} width='100%' pt='10px'pb='10px' >
                 <InputGroup>
                   <InputLeftElement pointerEvents="none" />
                   <Input w="150px" type="brand" placeholder="Search Brands" />
                 </InputGroup>
               </Stack>
-              <Box pb="10px" ml="10px" lineHeight={2}>
+              <Box pb='10px'  ml='10px' lineHeight={2}>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
                     Antioxidant
@@ -464,10 +440,8 @@ function Multivitamins() {
                 </Stack>
               </Box>
               <Divider orientation="horizontal" color="black.400" />
-              <Heading fontSize="25px" pb="10px" pt="10px">
-                Age
-              </Heading>
-              <Box pb="10px" ml="10px" lineHeight={2}>
+              <Heading  fontSize='25px' pb='10px' pt='10px'>Age</Heading>
+              <Box pb='10px'  ml='10px' lineHeight={2}>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
                     All
@@ -490,10 +464,8 @@ function Multivitamins() {
                 </Stack>
               </Box>
               <Divider orientation="horizontal" color="black.400" />
-              <Heading pb="10px" pt="10px" fontSize="25px">
-                Gender
-              </Heading>
-              <Box ml="10px" lineHeight={2}>
+              <Heading pb='10px' pt='10px' fontSize='25px' pb='10px' pt='10px'>Gender</Heading>
+              <Box  ml='10px' lineHeight={2}>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
                     Unisex
@@ -513,9 +485,9 @@ function Multivitamins() {
             </Box>
           </VStack>
         </Box>
-        <Box width="73%" bg="#f6f6f6" padding="3%">
+        <Box width="73%" bg="#f6f6f6" padding='3%'>
           <Box>
-            <VStack padding="10px">
+            <VStack  padding="10px">
               <Breadcrumb align="left" w="100%" color={lightOrange}>
                 <BreadcrumbItem>
                   <BreadcrumbLink href="#">Home</BreadcrumbLink>
@@ -534,7 +506,7 @@ function Multivitamins() {
               <Heading align="left" w="95%">
                 VITAMINS & SUPPLEMENTS
               </Heading>
-              <Box padding="10px">
+              <Box  padding="10px">
                 <Box padding="10px">
                   <Box>
                     <Heading>Shop By Categories</Heading>
@@ -576,7 +548,7 @@ function Multivitamins() {
                   </Grid>
                 </Box>
               </Box>
-              <Box padding="10px">
+              <Box  padding="10px">
                 <Box
                   display="flex"
                   justifyContent="space-between"
@@ -596,7 +568,11 @@ function Multivitamins() {
                   </Box>
                 </Box>
                 <Box>
-                  <Grid templateColumns="repeat(3, 1fr)" gap={4} bg="#f6f6f6">
+                  <Grid
+                    templateColumns="repeat(3, 1fr)"
+                    gap={4}
+                    bg="#f6f6f6"
+                  >
                     {deals.map((deal) => (
                       <GridItem>
                         <Box
@@ -633,13 +609,7 @@ function Multivitamins() {
                                   </Text>
                                 </Box>
                               </Flex>
-                              <Button
-                                align="center"
-                                justify="inherit"
-                                onClick={() => {
-                                  dispatch(addtocart({ deal }));
-                                }}
-                              >
+                              <Button align="center" justify="inherit">
                                 Add To Cart
                               </Button>
                             </VStack>
@@ -650,128 +620,117 @@ function Multivitamins() {
                   </Grid>
                 </Box>
               </Box>
-              <Box padding="10px">
-                <Box padding="10px" alignItems="center">
-                  <Flex>
-                    <Box>
-                      <Heading>All Products</Heading>
-                    </Box>
-                    <Spacer />
-                    <Box alignItems="center">
-                      <Flex alignItems="center" gap="5px">
-                        <Box>
-                          <Text>Sort By : </Text>
-                        </Box>
-                        <Spacer />
-                        <Box>
-                          <Select
-                            placeholder="Select option"
-                            id="filterby"
-                            onChange={handleSort}
-                            value={sortValue}
-                          >
-                            {sortOptions.map((item, index) => (
-                              <option value={item} key={index}>
-                                {item}
-                              </option>
-                            ))}
-                          </Select>
-                        </Box>
-                      </Flex>
-                    </Box>
-                  </Flex>
-                </Box>
-                <Box>
-                  <Grid bg="#f6f6f6" templateColumns="repeat(3, 1fr)" gap={5}>
-                    {data.map((item) => (
-                      <GridItem w="100%" p="2%" bg="white">
-                        <Box
-                          boxShadow="dark-lg"
-                          p="6"
-                          borderRadius="2xl"
-                          height="450px"
-                        >
-                          <Box
-                            width="90%"
-                            display="flex"
-                            justifyContent="space-between"
-                            alignItems="center"
-                            margin="auto"
-                            pb="15px"
-                          >
-                            <Box
-                              bg="green"
-                              width="auto"
-                              color="white"
-                              padding="2%"
-                              borderRadius="10px"
-                            >
-                              Sale
-                            </Box>
-                            <Box
-                              bg="green"
-                              width="auto"
-                              color="white"
-                              padding="2%"
-                              borderRadius="10px"
-                            >
-                              {item.ratings} ★
-                            </Box>
+              <Box   padding="10px">
+                
+                  <Box padding="10px" alignItems="center">
+                    <Flex>
+                      <Box>
+                        <Heading>All Products</Heading>
+                      </Box>
+                      <Spacer />
+                      <Box alignItems="center">
+                        <Flex alignItems="center" gap="5px">
+                          <Box>
+                            <Text>Sort By : </Text>
                           </Box>
-                          <Center>
-                            <Image
-                              src={item.url}
-                              align="center"
-                              height="150px"
-                            />
-                          </Center>
-                          <Center>
-                            <VStack>
-                              <Text align="center" justify="inherit">
-                                {item.name}
-                              </Text>
-
-                              <Text align="center" justify="inherit">
-                                {item.detail}
-                              </Text>
-
-                              <Flex>
-                                <Box p="4">
-                                  <Text align="center" as="s" justify="inherit">
-                                    MRP : ₹ {item.price}
-                                  </Text>
-                                </Box>
-                              </Flex>
-
-                              <Box
-                                width="90%"
-                                display="flex"
-                                justifyContent="space-between"
-                                alignItems="center"
-                              >
-                                <Text>₹ {item.final_price}</Text>
-                                <Button
-                                  bg="white"
-                                  _hover={{ bg: "whilte" }}
-                                  color={lightOrange}
-                                >
-                                  Add
-                                </Button>
+                          <Spacer />
+                          <Box>
+                            <Select placeholder="Select option" id="filterby" onChange={handleSort} value={sortValue}>
+                              {sortOptions.map((item,index)=>(
+                                <option value={item} key={index}>{item}</option>
+                              ))}
+                            </Select>
+                          </Box>
+                        </Flex>
+                      </Box>
+                    </Flex>
+                  </Box>
+                  <Box>
+                    <Grid bg="#f6f6f6" templateColumns="repeat(3, 1fr)" gap={5}>
+                      {data.map((item) => (
+                        <GridItem w="100%" p="2%" bg="white">
+                          <Box
+                            boxShadow="dark-lg"
+                            p="6"
+                            borderRadius="2xl"
+                            height="450px"
+                          >
+                            <Box width="90%"
+                                  display="flex"
+                                  justifyContent="space-between"
+                                  alignItems="center"
+                                  margin='auto'
+                                  pb="15px">
+                              <Box bg="green" width="auto" color="white" 
+                                  padding='2%'borderRadius='10px'>
+                                Sale
                               </Box>
-                            </VStack>
-                          </Center>
-                        </Box>
-                      </GridItem>
-                    ))}
-                  </Grid>
-                </Box>
+                              <Box bg="green" width="auto" color="white" 
+                                  padding='2%'
+                                  borderRadius='10px'>
+                                {item.ratings} ★
+                              </Box>
+                            </Box>
+                            <Center>
+                              <Image
+                                src={item.url}
+                                align="center"
+                                height="150px"
+                              />
+                            </Center>
+                            <Center>
+                              <VStack>
+                                <Text align="center" justify="inherit">
+                                  {item.name}
+                                </Text>
+
+                                <Text align="center" justify="inherit">
+                                  {item.detail}
+                                </Text>
+
+                                <Flex>
+                                  <Box p="4">
+                                    <Text
+                                      align="center"
+                                      as="s"
+                                      justify="inherit"
+                                    >
+                                      MRP : ₹ {item.price}
+                                    </Text>
+                                  </Box>
+                                </Flex>
+
+                                <Box
+                                  width="90%"
+                                  display="flex"
+                                  justifyContent="space-between"
+                                  alignItems="center"
+                                >
+                                  <Text>₹ {item.final_price}</Text>
+                                  <Button
+                                    bg="white"
+                                    _hover={{ bg: "whilte" }}
+                                    color={lightOrange}
+                                  >
+                                    Add
+                                  </Button>
+                                </Box>
+                              </VStack>
+                            </Center>
+                          </Box>
+                        </GridItem>
+                      ))}
+                    </Grid>
+                    
+                  </Box>
               </Box>
+
             </VStack>
           </Box>
         </Box>
       </Box>
     </Box>
   );
-}
+};
 
 export default Multivitamins;
