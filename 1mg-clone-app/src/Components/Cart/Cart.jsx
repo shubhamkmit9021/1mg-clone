@@ -8,24 +8,24 @@ import Coupon from "./Coupon";
 import EmptyCart from "./EmptyCart";
 import TotalBill from "./TotalBill";
 import Slick from "./Slick";
+import { useSelector } from "react-redux";
 
 export default function Cart() {
-  let dummyItems = {
-    name: "Sri Sri Tattva Karela Jamun Juicei",
-    desc: "bottle of 1000 ml Juice",
-    price: 262,
-    discount: 10,
-    quantity: 2,
-  };
   let isCartEmpty = false;
 
+  const cartItems = useSelector((store) => store.cartItems);
   const [enterCoupon, setEnterCoupon] = useState(false);
+
   return isCartEmpty ? (
     <EmptyCart />
   ) : (
     <div style={{ display: "flex", gap: "10px", margin: "10px" }}>
       <Box width="60%">
-        <CartItems dummyItems={dummyItems} />
+        {cartItems.map((item) => {
+          if (item.deal !== undefined) {
+            return <CartItems dummyItems={item.deal} />;
+          }
+        })}
       </Box>
       <Box width="38%" gap="10px" display="flex" flexDirection="column">
         <Coupon />
