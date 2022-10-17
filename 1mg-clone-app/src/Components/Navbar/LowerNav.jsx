@@ -26,7 +26,7 @@ const LowerNav = () => {
     >
       <Flex alignItems="center" py="1" px="2">
         <Menu alignItems="center">
-          <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
+          <MenuButton onHover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Health Resource Center </Text>
           </MenuButton>
           <DropDown
@@ -48,10 +48,10 @@ const LowerNav = () => {
 
       <Flex flexWrap="wrap" alignItems="center" py="1" px="2">
         <Menu alignItems="center">
-          <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
+          <MenuButton onHover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Vitamins & Nutrition </Text>
           </MenuButton>
-          <DropDown
+          <DropDown onEnter={{ color: "tomato", cursor: "pointer" }}
             first="Multivitamins"
             second="Devices"
             third="Vitamins A-Z"
@@ -70,7 +70,7 @@ const LowerNav = () => {
 
       <Flex flexWrap="wrap" alignItems="center" py="1" px="2">
         <Menu alignItems="center">
-          <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
+          <MenuButton onHover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Diabetes </Text>
           </MenuButton>
           <DropDown
@@ -92,7 +92,7 @@ const LowerNav = () => {
 
       <Flex flexWrap="wrap" alignItems="center" py="1" px="2">
         <Menu alignItems="center">
-          <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
+          <MenuButton onHover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Healthcare Devices </Text>
           </MenuButton>
           <DropDown
@@ -114,7 +114,7 @@ const LowerNav = () => {
 
       <Flex flexWrap="wrap" alignItems="center" py="1" px="2">
         <Menu alignItems="center">
-          <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
+          <MenuButton onHover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Personal Care </Text>
           </MenuButton>
 
@@ -137,7 +137,7 @@ const LowerNav = () => {
 
       <Flex flexWrap="wrap" alignItems="center" py="1" px="2">
         <Menu alignItems="center">
-          <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
+          <MenuButton onHover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Health Conditions </Text>
           </MenuButton>
           <DropDown
@@ -159,7 +159,7 @@ const LowerNav = () => {
 
       <Flex flexWrap="wrap" alignItems="center" py="1" px="2">
         <Menu alignItems="center">
-          <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
+          <MenuButton onHover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Ayurveda Products </Text>
           </MenuButton>
           <DropDown
@@ -181,7 +181,7 @@ const LowerNav = () => {
 
       <Flex flexWrap="wrap" alignItems="center" py="1" px="2">
         <Menu alignItems="center">
-          <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
+          <MenuButton onHover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Homeopathy </Text>
           </MenuButton>
           <DropDown
@@ -203,7 +203,7 @@ const LowerNav = () => {
 
       <Flex flexWrap="wrap" alignItems="center" py="1" px="2">
         <Menu alignItems="center">
-          <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
+          <MenuButton onHover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Featured </Text>
           </MenuButton>
           <DropDown
@@ -225,7 +225,7 @@ const LowerNav = () => {
 
       <Flex flexWrap="wrap" alignItems="center" py="1" px="2">
         <Menu alignItems="center">
-          <MenuButton _hover={{ color: "tomato", cursor: "pointer" }}>
+          <MenuButton onHover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Covid Essentials </Text>
           </MenuButton>
           <DropDown
@@ -249,3 +249,4 @@ const LowerNav = () => {
 };
 
 export default LowerNav;
+
