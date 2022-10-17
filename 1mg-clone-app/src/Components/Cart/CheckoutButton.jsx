@@ -1,11 +1,13 @@
 import { Box, Button } from "@chakra-ui/react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { lightOrange } from "../../Colors/Color";
+import { emptycart } from "../../Redux/action";
 import payment from "./Payment/payment";
+
 export default function CheckoutButton() {
   let cartItems = useSelector((store) => store.cartItems);
   const discount = useSelector((store) => store.couponDiscount);
-
+  const dispatch = useDispatch();
   let location = "Delhi";
   return (
     <Box
@@ -43,6 +45,7 @@ export default function CheckoutButton() {
             });
             console.log(cItem);
             payment(cItem);
+            dispatch(emptycart());
           }}
         >
           Checkout

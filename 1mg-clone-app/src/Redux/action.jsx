@@ -1,4 +1,11 @@
-import { ADDCART, REMOVEITEM, UPDATE, SETCART, COUPON } from "./actionType";
+import {
+  ADDCART,
+  REMOVEITEM,
+  UPDATE,
+  SETCART,
+  COUPON,
+  EMPTYCART,
+} from "./actionType";
 
 export const addtocart = (data) => ({
   type: ADDCART,
@@ -14,4 +21,9 @@ export const removefromcart = (data, isRemoveButton) => ({
 export const coupon = (data) => ({
   type: COUPON,
   payload: data,
+});
+
+export const emptycart = () => ({
+  type: EMPTYCART,
+  payload: "",
 });

@@ -1,4 +1,11 @@
-import { ADDCART, REMOVEITEM, COUPON, UPDATE, SETCART } from "./actionType";
+import {
+  ADDCART,
+  REMOVEITEM,
+  COUPON,
+  UPDATE,
+  SETCART,
+  EMPTYCART,
+} from "./actionType";
 
 const calcTotal = (temp) => {
   let sum = 0;
@@ -69,6 +76,8 @@ export default function reducre(store, { type, payload, isRemoveButton }) {
       console.log("coupon discoutn store=", store);
       return { ...store, couponDiscount: payload };
 
+    case EMPTYCART:
+      return { ...store, cartItems: [], totalBilly: 0, couponDiscount: 0 };
     default:
       return store;
   }

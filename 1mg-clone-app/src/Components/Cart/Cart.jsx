@@ -20,7 +20,10 @@ export default function Cart() {
   return isCartEmpty ? (
     <EmptyCart />
   ) : (
-    <div style={{ display: "flex", gap: "10px", margin: "10px" }}>
+    <Box
+      style={{ display: "flex", gap: "10px", margin: "10px" }}
+      flexDirection={{ base: "column", md: "row", lg: "row" }}
+    >
       <Box width="60%">
         {cartItems.map((item) => {
           return <CartItems key={uuid()} dummyItems={item} />;
@@ -32,6 +35,6 @@ export default function Cart() {
         <TotalBill />
         <CheckoutButton />
       </Box>
-    </div>
+    </Box>
   );
 }
