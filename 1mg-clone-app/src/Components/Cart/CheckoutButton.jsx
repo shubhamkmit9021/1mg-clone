@@ -1,8 +1,9 @@
 import { Box, Button } from "@chakra-ui/react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useSelector } from "react-redux";
 import { lightOrange } from "../../Colors/Color";
 import payment from "./Payment/payment";
 export default function CheckoutButton() {
+  let cartItems = useSelector((store) => store.cartItems);
   let location = "Delhi";
   return (
     <Box
@@ -19,7 +20,6 @@ export default function CheckoutButton() {
       <Box display="flex" justifyContent="space-between">
         <Box>Your delivery location</Box>
         <Box>
-          <FontAwesomeIcon icon="fa-solid fa-location-dot" />
           <Box>{location}</Box>
         </Box>
       </Box>
@@ -29,7 +29,9 @@ export default function CheckoutButton() {
           bg={lightOrange}
           width="99%"
           _hover={{ bg: "teal.600" }}
-          onClick={payment}
+          onClick={() => {
+            payment(cartItems);
+          }}
         >
           Checkout
         </Button>

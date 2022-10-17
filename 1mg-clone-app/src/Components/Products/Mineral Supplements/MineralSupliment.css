@@ -5,6 +5,11 @@
     box-sizing: border-box;
     overflow: hidden;
     margin-top: 25px;
+    
+}
+.slick-slider{
+  margin-left:10%;
+  margin-right:10%;
 }
 
 .childdiv {

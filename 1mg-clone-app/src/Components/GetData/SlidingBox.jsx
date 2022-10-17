@@ -1,7 +1,6 @@
+import Slider from "react-slick";
 
-import Slider from 'react-slick';
-
-// import "slick-carousel/slick/slick.css"; 
+// import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // import '.././Slick/Slick.css';
@@ -9,13 +8,10 @@ import "slick-carousel/slick/slick-theme.css";
 import { Box, Image, Center } from "@chakra-ui/react";
 // import ProHeading from "./Heading";
 
-
-import React, { useEffect, useState } from 'react';
-
+import React, { useEffect, useState } from "react";
 
 const SlidingBox = () => {
-
-  const [ allData, setAllData ] = useState([]);
+  const [allData, setAllData] = useState([]);
   const [loading, setLoading] = useState(false);
 
   const settings = {
@@ -25,45 +21,51 @@ const SlidingBox = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-   
   };
 
-  useEffect(()=>{
-    const getdata = ()=>{
+  useEffect(() => {
+    const getdata = () => {
       setLoading(true);
-      fetch(`http://localhost:3000/SlidingBox_sec1`).then((res)=>res.json()).then((data)=>{
-        setAllData(data);
-        setLoading(false);
-      })
-    }
+      fetch(`http://localhost:3000/SlidingBox_sec1`)
+        .then((res) => res.json())
+        .then((data) => {
+          setAllData(data);
+          setLoading(false);
+        });
+    };
 
     getdata();
-  },[])
+  }, []);
 
   return (
     <>
       {/* <ProHeading /> */}
-      {
-        (loading) && <Box> <Center><Image src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Loading_2.gif?20170503175831" alt="loading_gif" /></Center> </Box> 
-      }
+      {loading && (
+        <Box>
+          {" "}
+          <Center>
+            <Image
+              src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Loading_2.gif?20170503175831"
+              alt="loading_gif"
+            />
+          </Center>{" "}
+        </Box>
+      )}
 
       <Slider {...settings}>
-      
-      {
-        allData.map((elem)=>(
-          <Box key={elem.id}
-          >
-              <Box>
-                <Image src={elem.img} alt={elem.alt} style={{ height: '190px'}} />
-              </Box>
-             
+        {allData.map((elem) => (
+          <Box key={elem.id}>
+            <Box>
+              <Image
+                src={elem.img}
+                alt={elem.alt}
+                style={{ height: "190px" }}
+              />
+            </Box>
           </Box>
-        ))
-      }
-
+        ))}
       </Slider>
-      <Box my='7'></Box>
-
+      <Box my="7"></Box>
     </>
   );
 };

@@ -48,7 +48,8 @@ function TabCarousal({ data }) {
         {windowWidth > 1024 && scroll > 0 && (
           <IconButton
             onClick={onScrollX}
-            bg={"rgba(0,0,0,0.4)"}
+            bg="white"
+            color="orange"
             position="absolute"
             top="50"
             left="-5"
@@ -85,7 +86,7 @@ function TabCarousal({ data }) {
                     borderRadius: "10px",
                   },
                 }}
-                pl="10px"
+                ml="10px"
                 cursor="pointer"
                 textAlign={textSide}
               >
@@ -107,14 +108,31 @@ function TabCarousal({ data }) {
                   ></Image>
                 </Link>
 
-                <Text
-                  fontSize={{ base: "12px", sm: "15px", lg: "16px" }}
-                  fontWeight="400"
-                >
-                  {tab.title}
-                </Text>
+                {tab.isProduct ? (
+                  <Text
+                    fontSize={{ base: "10px", sm: "13px", lg: "14px" }}
+                    fontWeight="400"
+                    pl="10px"
+                  >
+                    {tab.title}
+                  </Text>
+                ) : (
+                  <Text
+                    fontSize={{ base: "12px", sm: "15px", lg: "16px" }}
+                    fontWeight="400"
+                  >
+                    {tab.title}
+                  </Text>
+                )}
+
                 {tab.isProduct && (
-                  <Box display="flex" flexDirection="column" gap="3px">
+                  <Box
+                    display="flex"
+                    flexDirection="column"
+                    gap="3px"
+                    ml="10px"
+                    height="40%"
+                  >
                     <Box fontSize="12px" color={greyColor}>
                       {tab.desc}
                     </Box>

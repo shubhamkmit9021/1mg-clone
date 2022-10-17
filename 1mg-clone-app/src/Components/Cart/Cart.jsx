@@ -22,9 +22,7 @@ export default function Cart() {
     <div style={{ display: "flex", gap: "10px", margin: "10px" }}>
       <Box width="60%">
         {cartItems.map((item) => {
-          if (item.deal !== undefined) {
-            return <CartItems dummyItems={item.deal} />;
-          }
+          return <CartItems dummyItems={item} />;
         })}
       </Box>
       <Box width="38%" gap="10px" display="flex" flexDirection="column">

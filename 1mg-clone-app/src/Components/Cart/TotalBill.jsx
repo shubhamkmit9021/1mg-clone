@@ -12,11 +12,7 @@ export default function TotalBill() {
     color: greyColor,
   };
 
-  const total = useSelector((store) => store.TotalBill);
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(updatebill());
-  }, [total]);
+  const total = useSelector((store) => store.totalBill);
 
   return (
     <Box
@@ -35,21 +31,21 @@ export default function TotalBill() {
       </Box>
       <Box style={boxStyle}>
         <Box>Price Discount</Box>
-        <Box>₹0</Box>
+        <Box textDecoration="line-through">₹{(total * 10) / 100}</Box>
       </Box>
       <hr />
       <Box style={boxStyle}>
         <Box>Shipping Fee</Box>
-        <Box>₹20</Box>
+        <Box>₹0</Box>
       </Box>
       <hr />
       <Box style={boxStyle} fontSize="14px" fontWeight="700">
         <Box>To be paid</Box>
-        <Box>{total + 20}</Box>
+        <Box>{total - (total * 10) / 100}</Box>
       </Box>
       <Box style={boxStyle} bg="#e4f6e7">
         <Box>Total Savings</Box>
-        <Box>₹620</Box>
+        <Box>₹{(total * 10) / 100}</Box>
       </Box>
     </Box>
   );

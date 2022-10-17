@@ -1,19 +1,19 @@
 import { Box, Flex, Spacer } from "@chakra-ui/react";
 import { greyColor } from "../../Colors/Color";
 import { useState, useRef } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { removefromcart, update, updatebill } from "../../Redux/action";
+import { useDispatch } from "react-redux";
+import { addtocart, removefromcart, update } from "../../Redux/action";
 
 export default function CartItems(props) {
   const { dummyItems } = props;
   let { name, detail, price } = dummyItems;
-  dummyItems.quantity = 1;
+  dummyItems.quantity = dummyItems.quantity || 1;
   let discount = 10;
   const ref = useRef(null);
   const [itemObj, SetItemObj] = useState(dummyItems);
   price = price * itemObj.quantity;
-  const cartItems = useSelector((store) => store.cartItems);
   const dispatch = useDispatch();
+
   return (
     <Box
       ref={ref}
@@ -46,15 +46,13 @@ export default function CartItems(props) {
           p="4"
           style={{ cursor: "pointer" }}
           onClick={(e) => {
-            console.log(ref.current);
             ref.current.visiblity = "hidden";
           }}
         >
           <div
             style={{ display: "flex", gap: "5px", cursor: "pointer" }}
             onClick={() => {
-              dispatch(removefromcart(dummyItems));
-              dispatch(updatebill());
+              dispatch(removefromcart(dummyItems, true));
             }}
           >
             <img
@@ -70,30 +68,18 @@ export default function CartItems(props) {
             <img
               src="https://www.1mg.com/images/minus-cart.svg"
               style={{ cursor: "pointer" }}
+              alt="minus"
               onClick={() => {
-                SetItemObj((dummyItems) => {
-                  return {
-                    ...dummyItems,
-                    quantity: dummyItems.quantity - 1,
-                  };
-                });
-                dispatch(update(itemObj));
-                dispatch(updatebill());
+                dispatch(removefromcart(dummyItems));
               }}
             />
             <p style={{ marginTop: "4px" }}>{itemObj.quantity}</p>
             <img
               src="https://www.1mg.com/images/plus-cart.svg"
               style={{ cursor: "pointer" }}
+              alt="img"
               onClick={() => {
-                SetItemObj((dummyItems) => {
-                  return {
-                    ...dummyItems,
-                    quantity: dummyItems.quantity + 1,
-                  };
-                });
-                dispatch(update(itemObj));
-                dispatch(updatebill());
+                dispatch(addtocart(dummyItems));
               }}
             />
           </div>
