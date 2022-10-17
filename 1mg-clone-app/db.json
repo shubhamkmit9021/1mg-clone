@@ -270,7 +270,8 @@
         "final_price": 128,
         "ratings": 4.3,
         "detail": "bottle of 60 tablets",
-        "category":"HealthVit"
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 2,
@@ -280,7 +281,8 @@
         "final_price": 299,
         "ratings": 4.3,
         "detail": "bottle of 60 tablets",
-        "category":"HealthVit"
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 3,
@@ -290,7 +292,8 @@
         "final_price": 649,
         "ratings": 4.3,
         "detail": "bottle of 90 capsules",
-        "category":"HealthVit"
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 4,
@@ -300,7 +303,8 @@
         "final_price": 799,
         "ratings": 4.5,
         "detail": "bottle of 120 vegicaps",
-        "category":"HealthyHey"
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     },
     {
         "id": 5,
@@ -310,7 +314,8 @@
         "final_price": 1399,
         "ratings": 4.1,
         "detail": "bottle of 60 vegicaps",
-        "category":"HealthyHey"
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     }, 
     {
         "id": 6,
@@ -320,7 +325,8 @@
         "final_price": 1299,
         "ratings": 4.5,
         "detail": "Jar of 200gm powder",
-        "category":"HealthyHey"
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     }, 
     {
         "id": 7,
@@ -330,7 +336,8 @@
         "final_price": 399,
         "ratings": 4.3,
         "detail": "bottle of 60 tablets",
-        "category":"Inlife"
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     }, 
     {
         "id": 8,
@@ -340,7 +347,8 @@
         "final_price": 300,
         "ratings": 4.4,
         "detail": "bottle of 60 tablets",
-        "category":"Inlife"
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     },
     {
         "id": 9,
@@ -350,7 +358,8 @@
         "final_price": 384,
         "ratings": 3.8,
         "detail": "bottle of 60 tablets",
-        "category":"Inlife"
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     }, 
     {
         "id": 10,
@@ -360,7 +369,8 @@
         "final_price": 1920,
         "ratings": 4.0,
         "detail": "bottle of 90 capsules",
-        "category":"Now Foods"
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     }, 
     {
         "id": 11,
@@ -370,7 +380,8 @@
         "final_price": 2502,
         "ratings": 4.2,
         "detail": "bottle of 110 capsules",
-        "category":"Now Foods"
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     }, 
     {
         "id": 12,
@@ -380,7 +391,8 @@
         "final_price": 3999,
         "ratings": 4.2,
         "detail": "bottle of 90 capsules",
-        "category":"Now Foods"
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     },
     {
         "id": 13,
@@ -390,7 +402,8 @@
         "final_price": 943,
         "ratings": 4.5,
         "detail": "bottle of 60 soft gelatin capsules",
-        "category":"GNC"
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     }, 
     {
         "id": 14,
@@ -400,7 +413,8 @@
         "final_price": 1799,
         "ratings": 4.1,
         "detail": "bottle of 60 soft gelatin capsules",
-        "category":"GNC"
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     }, 
     {
         "id": 15,
@@ -410,7 +424,8 @@
         "final_price": 7124,
         "ratings": 4.4,
         "detail": "Jar of 2 kg Chocolate flavour powder",
-        "category":"GNC"
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     },
     {
         "id": 16,
@@ -420,7 +435,8 @@
         "final_price": 128,
         "ratings": 4.3,
         "detail": "bottle of 60 tablets",
-        "category":"HealthVit"
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 17,
@@ -430,7 +446,8 @@
         "final_price": 299,
         "ratings": 4.3,
         "detail": "bottle of 60 tablets",
-        "category":"HealthVit"
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 18,
@@ -440,7 +457,8 @@
         "final_price": 649,
         "ratings": 4.3,
         "detail": "bottle of 90 capsules",
-        "category":"HealthVit"
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 19,
@@ -450,7 +468,8 @@
         "final_price": 799,
         "ratings": 4.5,
         "detail": "bottle of 120 vegicaps",
-        "category":"HealthyHey"
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     },
     {
         "id": 20,
@@ -460,7 +479,8 @@
         "final_price": 1399,
         "ratings": 4.1,
         "detail": "bottle of 60 vegicaps",
-        "category":"HealthyHey"
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     }, 
     {
         "id": 21,
@@ -470,7 +490,8 @@
         "final_price": 1299,
         "ratings": 4.5,
         "detail": "Jar of 200gm powder",
-        "category":"HealthyHey"
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     }, 
     {
         "id": 22,
@@ -480,7 +501,8 @@
         "final_price": 399,
         "ratings": 4.3,
         "detail": "bottle of 60 tablets",
-        "category":"Inlife"
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     }, 
     {
         "id": 23,
@@ -490,7 +512,8 @@
         "final_price": 300,
         "ratings": 4.4,
         "detail": "bottle of 60 tablets",
-        "category":"Inlife"
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     },
     {
         "id": 24,
@@ -500,7 +523,8 @@
         "final_price": 384,
         "ratings": 3.8,
         "detail": "bottle of 60 tablets",
-        "category":"Inlife"
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     }, 
     {
         "id": 25,
@@ -510,7 +534,8 @@
         "final_price": 1920,
         "ratings": 4.0,
         "detail": "bottle of 90 capsules",
-        "category":"Now Foods"
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     }, 
     {
         "id": 26,
@@ -520,7 +545,8 @@
         "final_price": 2502,
         "ratings": 4.2,
         "detail": "bottle of 110 capsules",
-        "category":"Now Foods"
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     }, 
     {
         "id": 27,
@@ -530,7 +556,8 @@
         "final_price": 3999,
         "ratings": 4.2,
         "detail": "bottle of 90 capsules",
-        "category":"Now Foods"
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     },
     {
         "id": 28,
@@ -540,7 +567,8 @@
         "final_price": 943,
         "ratings": 4.5,
         "detail": "bottle of 60 soft gelatin capsules",
-        "category":"GNC"
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     }, 
     {
         "id": 29,
@@ -550,7 +578,8 @@
         "final_price": 1799,
         "ratings": 4.1,
         "detail": "bottle of 60 soft gelatin capsules",
-        "category":"GNC"
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     }, 
     {
         "id": 30,
@@ -560,7 +589,8 @@
         "final_price": 7124,
         "ratings": 4.4,
         "detail": "Jar of 2 kg Chocolate flavour powder",
-        "category":"GNC"
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     },
     {
         "id": 31,
@@ -570,7 +600,8 @@
         "final_price": 128,
         "ratings": 4.3,
         "detail": "bottle of 60 tablets",
-        "category":"HealthVit"
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 32,
@@ -580,7 +611,8 @@
         "final_price": 299,
         "ratings": 4.3,
         "detail": "bottle of 60 tablets",
-        "category":"HealthVit"
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 33,
@@ -590,7 +622,8 @@
         "final_price": 649,
         "ratings": 4.3,
         "detail": "bottle of 90 capsules",
-        "category":"HealthVit"
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 34,
@@ -600,7 +633,8 @@
         "final_price": 799,
         "ratings": 4.5,
         "detail": "bottle of 120 vegicaps",
-        "category":"HealthyHey"
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     },
     {
         "id": 35,
@@ -610,7 +644,8 @@
         "final_price": 1399,
         "ratings": 4.1,
         "detail": "bottle of 60 vegicaps",
-        "category":"HealthyHey"
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     }, 
     {
         "id": 36,
@@ -620,7 +655,8 @@
         "final_price": 1299,
         "ratings": 4.5,
         "detail": "Jar of 200gm powder",
-        "category":"HealthyHey"
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     }, 
     {
         "id": 37,
@@ -630,7 +666,8 @@
         "final_price": 399,
         "ratings": 4.3,
         "detail": "bottle of 60 tablets",
-        "category":"Inlife"
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     }, 
     {
         "id": 38,
@@ -640,7 +677,8 @@
         "final_price": 300,
         "ratings": 4.4,
         "detail": "bottle of 60 tablets",
-        "category":"Inlife"
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     },
     {
         "id": 39,
@@ -650,7 +688,8 @@
         "final_price": 384,
         "ratings": 3.8,
         "detail": "bottle of 60 tablets",
-        "category":"Inlife"
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     }, 
     {
         "id": 40,
@@ -660,7 +699,8 @@
         "final_price": 1920,
         "ratings": 4.0,
         "detail": "bottle of 90 capsules",
-        "category":"Now Foods"
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     }, 
     {
         "id": 41,
@@ -670,7 +710,8 @@
         "final_price": 2502,
         "ratings": 4.2,
         "detail": "bottle of 110 capsules",
-        "category":"Now Foods"
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     }, 
     {
         "id": 42,
@@ -680,7 +721,8 @@
         "final_price": 3999,
         "ratings": 4.2,
         "detail": "bottle of 90 capsules",
-        "category":"Now Foods"
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     },
     {
         "id": 43,
@@ -690,7 +732,8 @@
         "final_price": 943,
         "ratings": 4.5,
         "detail": "bottle of 60 soft gelatin capsules",
-        "category":"GNC"
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     }, 
     {
         "id": 44,
@@ -700,7 +743,8 @@
         "final_price": 1799,
         "ratings": 4.1,
         "detail": "bottle of 60 soft gelatin capsules",
-        "category":"GNC"
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     }, 
     {
         "id": 45,
@@ -710,7 +754,8 @@
         "final_price": 7124,
         "ratings": 4.4,
         "detail": "Jar of 2 kg Chocolate flavour powder",
-        "category":"GNC"
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     },
     {
         "id": 46,
@@ -720,7 +765,8 @@
         "final_price": 128,
         "ratings": 4.3,
         "detail": "bottle of 60 tablets",
-        "category":"HealthVit"
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 47,
@@ -730,7 +776,8 @@
         "final_price": 299,
         "ratings": 4.3,
         "detail": "bottle of 60 tablets",
-        "category":"HealthVit"
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 48,
@@ -740,7 +787,8 @@
         "final_price": 649,
         "ratings": 4.3,
         "detail": "bottle of 90 capsules",
-        "category":"HealthVit"
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 49,
@@ -750,7 +798,8 @@
         "final_price": 799,
         "ratings": 4.5,
         "detail": "bottle of 120 vegicaps",
-        "category":"HealthyHey"
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     },
     {
         "id": 50,
@@ -760,7 +809,8 @@
         "final_price": 1399,
         "ratings": 4.1,
         "detail": "bottle of 60 vegicaps",
-        "category":"HealthyHey"
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     }, 
     {
         "id": 51,
@@ -770,7 +820,8 @@
         "final_price": 1299,
         "ratings": 4.5,
         "detail": "Jar of 200gm powder",
-        "category":"HealthyHey"
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     }, 
     {
         "id": 52,
@@ -780,7 +831,8 @@
         "final_price": 399,
         "ratings": 4.3,
         "detail": "bottle of 60 tablets",
-        "category":"Inlife"
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     }, 
     {
         "id": 53,
@@ -790,7 +842,8 @@
         "final_price": 300,
         "ratings": 4.4,
         "detail": "bottle of 60 tablets",
-        "category":"Inlife"
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     },
     {
         "id": 54,
@@ -800,7 +853,8 @@
         "final_price": 384,
         "ratings": 3.8,
         "detail": "bottle of 60 tablets",
-        "category":"Inlife"
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     }, 
     {
         "id": 55,
@@ -810,7 +864,8 @@
         "final_price": 1920,
         "ratings": 4.0,
         "detail": "bottle of 90 capsules",
-        "category":"Now Foods"
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     }, 
     {
         "id": 56,
@@ -820,7 +875,8 @@
         "final_price": 2502,
         "ratings": 4.2,
         "detail": "bottle of 110 capsules",
-        "category":"Now Foods"
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     }, 
     {
         "id": 57,
@@ -830,7 +886,8 @@
         "final_price": 3999,
         "ratings": 4.2,
         "detail": "bottle of 90 capsules",
-        "category":"Now Foods"
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     },
     {
         "id": 58,
@@ -840,7 +897,8 @@
         "final_price": 943,
         "ratings": 4.5,
         "detail": "bottle of 60 soft gelatin capsules",
-        "category":"GNC"
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     }, 
     {
         "id": 59,
@@ -850,7 +908,8 @@
         "final_price": 1799,
         "ratings": 4.1,
         "detail": "bottle of 60 soft gelatin capsules",
-        "category":"GNC"
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     }, 
     {
         "id": 60,
@@ -860,279 +919,670 @@
         "final_price": 7124,
         "ratings": 4.4,
         "detail": "Jar of 2 kg Chocolate flavour powder",
-        "category":"GNC"
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     }
 ],
 "devices": [
     {
         "id": 1,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 200,
+        "final_price": 128,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 2,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 500,
+        "final_price": 299,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 3,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 1100,
+        "final_price": 649,
+        "ratings": 4.3,
+        "detail": "bottle of 90 capsules",
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 4,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
+        "name":"abc",
+        "url":"abc",
+        "price": 1599,
+        "final_price": 799,
         "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "detail": "bottle of 120 vegicaps",
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     },
     {
         "id": 5,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 1999,
+        "final_price": 1399,
+        "ratings": 4.1,
+        "detail": "bottle of 60 vegicaps",
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     }, 
     {
         "id": 6,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
+        "name":"abc",
+        "url":"abc",
+        "price": 2499,
+        "final_price": 1299,
         "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "detail": "Jar of 200gm powder",
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     }, 
     {
         "id": 7,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 600,
+        "final_price": 399,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     }, 
     {
         "id": 8,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 600,
+        "final_price": 300,
+        "ratings": 4.4,
+        "detail": "bottle of 60 tablets",
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     },
     {
         "id": 9,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 699,
+        "final_price": 384,
+        "ratings": 3.8,
+        "detail": "bottle of 60 tablets",
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     }, 
     {
         "id": 10,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 2000,
+        "final_price": 1920,
+        "ratings": 4.0,
+        "detail": "bottle of 90 capsules",
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     }, 
     {
         "id": 11,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 3199,
+        "final_price": 2502,
+        "ratings": 4.2,
+        "detail": "bottle of 110 capsules",
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     }, 
     {
         "id": 12,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 3999,
+        "final_price": 3999,
+        "ratings": 4.2,
+        "detail": "bottle of 90 capsules",
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     },
     {
         "id": 13,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
+        "name":"abc",
+        "url":"abc",
+        "price": 1599,
+        "final_price": 943,
         "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "detail": "bottle of 60 soft gelatin capsules",
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     }, 
     {
         "id": 14,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 2299,
+        "final_price": 1799,
+        "ratings": 4.1,
+        "detail": "bottle of 60 soft gelatin capsules",
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     }, 
     {
         "id": 15,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
-    }, 
-    {
-        "id": 16,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 8499,
+        "final_price": 7124,
+        "ratings": 4.4,
+        "detail": "Jar of 2 kg Chocolate flavour powder",
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     },
     {
+        "id": 16,
+        "name":"abc",
+        "url":"abc",
+        "price": 200,
+        "final_price": 128,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "use" : "Mind Care",
+        "brand":"HealthVit"
+    }, 
+    {
         "id": 17,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 500,
+        "final_price": 299,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 18,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 1100,
+        "final_price": 649,
+        "ratings": 4.3,
+        "detail": "bottle of 90 capsules",
+        "use" : "Mind Care",
+        "brand":"HealthVit"
     }, 
     {
         "id": 19,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
+        "name":"abc",
+        "url":"abc",
+        "price": 1599,
+        "final_price": 799,
         "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
-    }, 
-    {
-        "id": 20,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "detail": "bottle of 120 vegicaps",
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     },
     {
+        "id": 20,
+        "name":"abc",
+        "url":"abc",
+        "price": 1999,
+        "final_price": 1399,
+        "ratings": 4.1,
+        "detail": "bottle of 60 vegicaps",
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
+    }, 
+    {
         "id": 21,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
+        "name":"abc",
+        "url":"abc",
+        "price": 2499,
+        "final_price": 1299,
         "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "detail": "Jar of 200gm powder",
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
     }, 
     {
         "id": 22,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 600,
+        "final_price": 399,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     }, 
     {
         "id": 23,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
-    }, 
-    {
-        "id": 24,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 600,
+        "final_price": 300,
+        "ratings": 4.4,
+        "detail": "bottle of 60 tablets",
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
     },
     {
+        "id": 24,
+        "name":"abc",
+        "url":"abc",
+        "price": 699,
+        "final_price": 384,
+        "ratings": 3.8,
+        "detail": "bottle of 60 tablets",
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
+    }, 
+    {
         "id": 25,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 2000,
+        "final_price": 1920,
+        "ratings": 4.0,
+        "detail": "bottle of 90 capsules",
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     }, 
     {
         "id": 26,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 3199,
+        "final_price": 2502,
+        "ratings": 4.2,
+        "detail": "bottle of 110 capsules",
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     }, 
     {
         "id": 27,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
-    }, 
-    {
-        "id": 28,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "name":"abc",
+        "url":"abc",
+        "price": 3999,
+        "final_price": 3999,
+        "ratings": 4.2,
+        "detail": "bottle of 90 capsules",
+        "use" : "Skin Care",
+        "brand":"Now Foods"
     },
     {
-        "id": 29,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
+        "id": 28,
+        "name":"abc",
+        "url":"abc",
+        "price": 1599,
+        "final_price": 943,
         "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "detail": "bottle of 60 soft gelatin capsules",
+        "use" : "Cardiac Care",
+        "brand":"GNC"
+    }, 
+    {
+        "id": 29,
+        "name":"abc",
+        "url":"abc",
+        "price": 2299,
+        "final_price": 1799,
+        "ratings": 4.1,
+        "detail": "bottle of 60 soft gelatin capsules",
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     }, 
     {
         "id": 30,
-        "name": "Accu-Chek Active Test Strip",
-        "url": "https://onemg.gumlet.io/images/f_auto,c_fit,h_150,q_auto,w_150/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
+        "name":"abc",
+        "url":"abc",
+        "price": 8499,
+        "final_price": 7124,
+        "ratings": 4.4,
+        "detail": "Jar of 2 kg Chocolate flavour powder",
+        "use" : "Cardiac Care",
+        "brand":"GNC"
+    },
+    {
+        "id": 31,
+        "name":"abc",
+        "url":"abc",
+        "price": 200,
+        "final_price": 128,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "use" : "Mind Care",
+        "brand":"HealthVit"
+    }, 
+    {
+        "id": 32,
+        "name":"abc",
+        "url":"abc",
+        "price": 500,
+        "final_price": 299,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "use" : "Mind Care",
+        "brand":"HealthVit"
+    }, 
+    {
+        "id": 33,
+        "name":"abc",
+        "url":"abc",
+        "price": 1100,
+        "final_price": 649,
+        "ratings": 4.3,
+        "detail": "bottle of 90 capsules",
+        "use" : "Mind Care",
+        "brand":"HealthVit"
+    }, 
+    {
+        "id": 34,
+        "name":"abc",
+        "url":"abc",
+        "price": 1599,
+        "final_price": 799,
         "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
+        "detail": "bottle of 120 vegicaps",
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
+    },
+    {
+        "id": 35,
+        "name":"abc",
+        "url":"abc",
+        "price": 1999,
+        "final_price": 1399,
+        "ratings": 4.1,
+        "detail": "bottle of 60 vegicaps",
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
+    }, 
+    {
+        "id": 36,
+        "name":"abc",
+        "url":"abc",
+        "price": 2499,
+        "final_price": 1299,
+        "ratings": 4.5,
+        "detail": "Jar of 200gm powder",
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
+    }, 
+    {
+        "id": 37,
+        "name":"abc",
+        "url":"abc",
+        "price": 600,
+        "final_price": 399,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
+    }, 
+    {
+        "id": 38,
+        "name":"abc",
+        "url":"abc",
+        "price": 600,
+        "final_price": 300,
+        "ratings": 4.4,
+        "detail": "bottle of 60 tablets",
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
+    },
+    {
+        "id": 39,
+        "name":"abc",
+        "url":"abc",
+        "price": 699,
+        "final_price": 384,
+        "ratings": 3.8,
+        "detail": "bottle of 60 tablets",
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
+    }, 
+    {
+        "id": 40,
+        "name":"abc",
+        "url":"abc",
+        "price": 2000,
+        "final_price": 1920,
+        "ratings": 4.0,
+        "detail": "bottle of 90 capsules",
+        "use" : "Skin Care",
+        "brand":"Now Foods"
+    }, 
+    {
+        "id": 41,
+        "name":"abc",
+        "url":"abc",
+        "price": 3199,
+        "final_price": 2502,
+        "ratings": 4.2,
+        "detail": "bottle of 110 capsules",
+        "use" : "Skin Care",
+        "brand":"Now Foods"
+    }, 
+    {
+        "id": 42,
+        "name":"abc",
+        "url":"abc",
+        "price": 3999,
+        "final_price": 3999,
+        "ratings": 4.2,
+        "detail": "bottle of 90 capsules",
+        "use" : "Skin Care",
+        "brand":"Now Foods"
+    },
+    {
+        "id": 43,
+        "name":"abc",
+        "url":"abc",
+        "price": 1599,
+        "final_price": 943,
+        "ratings": 4.5,
+        "detail": "bottle of 60 soft gelatin capsules",
+        "use" : "Cardiac Care",
+        "brand":"GNC"
+    }, 
+    {
+        "id": 44,
+        "name":"abc",
+        "url":"abc",
+        "price": 2299,
+        "final_price": 1799,
+        "ratings": 4.1,
+        "detail": "bottle of 60 soft gelatin capsules",
+        "use" : "Cardiac Care",
+        "brand":"GNC"
+    }, 
+    {
+        "id": 45,
+        "name":"abc",
+        "url":"abc",
+        "price": 8499,
+        "final_price": 7124,
+        "ratings": 4.4,
+        "detail": "Jar of 2 kg Chocolate flavour powder",
+        "use" : "Cardiac Care",
+        "brand":"GNC"
+    },
+    {
+        "id": 46,
+        "name":"abc",
+        "url":"abc",
+        "price": 200,
+        "final_price": 128,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "use" : "Mind Care",
+        "brand":"HealthVit"
+    }, 
+    {
+        "id": 47,
+        "name":"abc",
+        "url":"abc",
+        "price": 500,
+        "final_price": 299,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "use" : "Mind Care",
+        "brand":"HealthVit"
+    }, 
+    {
+        "id": 48,
+        "name":"abc",
+        "url":"abc",
+        "price": 1100,
+        "final_price": 649,
+        "ratings": 4.3,
+        "detail": "bottle of 90 capsules",
+        "use" : "Mind Care",
+        "brand":"HealthVit"
+    }, 
+    {
+        "id": 49,
+        "name":"abc",
+        "url":"abc",
+        "price": 1599,
+        "final_price": 799,
+        "ratings": 4.5,
+        "detail": "bottle of 120 vegicaps",
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
+    },
+    {
+        "id": 50,
+        "name":"abc",
+        "url":"abc",
+        "price": 1999,
+        "final_price": 1399,
+        "ratings": 4.1,
+        "detail": "bottle of 60 vegicaps",
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
+    }, 
+    {
+        "id": 51,
+        "name":"abc",
+        "url":"abc",
+        "price": 2499,
+        "final_price": 1299,
+        "ratings": 4.5,
+        "detail": "Jar of 200gm powder",
+        "use" : "Joint & Muscle Care",
+        "brand":"HealthyHey"
+    }, 
+    {
+        "id": 52,
+        "name":"abc",
+        "url":"abc",
+        "price": 600,
+        "final_price": 399,
+        "ratings": 4.3,
+        "detail": "bottle of 60 tablets",
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
+    }, 
+    {
+        "id": 53,
+        "name":"abc",
+        "url":"abc",
+        "price": 600,
+        "final_price": 300,
+        "ratings": 4.4,
+        "detail": "bottle of 60 tablets",
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
+    },
+    {
+        "id": 54,
+        "name":"abc",
+        "url":"abc",
+        "price": 699,
+        "final_price": 384,
+        "ratings": 3.8,
+        "detail": "bottle of 60 tablets",
+        "use" : "Nutritional Deficiencies",
+        "brand":"Inlife"
+    }, 
+    {
+        "id": 55,
+        "name":"abc",
+        "url":"abc",
+        "price": 2000,
+        "final_price": 1920,
+        "ratings": 4.0,
+        "detail": "bottle of 90 capsules",
+        "use" : "Skin Care",
+        "brand":"Now Foods"
+    }, 
+    {
+        "id": 56,
+        "name":"abc",
+        "url":"abc",
+        "price": 3199,
+        "final_price": 2502,
+        "ratings": 4.2,
+        "detail": "bottle of 110 capsules",
+        "use" : "Skin Care",
+        "brand":"Now Foods"
+    }, 
+    {
+        "id": 57,
+        "name":"abc",
+        "url":"abc",
+        "price": 3999,
+        "final_price": 3999,
+        "ratings": 4.2,
+        "detail": "bottle of 90 capsules",
+        "use" : "Skin Care",
+        "brand":"Now Foods"
+    },
+    {
+        "id": 58,
+        "name":"abc",
+        "url":"abc",
+        "price": 1599,
+        "final_price": 943,
+        "ratings": 4.5,
+        "detail": "bottle of 60 soft gelatin capsules",
+        "use" : "Cardiac Care",
+        "brand":"GNC"
+    }, 
+    {
+        "id": 59,
+        "name":"abc",
+        "url":"abc",
+        "price": 2299,
+        "final_price": 1799,
+        "ratings": 4.1,
+        "detail": "bottle of 60 soft gelatin capsules",
+        "use" : "Cardiac Care",
+        "brand":"GNC"
+    }, 
+    {
+        "id": 60,
+        "name":"abc",
+        "url":"abc",
+        "price": 8499,
+        "final_price": 7124,
+        "ratings": 4.4,
+        "detail": "Jar of 2 kg Chocolate flavour powder",
+        "use" : "Cardiac Care",
+        "brand":"GNC"
     }
 ],
 "TopDealsMV":[
@@ -1162,24 +1612,6 @@
         "final_price": 649,
         "ratings": 4.3,
         "detail": "bottle of 90 capsules"
-    },
-    {
-        "id": 4,
-        "name": "HealthyHey Nutrition CoQ 10 125mg",
-        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/3367a0a2ac7b4463b3b96be7c42d7dff/healthyhey-nutrition-coq-10-bioperine-125mg-vegetable-capsule.jpg",
-        "price": 1999,
-        "final_price": 1399,
-        "ratings": 4.1,
-        "detail": "bottle of 60 vegicaps"
-    },
-    {
-        "id": 5,
-        "name": "NOW Foods Potassium Citrate 99mg Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/c6yswyvohau8ur6njjoc/now-foods-potassium-citrate-99mg-capsule.jpg",
-        "price": 2000,
-        "final_price": 1920,
-        "ratings": 4.0,
-        "detail": "bottle of 90 capsules"
     }
 ],
 "TopDealsDV":[
@@ -1205,24 +1637,6 @@
         "id": 3,
         "name": "Accu-Chek Active Blood Glucometer Kit (Box of 10 Test strips Free)",
         "url": "https://onemg.gumlet.io/images/w_150,h_150,c_fit,q_auto,f_auto/0bede5b02bf743ddb910721e0ece0fc7/accu-chek-active-blood-glucometer-kit-box-of-10-test-strips-free.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
-    },
-    {
-        "id": 4,
-        "name": "Dr Morepen BG 03 Gluco One Glucose Monitoring System",
-        "url": "https://onemg.gumlet.io/images/w_150,h_150,c_fit,q_auto,f_auto/qd8eaznzsf3det7qrytk/dr-morepen-bg-03-gluco-one-glucose-monitoring-system-with-gluco-one-bg-03-blood-glucose-25-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
-    },
-    {
-        "id": 5,
-        "name": "Contour Plus Blood Glucose Test Strip with25 Test Strip",
-        "url": "https://onemg.gumlet.io/images/w_150,h_150,c_fit,q_auto,f_auto/xf6ogn1ygwsa8jgbcfaq/contour-plus-blood-glucose-test-strip.jpg",
         "price": 995,
         "final_price": 358,
         "ratings": 4.5,
