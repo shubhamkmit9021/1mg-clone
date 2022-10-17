@@ -31,7 +31,6 @@ function App() {
   let cartItems = useSelector((store) => store);
   if (cartItems.cartItems === [] || cartItems.totalBill === 0) {
     cartItems = localStorage.getItem("store");
-    console.log(cartItems);
   }
   const [store, SetStore] = useState(cartItems);
   useEffect(() => {

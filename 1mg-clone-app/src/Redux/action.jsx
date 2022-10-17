@@ -11,16 +11,6 @@ export const removefromcart = (data, isRemoveButton) => ({
   isRemoveButton: isRemoveButton,
 });
 
-export const update = (data) => ({
-  type: UPDATE,
-  payload: data,
-});
-
-export const setcart = (data) => ({
-  type: SETCART,
-  payload: data,
-});
-
 export const coupon = (data) => ({
   type: COUPON,
   payload: data,

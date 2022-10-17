@@ -1,5 +1,6 @@
 import { Button } from "@chakra-ui/react";
 import { lightOrange } from "../../Colors/Color";
+import { Link } from "react-router-dom";
 
 export default function EmptyCart() {
   return (
@@ -19,9 +20,15 @@ export default function EmptyCart() {
       <div>Oops!</div>
       <div>Looks like there is no item in your cart yet.</div>
       <a>
-        <Button bg={lightOrange} textColor="white" _hover={{ bg: "teal.600" }}>
-          ADD MEDICINES
-        </Button>
+        <Link to="/Multivitamins">
+          <Button
+            bg={lightOrange}
+            textColor="white"
+            _hover={{ bg: "teal.600" }}
+          >
+            ADD MEDICINES
+          </Button>
+        </Link>
       </a>
     </div>
   );

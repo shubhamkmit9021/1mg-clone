@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react";
+import { Box, usePinInputDescendant } from "@chakra-ui/react";
 import { useState } from "react";
 import { defaultShadow } from "../../Shadow/Shadow";
 import CartItems from "./CartItems";
@@ -9,9 +9,10 @@ import EmptyCart from "./EmptyCart";
 import TotalBill from "./TotalBill";
 import Slick from "./Slick";
 import { useSelector } from "react-redux";
+import { v4 as uuid } from "uuid";
 
 export default function Cart() {
-  let isCartEmpty = false;
+  let isCartEmpty = useSelector((store) => store.cartItems.length === 0);
 
   const cartItems = useSelector((store) => store.cartItems);
   const [enterCoupon, setEnterCoupon] = useState(false);
@@ -22,7 +23,7 @@ export default function Cart() {
     <div style={{ display: "flex", gap: "10px", margin: "10px" }}>
       <Box width="60%">
         {cartItems.map((item) => {
-          return <CartItems dummyItems={item} />;
+          return <CartItems key={uuid()} dummyItems={item} />;
         })}
       </Box>
       <Box width="38%" gap="10px" display="flex" flexDirection="column">

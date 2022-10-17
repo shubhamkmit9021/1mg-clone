@@ -1,6 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import React from "react";
+import React, { useRef, useState } from "react";
 import {
   Modal,
   useDisclosure,
@@ -17,7 +15,7 @@ import {
   Box,
 } from "@chakra-ui/react";
 import { lightOrange } from "../../Colors/Color";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { coupon } from "../../Redux/action";
 
 export default function Coupon() {
@@ -25,6 +23,14 @@ export default function Coupon() {
   const dispatch = useDispatch();
   const initialRef = React.useRef(null);
   const finalRef = React.useRef(null);
+  const discount = useSelector((stroe) => stroe.couponDiscount);
+  const ref = useRef(null);
+  const [code, setCode] = useState({
+    masai: false,
+    tata: false,
+    ma: false,
+    input: false,
+  });
   return (
     <div
       style={{
@@ -66,7 +72,10 @@ export default function Coupon() {
               borderRadius: "50%",
             }}
           >
-            <FontAwesomeIcon icon="fa-solid fa-angle-right" />
+            <img
+              src="https://cdn.iconscout.com/icon/free/png-256/right-arrow-1438234-1216195.png"
+              alt="coupon logo"
+            />
           </div>
         </div>
       </div>
@@ -84,13 +93,34 @@ export default function Coupon() {
           <ModalBody>
             <Box display="flex" border="1px solid black" borderRadius="10px">
               <Input
+                ref={ref}
                 outline="none"
                 style={{ border: "none", borderStyle: "none", outline: "none" }}
                 _focus={{ boxShadow: "none" }}
               />
-              <button style={{ padding: "10px", color: "#fe6f61" }}>
-                APPLY
-              </button>
+              {code.input ? (
+                <Button
+                  color={lightOrange}
+                  bg="white"
+                  onClick={(e) => {
+                    dispatch(coupon(0));
+                    setCode({ ...code, input: false });
+                  }}
+                >
+                  Cancle
+                </Button>
+              ) : (
+                <Button
+                  color={lightOrange}
+                  bg="white"
+                  onClick={() => {
+                    dispatch(coupon(10));
+                    setCode({ ...code, input: true });
+                  }}
+                >
+                  Apply
+                </Button>
+              )}
             </Box>
             <Box marginTop="10px">COUPONS</Box>
             <Box>
@@ -106,15 +136,31 @@ export default function Coupon() {
                     class="CartCoupon__offer_icon___2-AD-"
                     src="https://www.masaischool.com/img/navbar/logo.svg"
                   />
-                  <Button
-                    color={lightOrange}
-                    bg="white"
-                    onClick={() => {
-                      dispatch(coupon(10));
-                    }}
-                  >
-                    Apply
-                  </Button>
+                  {code.masai ? (
+                    <Button
+                      color={lightOrange}
+                      bg="white"
+                      onClick={() => {
+                        dispatch(coupon(0));
+                        setCode({ ...code, masai: false });
+                        ref.current.value = "";
+                      }}
+                    >
+                      Cancle
+                    </Button>
+                  ) : (
+                    <Button
+                      color={lightOrange}
+                      bg="white"
+                      onClick={() => {
+                        dispatch(coupon(10));
+                        setCode({ ...code, masai: true });
+                        ref.current.value = "MASAI";
+                      }}
+                    >
+                      Apply
+                    </Button>
+                  )}
                 </Box>
                 <Box color="black">
                   Get flat 10% on your allopathy medicine order
@@ -146,11 +192,31 @@ export default function Coupon() {
                     class="CartCoupon__offer_icon___2-AD-"
                     src="https://marketing-compaigns.s3.ap-south-1.amazonaws.com/emailer/Multi_coupon_logo/multi_coupon_logo.png"
                   />
-                  <Button color={lightOrange} bg="white" onClick={() => {
-                      dispatch(coupon(25));
-                    }}>
-                    Apply
-                  </Button>
+                  {code.tata ? (
+                    <Button
+                      color={lightOrange}
+                      bg="white"
+                      onClick={() => {
+                        dispatch(coupon(0));
+                        setCode({ ...code, tata: false });
+                        ref.current.value = "";
+                      }}
+                    >
+                      Cancle
+                    </Button>
+                  ) : (
+                    <Button
+                      color={lightOrange}
+                      bg="white"
+                      onClick={() => {
+                        dispatch(coupon(25));
+                        setCode({ ...code, tata: true });
+                        ref.current.value = "1MGNEW";
+                      }}
+                    >
+                      Apply
+                    </Button>
+                  )}
                 </Box>
                 <Box color="black">
                   Get flat 25% off + assured 1% NeuCoins on your allopathy
@@ -183,9 +249,29 @@ export default function Coupon() {
                     class="CartCoupon__offer_icon___2-AD-"
                     src="https://www.masaischool.com/img/navbar/logo.svg"
                   />
-                  <Button color={lightOrange} bg="white">
-                    Apply
-                  </Button>
+                  {code.ma ? (
+                    <Button
+                      color={lightOrange}
+                      bg="white"
+                      onClick={() => {
+                        dispatch(coupon(0));
+                        setCode({ ...code, ma: false });
+                      }}
+                    >
+                      Cancle
+                    </Button>
+                  ) : (
+                    <Button
+                      color={lightOrange}
+                      bg="white"
+                      onClick={() => {
+                        dispatch(coupon(10));
+                        setCode({ ...code, ma: true });
+                      }}
+                    >
+                      Apply
+                    </Button>
+                  )}
                 </Box>
                 <Box color="black">
                   Get flat 10% on your allopathy medicine order

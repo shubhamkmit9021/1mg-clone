@@ -13,7 +13,7 @@ export default function TotalBill() {
   };
 
   const total = useSelector((store) => store.totalBill);
-
+  const discount = useSelector((store) => store.couponDiscount);
   return (
     <Box
       style={{
@@ -31,7 +31,7 @@ export default function TotalBill() {
       </Box>
       <Box style={boxStyle}>
         <Box>Price Discount</Box>
-        <Box textDecoration="line-through">₹{(total * 10) / 100}</Box>
+        <Box>-₹{(total * (discount > 0 ? discount + 10 : 10)) / 100}</Box>
       </Box>
       <hr />
       <Box style={boxStyle}>
@@ -41,11 +41,11 @@ export default function TotalBill() {
       <hr />
       <Box style={boxStyle} fontSize="14px" fontWeight="700">
         <Box>To be paid</Box>
-        <Box>{total - (total * 10) / 100}</Box>
+        <Box>{total - (total * (discount > 0 ? discount + 10 : 10)) / 100}</Box>
       </Box>
       <Box style={boxStyle} bg="#e4f6e7">
         <Box>Total Savings</Box>
-        <Box>₹{(total * 10) / 100}</Box>
+        <Box>₹{(total * (discount > 0 ? discount + 10 : 10)) / 100}</Box>
       </Box>
     </Box>
   );
