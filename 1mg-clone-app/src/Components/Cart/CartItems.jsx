@@ -1,15 +1,18 @@
 import { Box, Flex, Spacer } from "@chakra-ui/react";
 import { greyColor } from "../../Colors/Color";
 import { useState, useRef } from "react";
-import { increment } from "../../Redux/action";
 import { useDispatch, useSelector } from "react-redux";
+import { removefromcart, update, updatebill } from "../../Redux/action";
 
 export default function CartItems(props) {
   const { dummyItems } = props;
-  const { name, desc, price, discount, quantity } = dummyItems;
-  const [itemCount, SetItemCount] = useState(1);
+  let { name, detail, price } = dummyItems;
+  dummyItems.quantity = 1;
+  let discount = 10;
   const ref = useRef(null);
-  const count = useSelector((store) => store.count);
+  const [itemObj, SetItemObj] = useState(dummyItems);
+  price = price * itemObj.quantity;
+  const cartItems = useSelector((store) => store.cartItems);
   const dispatch = useDispatch();
   return (
     <Box
@@ -31,7 +34,7 @@ export default function CartItems(props) {
       </Flex>
       <Flex>
         <Box p="4" color={greyColor}>
-          {desc}
+          {detail}
         </Box>
         <Spacer />
         <Box p="4" color={greyColor}>
@@ -47,7 +50,13 @@ export default function CartItems(props) {
             ref.current.visiblity = "hidden";
           }}
         >
-          <div style={{ display: "flex", gap: "5px" }}>
+          <div
+            style={{ display: "flex", gap: "5px", cursor: "pointer" }}
+            onClick={() => {
+              dispatch(removefromcart(dummyItems));
+              dispatch(updatebill());
+            }}
+          >
             <img
               src="https://img.1mg.com/images/delete_icon.svg"
               alt="delete icon"
@@ -62,15 +71,29 @@ export default function CartItems(props) {
               src="https://www.1mg.com/images/minus-cart.svg"
               style={{ cursor: "pointer" }}
               onClick={() => {
-                dispatch(increment(count));
+                SetItemObj((dummyItems) => {
+                  return {
+                    ...dummyItems,
+                    quantity: dummyItems.quantity - 1,
+                  };
+                });
+                dispatch(update(itemObj));
+                dispatch(updatebill());
               }}
             />
-            <p style={{ marginTop: "4px" }}>{count}</p>
+            <p style={{ marginTop: "4px" }}>{itemObj.quantity}</p>
             <img
               src="https://www.1mg.com/images/plus-cart.svg"
               style={{ cursor: "pointer" }}
               onClick={() => {
-                SetItemCount(itemCount + 1);
+                SetItemObj((dummyItems) => {
+                  return {
+                    ...dummyItems,
+                    quantity: dummyItems.quantity + 1,
+                  };
+                });
+                dispatch(update(itemObj));
+                dispatch(updatebill());
               }}
             />
           </div>

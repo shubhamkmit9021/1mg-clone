@@ -1,5 +1,8 @@
 import { Box } from "@chakra-ui/react";
 import { greyColor } from "../../Colors/Color";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect, useState } from "react";
+import { updatebill } from "../../Redux/action";
 export default function TotalBill() {
   const boxStyle = {
     display: "flex",
@@ -8,6 +11,13 @@ export default function TotalBill() {
     fontSize: "14px",
     color: greyColor,
   };
+
+  const total = useSelector((store) => store.TotalBill);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(updatebill());
+  }, [total]);
+
   return (
     <Box
       style={{
@@ -21,7 +31,7 @@ export default function TotalBill() {
     >
       <Box style={boxStyle}>
         <Box>Item Total(MRP)</Box>
-        <Box>₹620</Box>
+        <Box>{total}</Box>
       </Box>
       <Box style={boxStyle}>
         <Box>Price Discount</Box>
@@ -35,7 +45,7 @@ export default function TotalBill() {
       <hr />
       <Box style={boxStyle} fontSize="14px" fontWeight="700">
         <Box>To be paid</Box>
-        <Box>₹620</Box>
+        <Box>{total + 20}</Box>
       </Box>
       <Box style={boxStyle} bg="#e4f6e7">
         <Box>Total Savings</Box>
