@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios"
+import Posts from '../Components/Posts';
+import Pagination from '../Components/Pagination';
 import {
   Checkbox,
   InputGroup,
@@ -36,7 +38,6 @@ import {
 // } from "mdb-react-ui-kit";
 import { lightOrange } from "../Colors/Color";
 
-
 function Multivitamins () {
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState([]);
@@ -44,6 +45,8 @@ function Multivitamins () {
   const [categories, setCategories] = useState([]);
   const [error, setError] = useState(false);
   const [sortValue,setSortValue] = useState([])
+  const [currentPage, setCurrentPage] = useState(1);
+  const [dataPerPage] = useState(20);
 
 
   useEffect(() => {
@@ -83,6 +86,11 @@ function Multivitamins () {
     }
     
   }
+
+  const indexOfLastData = currentPage * dataPerPage;
+  const indexOfFirstData = indexOfLastData - dataPerPage;
+  const currentData = data.slice(indexOfFirstData, indexOfLastData);
+  const paginate = pageNumber => setCurrentPage(pageNumber);
 
   useEffect(() => {
     setLoading(true);
@@ -331,7 +339,7 @@ function Multivitamins () {
               </Box>
               <Divider orientation="horizontal" color="black.400" />
               <Heading  fontSize='25px' pb='10px' pt='10px'>Product Form</Heading>
-              <Stack  ml='10px' spacing={4} width='100%' pt='10px'pb='10px' pb='10px' >
+              <Stack  ml='10px' spacing={4} width='100%' pt='10px'pb='10px' >
                 <InputGroup>
                   <InputLeftElement pointerEvents="none" />
                   <Input w="150px" type="brand" placeholder="Search Brands" />
@@ -464,7 +472,7 @@ function Multivitamins () {
                 </Stack>
               </Box>
               <Divider orientation="horizontal" color="black.400" />
-              <Heading pb='10px' pt='10px' fontSize='25px' pb='10px' pt='10px'>Gender</Heading>
+              <Heading pb='10px' pt='10px' fontSize='25px'>Gender</Heading>
               <Box  ml='10px' lineHeight={2}>
                 <Stack spacing={5} direction="row">
                   <Checkbox size="md" colorScheme="green">
@@ -645,86 +653,13 @@ function Multivitamins () {
                       </Box>
                     </Flex>
                   </Box>
-                  <Box>
-                    <Grid bg="#f6f6f6" templateColumns="repeat(3, 1fr)" gap={5}>
-                      {data.map((item) => (
-                        <GridItem w="100%" p="2%" bg="white">
-                          <Box
-                            boxShadow="dark-lg"
-                            p="6"
-                            borderRadius="2xl"
-                            height="450px"
-                          >
-                            <Box width="90%"
-                                  display="flex"
-                                  justifyContent="space-between"
-                                  alignItems="center"
-                                  margin='auto'
-                                  pb="15px">
-                              <Box bg="green" width="auto" color="white" 
-                                  padding='2%'borderRadius='10px'>
-                                Sale
-                              </Box>
-                              <Box bg="green" width="auto" color="white" 
-                                  padding='2%'
-                                  borderRadius='10px'>
-                                {item.ratings} ★
-                              </Box>
-                            </Box>
-                            <Center>
-                              <Image
-                                src={item.url}
-                                align="center"
-                                height="150px"
-                              />
-                            </Center>
-                            <Center>
-                              <VStack>
-                                <Text align="center" justify="inherit">
-                                  {item.name}
-                                </Text>
-
-                                <Text align="center" justify="inherit">
-                                  {item.detail}
-                                </Text>
-
-                                <Flex>
-                                  <Box p="4">
-                                    <Text
-                                      align="center"
-                                      as="s"
-                                      justify="inherit"
-                                    >
-                                      MRP : ₹ {item.price}
-                                    </Text>
-                                  </Box>
-                                </Flex>
-
-                                <Box
-                                  width="90%"
-                                  display="flex"
-                                  justifyContent="space-between"
-                                  alignItems="center"
-                                >
-                                  <Text>₹ {item.final_price}</Text>
-                                  <Button
-                                    bg="white"
-                                    _hover={{ bg: "whilte" }}
-                                    color={lightOrange}
-                                  >
-                                    Add
-                                  </Button>
-                                </Box>
-                              </VStack>
-                            </Center>
-                          </Box>
-                        </GridItem>
-                      ))}
-                    </Grid>
-                    
-                  </Box>
+                  <Posts data={currentData} loading={loading} />
               </Box>
-
+              <Pagination
+                    dataPerPage={dataPerPage}
+                    totalData={data.length}
+                    paginate={paginate}
+                  />     
             </VStack>
           </Box>
         </Box>
