@@ -12,6 +12,12 @@ import { ImLocation } from "react-icons/im";
 import { AiOutlineSearch } from "react-icons/ai";
 
 const MiddleNav = () => {
+  const ref=useRef(null);
+
+const fetchData = (e) => {
+  fetch (`http://localhost:3000/cities`).then((res) => res.json()).then((data) => console.log(data))
+}
+
   return (
     <>
     
@@ -28,11 +34,13 @@ const MiddleNav = () => {
 
               <Box>
               <Input
+                ref ={ref}
                 pl={2}
                 variant="unstyled"
                 width="90%"
                 placeholder="Enter Your City"
                 fontSize={{base: 'xs', sm: 'sm', md: 'md', lg : 'lg', xl : 'xl'}}
+                onChange={(e)=> { console.log(e.target) }}
               />
               </Box>
               <Box ml="-5%" _hover={{ cursor:'pointer' }}>
