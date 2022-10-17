@@ -1,7 +1,4 @@
 
-import { Box } from '@chakra-ui/react';
-import './App.css';
-
 import  ScrollToTop  from './Components/Scroll/ScrollToTop'
 import  ScrollToBottom  from './Components/Scroll/ScrollToBottom'
 
@@ -19,6 +16,14 @@ import Footer1 from './Components/Footer/Footer1';
 import DiseaseSec from './Components/Products/Disease/DiseaseSec';
 import Brands from './Components/Products/Featured brands/Brands';
 
+import { Box } from "@chakra-ui/react";
+import "./App.css";
+import Cart from "./Components/Cart/Cart";
+import Home from "./pages/Home";
+import { Route, Routes, Router } from "react-router-dom";
+import Multivitamins from "./pages/Multivitamins";
+import Devices from "./pages/Devices";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <Box>
@@ -38,6 +43,13 @@ function App() {
     
   
 
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/cart" element={<Cart />}></Route>
+        <Route path="/multivitamins" element={<Multivitamins />}></Route>
+        <Route path="/devices" element={<Devices />}></Route>
+      </Routes>
+      <Footer />
     </Box>
   );
 }
