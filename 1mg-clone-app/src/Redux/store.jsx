@@ -1,11 +1,17 @@
+import { useSelector } from "react-redux";
 import { createStore } from "redux";
 import reducre from "./reducer";
-const initState = {
-  cartItems: [],
-  totalBill: 0,
-};
+import { loadState, saveState } from "./localStorage";
+const persistedState = loadState();
 export const store = createStore(
   reducre,
-  initState,
+  persistedState,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
+
+store.subscribe(() => {
+  saveState({
+    cartItems: store.getState().cartItems,
+    totalBill: store.getState().totalBill,
+  });
+});

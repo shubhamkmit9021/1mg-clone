@@ -1,5 +1,6 @@
 {
-  "sec1": [
+  "cart":[],
+  "SlidingBox_sec1": [
     {
       "img" : "https://onemg.gumlet.io/de43ae64-d8d7-485b-ab91-0af519ed941d_1663831589.png?w=899&h=200&format=auto",
       "alt" : "sec1_img1",
@@ -16,7 +17,7 @@
       "id" : 3
     },
     {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_480,h_200,c_fit,q_auto,f_auto/14eaa65a-0b73-4f77-9ed4-504f910c1d49.png",
+      "img" : "https://onemg.gumlet.io/a_ignore,w_891,h_200,c_fit,q_auto,f_auto/80d4cc9a-57a9-447e-866d-10d8d99b62de.png",
       "alt" : "sec1_img4",
       "id" : 4
     },
@@ -26,7 +27,7 @@
       "id" : 5
     },
     {
-      "img" : "https://onemg.gumlet.io/assets/3b2c7f48-49f2-11ed-ab8f-0a674cab797e.png?format=auto",
+      "img" : "https://onemg.gumlet.io/5f1c29c8-9d81-4240-9458-fe18de1000af_1665467859.png?w=891&h=200&format=auto",
       "alt" : "sec1_img6",
       "id" : 6
     },
@@ -52,100 +53,118 @@
     }
   ],
     
-  "sec2" : [
+  "Disease_sec" : [
     {
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e3katuw3w1qdfiv0cbjn.png",
        "alt" : "sec2_img1",
-       "title" : "Diabetes Care" 
+       "name" : "Diabetes Care",
+       "id" : 1
     },
     {
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/bal76mxxccyhrti2erkn.png",
        "alt" : "sec2_img2",
-       "title" : "Cardiac Care" 
+       "name" : "Cardiac Care",
+       "id" : 2
     },
     {
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/l2zrxcsfyguccggnkp4m.png",
        "alt" : "sec2_img3",
-       "title" : "Stomach Care" 
+       "name" : "Stomach Care",
+       "id" : 3
     },
     {
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/klrkvhzloqbyt6z8cvgv.png",
        "alt" : "sec2_img4",
-       "title" : "Liver Care" 
+       "name" : "Liver Care",
+       "id" : 4
     },
     {
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/zd1jcixlqcmxlxlmgitc.png",
        "alt" : "sec2_img5",
-       "title" : "Bone, Joint & Muscle Care" 
+       "name" : "Bone, Joint & Muscle Care",
+       "id" : 5
     },
     {
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/c0o3w8wdjnzesk2pshcr.png",
        "alt" : "sec2_img6",
-       "title" : "Kidney Care" 
+       "name" : "Kidney Care",
+       "id" : 6
     },
     {
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/vsyneobahnsdqzllvzuv.png",
        "alt" : "sec2_img7",
-       "title" : "Pain Relief" 
+       "name" : "Pain Relief",
+       "id" : 7
     },
     {
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/wgixpbxnlrd79lzhpsi3.png",
        "alt" : "sec2_img8",
-       "title" : "Respiratory Care" 
+       "name" : "Respiratory Care",
+       "id" : 8
     },
     {
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/laztovaqkws3bo1ywff0.png",
        "alt" : "sec2_img9",
-       "title" : "Eye Care" 
+       "name" : "Eye Care" ,    
+       "id" : 9     
     }
 
   ],
 
   "brands" : [
     {
-     "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d8cf5b43-f660-47af-be76-c203f422650e.png",
+     "id" : 1,
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d8cf5b43-f660-47af-be76-c203f422650e.png",
       "alt" : "brand_img1",
-      "title" : "Dr. Morepen"
+      "name" : "Dr. Morepen"
     },
     {
+      "id" : 2,
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/38e1f526-af63-4ed9-9382-1c807aaf9aab.png",
        "alt" : "brand_img2",
-       "title" : "Hansaplast"
+       "name" : "Hansaplast"
      },
      {
+      "id" : 3,
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d1c09b4a-0bf0-42cf-806d-28e0f7b031bf.png",
        "alt" : "brand_img3",
-       "title" : "Dabur"
+       "name" : "Dabur"
      },
      {
+      "id" : 4,
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e16980e0-61f0-4215-bbb9-f1403c23cd52.png",
        "alt" : "brand_img4",
-       "title" : "Protinex"
+       "name" : "Protinex"
      },
      {
+      "id" : 5,
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d60a9791-bf2c-40b7-b782-2b5e7d069f8a.jpg",
        "alt" : "brand_img5",
-       "title" : "Optimum Nutrition"
+       "name" : "Optimum Nutrition"
      },
      {
+      "id" : 6,
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/1e238702-1383-4186-81aa-39db49890337.png",
        "alt" : "brand_img6",
-       "title" : "Revital"
+       "name" : "Revital"
      },
      {
+      "id" : 7,
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/1eb7fdd0-bb11-4b5a-aab9-7f99776192b5.png",
        "alt" : "brand_img7",
-       "title" : "Organic India"
+       "name" : "Organic India"
      },
      {
+      "id" : 8,
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/34c3b73d-1f59-4f23-9c79-beef864b4bc1.png",
        "alt" : "brand_img8",
-       "title" : "Himalaya"
+       "name" : "Himalaya"
      },
      {
+      "id" : 9,
       "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e2b00f58-40d9-4766-9956-3c50e620450a.png",
        "alt" : "brand_img9",
-       "title" : "Zandu"
+       "name" : "Zandu"
      }
 
   ],
@@ -261,6 +280,151 @@
     }
 
   ],
+
+  "MineralSupliment_sec" : [
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/b0f8255d-02c3-4640-b177-2a7240226835.png",
+      "alt" : "Multivitamins_logo",
+      "name" : "Multivitamins",
+      "id" : 1
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/8309a29c-acf2-4bde-ac80-dc26052769c1.png",
+      "alt" : "Zinc_logo",
+      "name" : "Zinc",
+      "id" : 2
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/6fac001e-0aaf-4265-9ee1-0ddff472df24.png",
+      "alt" : "Calcium_logo",
+      "name" : "Calcium",
+      "id" : 3
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/5091c541-5248-4c2a-b68a-9a62fd8506e1.png",
+      "alt" : "Iron_logo",
+      "name" : "Iron",
+      "id" : 4
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/2152f9e9-1cb3-4efb-b86f-2e212f0dde81.png",
+      "alt" : "Magnesium_logo",
+      "name" : "Magnesium",
+      "id" : 5
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ed852cce-174a-4193-a648-de929f3b8c3d.png",
+      "alt" : "Potassium_logo",
+      "name" : "Potassium",
+      "id" : 6
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ca2a3a19-c6ba-4262-a914-d6487c2bdeca.png",
+      "alt" : "Selenium_logo",
+      "name" : "Selenium",
+      "id" : 7
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/1143ab1f-6751-4a27-979c-2ed3f336007c.png",
+      "alt" : "Iodine_logo",
+      "name" : "Iodine",
+      "id" : 8
+    },
+    {
+      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/5bce9b0d-2800-461d-baa5-d01e0d8e4d10.png",
+      "alt" : "Copper_logo",
+      "name" : "Copper",
+      "id" : 9
+    }
+  ],
+
+  "Ayurveda_sec" : [
+     {
+      "img" : "https://onemg.gumlet.io/ky83wvqf5xuygq63xgr3.jpg",
+      "name" : "Apple",
+      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+      "alt" : "ayurvede_apple_img",
+      "id" : 1
+     },
+     {
+      "img" : "https://onemg.gumlet.io/xcyxzwfyinrizijahzoe.jpg",
+      "name" : "Reetha",
+      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+      "alt" : "ayurvede_Reetha_img",
+      "id" : 2
+     },
+     {
+      "img" : "https://onemg.gumlet.io/anszmuxb3fezhvk63szv.jpg",
+      "name" : "Saraswatarishta",
+      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+      "alt" : "ayurvede_Saraswatarishta_img",
+      "id" : 3
+     },
+     {
+      "img" : "https://onemg.gumlet.io/cbqztsdftxjkqpwex4vy.png",
+      "name" : "Stone Flower",
+      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+      "alt" : "ayurvede_Stone_img",
+      "id" : 4
+     },
+     {
+      "img" : "https://onemg.gumlet.io/o0sxobkxrkxyezigfvyc.jpg",
+      "name" : "Anantamul",
+      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+      "alt" : "ayurvede_apple_img",
+      "id" : 5
+     },
+     {
+      "img" : "https://onemg.gumlet.io/f595svi2mlhmmnyx3xnt.jpg",
+      "name" : "Bamboo",
+      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+      "alt" : "ayurvede_Bamboo_img",
+      "id" : 6
+     },
+     {
+      "img" : "https://onemg.gumlet.io/udkbccvuqjdb0orcmgzj.jpg",
+      "name" : "Badi Elaichi",
+      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+      "alt" : "ayurvede_Elaichi_img",
+      "id" : 7
+     },
+     {
+      "img" : "https://onemg.gumlet.io/qnli7xwr95exilvpyqio.jpg",
+      "name" : "Munakka",
+      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+      "alt" : "ayurvede_Munakka_img",
+      "id" : 8
+     },
+     {
+      "img" : "https://onemg.gumlet.io/kvavoutc8bpjyan5ygk4.jpg",
+      "name" : "Vatsnabh",
+      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+      "alt" : "ayurvede_Vatsnabh_img",
+      "id" : 9
+     },
+     {
+      "img" : "https://onemg.gumlet.io/gk1qcvewpgqnxwb5suym.jpg",
+      "name" : "Chickpea",
+      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+      "alt" : "ayurvede_Chickpea_img",
+      "id" : 10
+     },
+     {
+      "img" : "https://onemg.gumlet.io/kk9vujwosiizp5ybpgxl.jpg",
+      "name" : "Akarkara",
+      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+      "alt" : "ayurvede_Akarkara_img",
+      "id" : 11
+     },
+     {
+      "img" : "https://onemg.gumlet.io/fxsz1qwyjchqjjrot9u2.jpg",
+      "name" : "patala",
+      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+      "alt" : "ayurvede_Patala_img",
+      "id" : 12
+     }
+  ],
+
   "multivitamins": [
     {
         "id": 1,

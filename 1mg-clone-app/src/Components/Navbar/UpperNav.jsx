@@ -4,8 +4,12 @@ import { GrCart } from "react-icons/gr";
 import LowerNav from "./LowerNav";
 import MiddleNav from "./MiddleNav";
 import { Link } from "react-router-dom";
+import { lightOrange } from "../../Colors/Color";
+import { useSelector } from "react-redux";
+import { store } from "../../Redux/store";
 
 const UpperNav = () => {
+  const cartItems = useSelector((store) => store.cartItems);
   return (
     <>
       <HStack py="1" px="1" mx="1">
@@ -111,7 +115,26 @@ const UpperNav = () => {
             _hover={{ cursor: "pointer" }}
           >
             <Link to="/cart">
-              <GrCart />
+              <Flex>
+                <GrCart />
+                <Box
+                  bg={lightOrange}
+                  display="flex"
+                  alignItems="center"
+                  justifyContent="center"
+                  height="18px"
+                  width="18px"
+                  fontSize="14px"
+                  borderRadius="5px"
+                  background="#ff6f61"
+                  boxShadow="0 0 1px #333"
+                  color="white"
+                  marginTop="-5px"
+                  marginLeft="-2px"
+                >
+                  {cartItems.length}
+                </Box>
+              </Flex>
             </Link>
           </Box>
           <Show above="xl">

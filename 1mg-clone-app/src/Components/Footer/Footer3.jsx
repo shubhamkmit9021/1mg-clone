@@ -236,7 +236,7 @@ const Footer3 = () => {
                       <Box px="1">
                         <Image
                           _hover={{ cursor: "pointer" }}
-                          src="https://cdn.icon-icons.com/icons2/3041/PNG/512/medium_logo_icon_189223.png"
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHvc3KaUA3oUQrm_0sfC937gw1HKfnsBe1A84wM6X9ATCcO5s2tRWmSDZuKxvb1WlU4e0&usqp=CAU"
                           w="27px"
                           m="auto"
                           alt="footer_medium_logo"
@@ -304,7 +304,10 @@ const Footer3 = () => {
         </Grid>
       </Box>
 
-      <></>
+      <>
+        <Footer4 />
+        <Footer5 />
+      </>
     </Box>
   );
 };

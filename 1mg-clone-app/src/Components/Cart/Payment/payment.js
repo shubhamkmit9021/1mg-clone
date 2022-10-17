@@ -1,11 +1,11 @@
-export default function payment() {
+export default function payment(cartItems) {
   fetch("https://express-stripe-server.herokuapp.com/create-checkout-session", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      items: [{ id: 1, quantity: 1, price: 620, name: "1mg Product" }],
+      items: [...cartItems],
       urls: {
         success: `http://localhost:3000/`,
         cancle: `http://localhost:3000/`,

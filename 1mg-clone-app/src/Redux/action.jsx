@@ -1,21 +1,27 @@
-import { ADDCART, REMOVEITEM, UPDATEBILL, UPDATE } from "./actionType";
+import { ADDCART, REMOVEITEM, UPDATE, SETCART, COUPON } from "./actionType";
 
 export const addtocart = (data) => ({
   type: ADDCART,
   payload: data,
 });
 
-export const removefromcart = (data) => ({
+export const removefromcart = (data, isRemoveButton) => ({
   type: REMOVEITEM,
   payload: data,
-});
-
-export const updatebill = () => ({
-  type: UPDATEBILL,
-  payload: "",
+  isRemoveButton: isRemoveButton,
 });
 
 export const update = (data) => ({
   type: UPDATE,
+  payload: data,
+});
+
+export const setcart = (data) => ({
+  type: SETCART,
+  payload: data,
+});
+
+export const coupon = (data) => ({
+  type: COUPON,
   payload: data,
 });

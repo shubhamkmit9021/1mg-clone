@@ -17,10 +17,12 @@ import {
   Box,
 } from "@chakra-ui/react";
 import { lightOrange } from "../../Colors/Color";
+import { useDispatch } from "react-redux";
+import { coupon } from "../../Redux/action";
 
 export default function Coupon() {
   const { isOpen, onOpen, onClose } = useDisclosure();
-
+  const dispatch = useDispatch();
   const initialRef = React.useRef(null);
   const finalRef = React.useRef(null);
   return (
@@ -104,7 +106,13 @@ export default function Coupon() {
                     class="CartCoupon__offer_icon___2-AD-"
                     src="https://www.masaischool.com/img/navbar/logo.svg"
                   />
-                  <Button color={lightOrange} bg="white">
+                  <Button
+                    color={lightOrange}
+                    bg="white"
+                    onClick={() => {
+                      dispatch(coupon(10));
+                    }}
+                  >
                     Apply
                   </Button>
                 </Box>
@@ -138,7 +146,9 @@ export default function Coupon() {
                     class="CartCoupon__offer_icon___2-AD-"
                     src="https://marketing-compaigns.s3.ap-south-1.amazonaws.com/emailer/Multi_coupon_logo/multi_coupon_logo.png"
                   />
-                  <Button color={lightOrange} bg="white">
+                  <Button color={lightOrange} bg="white" onClick={() => {
+                      dispatch(coupon(25));
+                    }}>
                     Apply
                   </Button>
                 </Box>
