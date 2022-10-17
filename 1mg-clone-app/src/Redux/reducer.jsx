@@ -1,9 +1,9 @@
 import { ADDCART, REMOVEITEM, COUPON, UPDATE, SETCART } from "./actionType";
 
-const calcTotal = (store) => {
+const calcTotal = (temp) => {
   let sum = 0;
   sum = 0;
-  store.cartItems.forEach((item) => {
+  temp.forEach((item) => {
     sum += item.price * item.quantity;
   });
   return sum;
@@ -25,15 +25,21 @@ export default function reducre(store, { type, payload, isRemoveButton }) {
       else temp = [...store.cartItems, payload];
       return {
         cartItems: [...temp],
-        totalBill: calcTotal(store),
+        totalBill: calcTotal(temp),
+        couponDiscount: store.couponDiscount,
       };
     case REMOVEITEM:
+      if (store.cartItems.length === 0) store.totalBill = 0;
       if (isRemoveButton) {
         let arr = [];
         store.cartItems.forEach((item) => {
           if (item.id !== payload.id) arr.push(item);
         });
-        return { cartItems: [...arr], totalBill: calcTotal(store) };
+        return {
+          cartItems: [...arr],
+          totalBill: calcTotal(arr),
+          couponDiscount: store.couponDiscount,
+        };
       } else {
         if (payload.quantity > 1) {
           let q = payload.quantity - 1;
@@ -44,28 +50,24 @@ export default function reducre(store, { type, payload, isRemoveButton }) {
           });
           return {
             cartItems: [...store.cartItems],
-            totalBill: calcTotal(store),
+            totalBill: calcTotal(store.cartItems),
+            couponDiscount: store.couponDiscount,
           };
         } else {
           let arr = [];
           store.cartItems.forEach((item) => {
             if (item.id !== payload.id) arr.push(item);
           });
-          return { cartItems: [...arr], totalBill: calcTotal(store) };
+          return {
+            cartItems: [...arr],
+            totalBill: calcTotal(arr),
+            couponDiscount: store.couponDiscount,
+          };
         }
       }
-
-    case UPDATE:
-      store.cartItems.forEach((item) => {
-        if (item.deal.id === payload.id) item.deal.quantity = payload.quantity;
-      });
-      return { cartItems: [...store.cartItems], totalBill: calcTotal(store) };
     case COUPON:
-      let sum = 0;
-      store.cartItems.forEach((item) => {
-        sum += (item.price - (item.price * payload) / 100) * item.quantity;
-      });
-      return { ...store, totalBill: sum };
+      console.log("coupon discoutn store=", store);
+      return { ...store, couponDiscount: payload };
 
     default:
       return store;

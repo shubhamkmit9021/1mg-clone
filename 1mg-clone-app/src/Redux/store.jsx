@@ -10,8 +10,11 @@ export const store = createStore(
 );
 
 store.subscribe(() => {
+  let tb = store.getState().totalBill;
+  if (store.getState().cartItems.length === 0) tb = 0;
   saveState({
     cartItems: store.getState().cartItems,
-    totalBill: store.getState().totalBill,
+    totalBill: tb,
+    couponDiscount: store.getState().couponDiscount,
   });
 });

@@ -4,6 +4,8 @@ import { lightOrange } from "../../Colors/Color";
 import payment from "./Payment/payment";
 export default function CheckoutButton() {
   let cartItems = useSelector((store) => store.cartItems);
+  const discount = useSelector((store) => store.couponDiscount);
+
   let location = "Delhi";
   return (
     <Box
@@ -30,7 +32,17 @@ export default function CheckoutButton() {
           width="99%"
           _hover={{ bg: "teal.600" }}
           onClick={() => {
-            payment(cartItems);
+            let cItem = cartItems.map((item, index) => {
+              if (discount > 0) {
+                item.price = item.price - (item.price * (discount + 10)) / 100;
+              } else {
+                item.price = item.price - (item.price * 10) / 100;
+              }
+
+              return item;
+            });
+            console.log(cItem);
+            payment(cItem);
           }}
         >
           Checkout
