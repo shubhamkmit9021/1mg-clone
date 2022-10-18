@@ -21,19 +21,24 @@ import LowerNav from "./LowerNav";
 import MiddleNav from "./MiddleNav";
 import { Link } from "react-router-dom";
 import { lightOrange } from "../../Colors/Color";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { store } from "../../Redux/store";
 import { useRef, useState } from "react";
 import LoginCommon from "../Login/LoginCommon";
+import { isauth } from "../../Redux/action";
 
 const UpperNav = () => {
   const cartItems = useSelector((store) => store.cartItems);
   const { isOpen, onOpen, onClose } = useDisclosure();
   const initialRef = React.useRef(null);
   const finalRef = React.useRef(null);
+  const [isLogin, SetIsLogin] = useState(false);
   const ref = useRef(null);
   let a = localStorage.getItem("isAuth");
+  let name = localStorage.getItem("name");
+  const reduxIsAuth = useSelector((store) => store.isAuth);
   const [isAuth, SetIsAuth] = useState(a);
+  const dispatch = useDispatch();
   return (
     <>
       <HStack py="1" px="1" mx="1">
@@ -109,8 +114,8 @@ const UpperNav = () => {
           justifyContent="space-evenly"
         >
           <Box>
-            {!isAuth ? (
-              <Box>
+            {!reduxIsAuth ? (
+              <Box display="flex">
                 <Text
                   onClick={onOpen}
                   fontSize={{
@@ -133,14 +138,34 @@ const UpperNav = () => {
                   localStorage.setItem("isAuth", "false");
                   SetIsAuth(false);
                 }}
+                display="flex"
+                gap="10px"
               >
-                LOGOUT
+                <Box display="flex">
+                  <img
+                    src="https://img.icons8.com/ios-glyphs/2x/user.png"
+                    alt="logo"
+                    style={{ height: "25px", width: "25px" }}
+                  />
+                  <Text>{name}</Text>
+                </Box>
+                <Box
+                  color={lightOrange}
+                  fontWeight="600"
+                  onClick={() => {
+                    dispatch(isauth(false));
+                  }}
+                >
+                  LOGOUT
+                </Box>
               </Box>
             )}
 
             <LoginCommon
               isOpen={isOpen}
               onClose={onClose}
+              isLogin={isLogin}
+              SetIsLogin={SetIsLogin}
               details={{
                 Title: "Login",
                 desc: "Get access to your orders, lab tests & doctor consultations",

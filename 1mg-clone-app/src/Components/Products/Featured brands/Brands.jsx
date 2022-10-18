@@ -56,7 +56,7 @@ const Brands = () => {
   useEffect(() => {
     const getdata = () => {
       setLoading(true);
-      fetch(`https://json-server-1mg.onrender.com/brands`)
+      fetch(`https://json-server-1mg.herokuapp.com/brands`)
         .then((res) => res.json())
         .then((data) => {
           setAllData(data);

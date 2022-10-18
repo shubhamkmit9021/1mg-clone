@@ -58,7 +58,7 @@ function Multivitamins() {
 
   const loadProducts = async () => {
     return await axios
-      .get(`https://json-server-1mg.onrender.com/multivitamins`)
+      .get(`https://json-server-1mg.herokuapp.com/multivitamins`)
       .then((response) => setData(response.data))
       .catch((err) => console.log(err));
   };
@@ -69,27 +69,27 @@ function Multivitamins() {
     if (value == "Ratings") {
       return await axios
         .get(
-          `https://json-server-1mg.onrender.com/multivitamins?_sort=ratings&_order=desc`
+          `https://json-server-1mg.herokuapp.com/multivitamins?_sort=ratings&_order=desc`
         )
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     } else if (value == "Price : Low To High") {
       return await axios
         .get(
-          `https://json-server-1mg.onrender.com/multivitamins?_sort=final_price&_order=asc`
+          `https://json-server-1mg.herokuapp.com/multivitamins?_sort=final_price&_order=asc`
         )
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     } else if (value == "Price : High To Low") {
       return await axios
         .get(
-          `https://json-server-1mg.onrender.com/multivitamins?_sort=final_price&_order=desc`
+          `https://json-server-1mg.herokuapp.com/multivitamins?_sort=final_price&_order=desc`
         )
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     } else {
       return await axios
-        .get(`https://json-server-1mg.onrender.com/multivitamins`)
+        .get(`https://json-server-1mg.herokuapp.com/multivitamins`)
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     }
@@ -102,7 +102,7 @@ function Multivitamins() {
   const dispatch = useDispatch();
   useEffect(() => {
     setLoading(true);
-    fetch(`https://json-server-1mg.onrender.com/TopDealsMV`)
+    fetch(`https://json-server-1mg.herokuapp.com/TopDealsMV`)
       .then((res) => res.json())
       .then((res) => setDeals(res))
       .catch(() => setError(true))
@@ -110,7 +110,7 @@ function Multivitamins() {
   }, []);
   useEffect(() => {
     setLoading(true);
-    fetch(`https://json-server-1mg.onrender.com/categoriesMV`)
+    fetch(`https://json-server-1mg.herokuapp.com/categoriesMV`)
       .then((res) => res.json())
       .then((res) => setCategories(res))
       .catch(() => setError(true))

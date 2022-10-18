@@ -58,7 +58,7 @@ const MineralSupliment = () => {
   useEffect(() => {
     const getdata = () => {
       setLoading(true);
-      fetch(`https://json-server-1mg.onrender.com/MineralSupliment_sec`)
+      fetch(`https://json-server-1mg.herokuapp.com/MineralSupliment_sec`)
         .then((res) => res.json())
         .then((data) => {
           setAllData(data);

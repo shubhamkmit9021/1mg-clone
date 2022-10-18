@@ -40,7 +40,7 @@ function App() {
   return (
     <Box>
       <ScrollToTop />
-      <ScrollToBottom />
+      {/* <ScrollToBottom /> */}
       <UpperNav />
       <UpperMiddle />
       <UpperHeading />

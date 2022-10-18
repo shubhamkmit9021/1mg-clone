@@ -34168,7 +34168,7 @@
           return (
             (0, e.useEffect)(function () {
               a(!0),
-                fetch("https://json-server-1mg.onrender.com/SlidingBox_sec1")
+                fetch("https://json-server-1mg.herokuapp.com/SlidingBox_sec1")
                   .then(function (e) {
                     return e.json();
                   })
@@ -34319,7 +34319,7 @@
           return (
             (0, e.useEffect)(function () {
               a(!0),
-                fetch("https://json-server-1mg.onrender.com/Ayurveda_sec")
+                fetch("https://json-server-1mg.herokuapp.com/Ayurveda_sec")
                   .then(function (e) {
                     return e.json();
                   })
@@ -34433,7 +34433,7 @@
             (0, e.useEffect)(function () {
               a(!0),
                 fetch(
-                  "https://json-server-1mg.onrender.com/MineralSupliment_sec"
+                  "https://json-server-1mg.herokuapp.com/MineralSupliment_sec"
                 )
                   .then(function (e) {
                     return e.json();
@@ -35547,7 +35547,7 @@
           return (
             (0, e.useEffect)(function () {
               a(!0),
-                fetch("https://json-server-1mg.onrender.com/Disease_sec")
+                fetch("https://json-server-1mg.herokuapp.com/Disease_sec")
                   .then(function (e) {
                     return e.json();
                   })
@@ -35669,7 +35669,7 @@
           return (
             (0, e.useEffect)(function () {
               a(!0),
-                fetch("https://json-server-1mg.onrender.com/brands")
+                fetch("https://json-server-1mg.herokuapp.com/brands")
                   .then(function (e) {
                     return e.json();
                   })
@@ -37320,8 +37320,8 @@
                           body: JSON.stringify({
                             items: C(e),
                             urls: {
-                              success: "https://json-server-1mg.onrender.com/",
-                              cancle: "https://json-server-1mg.onrender.com/",
+                              success: "https://json-server-1mg.herokuapp.com/",
+                              cancle: "https://json-server-1mg.herokuapp.com/",
                             },
                           }),
                         }
@@ -44808,7 +44808,7 @@
                           (e.next = 2),
                           rP
                             .get(
-                              "https://json-server-1mg.onrender.com/multivitamins"
+                              "https://json-server-1mg.herokuapp.com/multivitamins"
                             )
                             .then(function (e) {
                               return a(e.data);
@@ -44846,7 +44846,7 @@
                           (e.next = 5),
                           rP
                             .get(
-                              "https://json-server-1mg.onrender.com/multivitamins?_sort=ratings&_order=desc"
+                              "https://json-server-1mg.herokuapp.com/multivitamins?_sort=ratings&_order=desc"
                             )
                             .then(function (e) {
                               return a(e.data);
@@ -44869,7 +44869,7 @@
                           (e.next = 11),
                           rP
                             .get(
-                              "https://json-server-1mg.onrender.com/multivitamins?_sort=final_price&_order=asc"
+                              "https://json-server-1mg.herokuapp.com/multivitamins?_sort=final_price&_order=asc"
                             )
                             .then(function (e) {
                               return a(e.data);
@@ -44887,7 +44887,7 @@
                           (e.next = 17),
                           rP
                             .get(
-                              "https://json-server-1mg.onrender.com/multivitamins?_sort=final_price&_order=desc"
+                              "https://json-server-1mg.herokuapp.com/multivitamins?_sort=final_price&_order=desc"
                             )
                             .then(function (e) {
                               return a(e.data);
@@ -44901,7 +44901,7 @@
                           (e.next = 22),
                           rP
                             .get(
-                              "https://json-server-1mg.onrender.com/multivitamins"
+                              "https://json-server-1mg.herokuapp.com/multivitamins"
                             )
                             .then(function (e) {
                               return a(e.data);
@@ -44928,7 +44928,7 @@
         return (
           (0, e.useEffect)(function () {
             r(!0),
-              fetch("https://json-server-1mg.onrender.com/TopDealsMV")
+              fetch("https://json-server-1mg.herokuapp.com/TopDealsMV")
                 .then(function (e) {
                   return e.json();
                 })
@@ -44944,7 +44944,7 @@
           }, []),
           (0, e.useEffect)(function () {
             r(!0),
-              fetch("https://json-server-1mg.onrender.com/categoriesMV")
+              fetch("https://json-server-1mg.herokuapp.com/categoriesMV")
                 .then(function (e) {
                   return e.json();
                 })
@@ -46027,7 +46027,9 @@
                         return (
                           (e.next = 2),
                           rP
-                            .get("https://json-server-1mg.onrender.com/devices")
+                            .get(
+                              "https://json-server-1mg.herokuapp.com/devices"
+                            )
                             .then(function (e) {
                               return a(e.data);
                             })
@@ -46064,7 +46066,7 @@
                           (e.next = 5),
                           rP
                             .get(
-                              "https://json-server-1mg.onrender.com/devices?_sort=ratings&_order=desc"
+                              "https://json-server-1mg.herokuapp.com/devices?_sort=ratings&_order=desc"
                             )
                             .then(function (e) {
                               return a(e.data);
@@ -46087,7 +46089,7 @@
                           (e.next = 11),
                           rP
                             .get(
-                              "https://json-server-1mg.onrender.com/devices?_sort=final_price&_order=asc"
+                              "https://json-server-1mg.herokuapp.com/devices?_sort=final_price&_order=asc"
                             )
                             .then(function (e) {
                               return a(e.data);
@@ -46105,7 +46107,7 @@
                           (e.next = 17),
                           rP
                             .get(
-                              "https://json-server-1mg.onrender.com/devices?_sort=final_price&_order=desc"
+                              "https://json-server-1mg.herokuapp.com/devices?_sort=final_price&_order=desc"
                             )
                             .then(function (e) {
                               return a(e.data);
@@ -46118,7 +46120,9 @@
                         return (
                           (e.next = 22),
                           rP
-                            .get("https://json-server-1mg.onrender.com/devices")
+                            .get(
+                              "https://json-server-1mg.herokuapp.com/devices"
+                            )
                             .then(function (e) {
                               return a(e.data);
                             })
@@ -46143,7 +46147,7 @@
         return (
           (0, e.useEffect)(function () {
             r(!0),
-              fetch("https://json-server-1mg.onrender.com/TopDealsDV")
+              fetch("https://json-server-1mg.herokuapp.com/TopDealsDV")
                 .then(function (e) {
                   return e.json();
                 })
@@ -46159,7 +46163,7 @@
           }, []),
           (0, e.useEffect)(function () {
             r(!0),
-              fetch("https://json-server-1mg.onrender.com/categoriesDV")
+              fetch("https://json-server-1mg.herokuapp.com/categoriesDV")
                 .then(function (e) {
                   return e.json();
                 })
@@ -51672,16 +51676,14 @@
           e.createElement(AM, k({}, i))
         );
       }
-      r
-        .createRoot(document.getElementById("root"))
-        .render(
-          (0, y.jsx)(gx, {
-            store: Mx,
-            children: (0, y.jsx)(Jy, {
-              children: (0, y.jsx)(RM, { children: (0, y.jsx)($P, {}) }),
-            }),
-          })
-        ),
+      r.createRoot(document.getElementById("root")).render(
+        (0, y.jsx)(gx, {
+          store: Mx,
+          children: (0, y.jsx)(Jy, {
+            children: (0, y.jsx)(RM, { children: (0, y.jsx)($P, {}) }),
+          }),
+        })
+      ),
         eO();
     })();
 })();
