@@ -1,1864 +1,2486 @@
 {
-  "cart":[],
-  "SlidingBox_sec1": [
-    {
-      "img" : "https://onemg.gumlet.io/de43ae64-d8d7-485b-ab91-0af519ed941d_1663831589.png?w=899&h=200&format=auto",
-      "alt" : "sec1_img1",
-      "id" : 1
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/8f58c83e-8fc3-4a45-9278-e30a6859ba9d.png",
-      "alt" : "sec1_img2",
-      "id" : 2
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/f4ead24d-add9-42fe-a508-c62f4f1feeff.png",
-      "alt" : "sec1_img3",
-      "id" : 3
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_891,h_200,c_fit,q_auto,f_auto/80d4cc9a-57a9-447e-866d-10d8d99b62de.png",
-      "alt" : "sec1_img4",
-      "id" : 4
-    },
-    {
-      "img" : "https://onemg.gumlet.io/19a4fe54-3a77-411b-9e53-9adbacfbd9e9_1664865792.jpg?w=899&h=200&format=auto",
-      "alt" : "sec1_img5",
-      "id" : 5
-    },
-    {
-      "img" : "https://onemg.gumlet.io/5f1c29c8-9d81-4240-9458-fe18de1000af_1665467859.png?w=891&h=200&format=auto",
-      "alt" : "sec1_img6",
-      "id" : 6
-    },
-    {
-      "img" : "https://onemg.gumlet.io/35d1fb1e-d2da-433b-9f78-54c9f2e49165_1664894436.png?w=899&h=200&format=auto",
-      "alt" : "sec1_img7",
-      "id" : 7
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a5da0db7-ddf0-4890-9829-02d20285e859_1663825108.png?w=899&h=200&format=auto",
-      "alt" : "sec1_img8",
-      "id" : 8
-    },
-    {
-      "img" : "https://onemg.gumlet.io/ca163b43-ce33-4440-b5c8-cb4d7ff58e43_1664853845.jpg?w=899&h=200&format=auto",
-      "alt" : "sec1_img9",
-      "id" : 9
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a6cc9e12-5384-4790-a546-d5424f58d037_1665558947.jpg?w=899&h=200&format=auto",
-      "alt" : "sec1_img10",
-      "id" : 10
-    }
-  ],
-    
-  "Disease_sec" : [
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e3katuw3w1qdfiv0cbjn.png",
-       "alt" : "sec2_img1",
-       "name" : "Diabetes Care",
-       "id" : 1
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/bal76mxxccyhrti2erkn.png",
-       "alt" : "sec2_img2",
-       "name" : "Cardiac Care",
-       "id" : 2
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/l2zrxcsfyguccggnkp4m.png",
-       "alt" : "sec2_img3",
-       "name" : "Stomach Care",
-       "id" : 3
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/klrkvhzloqbyt6z8cvgv.png",
-       "alt" : "sec2_img4",
-       "name" : "Liver Care",
-       "id" : 4
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/zd1jcixlqcmxlxlmgitc.png",
-       "alt" : "sec2_img5",
-       "name" : "Bone, Joint & Muscle Care",
-       "id" : 5
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/c0o3w8wdjnzesk2pshcr.png",
-       "alt" : "sec2_img6",
-       "name" : "Kidney Care",
-       "id" : 6
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/vsyneobahnsdqzllvzuv.png",
-       "alt" : "sec2_img7",
-       "name" : "Pain Relief",
-       "id" : 7
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/wgixpbxnlrd79lzhpsi3.png",
-       "alt" : "sec2_img8",
-       "name" : "Respiratory Care",
-       "id" : 8
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/laztovaqkws3bo1ywff0.png",
-       "alt" : "sec2_img9",
-       "name" : "Eye Care" ,    
-       "id" : 9     
-    }
-
-  ],
-
-  "brands" : [
-    {
-     "id" : 1,
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d8cf5b43-f660-47af-be76-c203f422650e.png",
-      "alt" : "brand_img1",
-      "name" : "Dr. Morepen"
-    },
-    {
-      "id" : 2,
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/38e1f526-af63-4ed9-9382-1c807aaf9aab.png",
-       "alt" : "brand_img2",
-       "name" : "Hansaplast"
-     },
-     {
-      "id" : 3,
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d1c09b4a-0bf0-42cf-806d-28e0f7b031bf.png",
-       "alt" : "brand_img3",
-       "name" : "Dabur"
-     },
-     {
-      "id" : 4,
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e16980e0-61f0-4215-bbb9-f1403c23cd52.png",
-       "alt" : "brand_img4",
-       "name" : "Protinex"
-     },
-     {
-      "id" : 5,
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d60a9791-bf2c-40b7-b782-2b5e7d069f8a.jpg",
-       "alt" : "brand_img5",
-       "name" : "Optimum Nutrition"
-     },
-     {
-      "id" : 6,
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/1e238702-1383-4186-81aa-39db49890337.png",
-       "alt" : "brand_img6",
-       "name" : "Revital"
-     },
-     {
-      "id" : 7,
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/1eb7fdd0-bb11-4b5a-aab9-7f99776192b5.png",
-       "alt" : "brand_img7",
-       "name" : "Organic India"
-     },
-     {
-      "id" : 8,
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/34c3b73d-1f59-4f23-9c79-beef864b4bc1.png",
-       "alt" : "brand_img8",
-       "name" : "Himalaya"
-     },
-     {
-      "id" : 9,
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e2b00f58-40d9-4766-9956-3c50e620450a.png",
-       "alt" : "brand_img9",
-       "name" : "Zandu"
-     }
-
-  ],
-
-  "Top_Sellers" : [
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ll16prunudl5wg9dkjyo.jpg",
-      "alt" : "top_sellers_img1",
-      "title" : "Mamaearth Onion Hair Oil",
-      "desc" : "bottle of 150 ml oil",
-      "striked" : {
-        "s1" : "MRP",
-        "s2" : "₹419",
-        "s3" : "23% off"
-      },
-      "price" : "₹323"
-    },
-    {
-      "img" : "",
-      "alt" : "top_sellers_img1",
-      "title" : "",
-      "desc" : "",
-      "striked" : {
-        "s1" : "MRP",
-        "s2" : "₹419",
-        "s3" : "23% off"
-      },
-      "price" : "₹323"
-    },
-    {
-      "img" : "",
-      "alt" : "top_sellers_img1",
-      "title" : "",
-      "desc" : "",
-      "striked" : {
-        "s1" : "MRP",
-        "s2" : "₹419",
-        "s3" : "23% off"
-      },
-      "price" : "₹323"
-    },
-
-    {
-      "img" : "",
-      "alt" : "top_sellers_img1",
-      "title" : "",
-      "desc" : "",
-      "striked" : {
-        "s1" : "MRP",
-        "s2" : "₹419",
-        "s3" : "23% off"
-      },
-      "price" : "₹323"
-    }, {
-      "img" : "",
-      "alt" : "top_sellers_img1",
-      "title" : "",
-      "desc" : "",
-      "striked" : {
-        "s1" : "MRP",
-        "s2" : "₹419",
-        "s3" : "23% off"
-      },
-      "price" : "₹323"
-    },
-    {
-      "img" : "",
-      "alt" : "top_sellers_img1",
-      "title" : "",
-      "desc" : "",
-      "striked" : {
-        "s1" : "MRP",
-        "s2" : "₹419",
-        "s3" : "23% off"
-      },
-      "price" : "₹323"
-    },
-    {
-      "img" : "",
-      "alt" : "top_sellers_img1",
-      "title" : "",
-      "desc" : "",
-      "striked" : {
-        "s1" : "MRP",
-        "s2" : "₹419",
-        "s3" : "23% off"
-      },
-      "price" : "₹323"
-    },
-    {
-      "img" : "",
-      "alt" : "top_sellers_img1",
-      "title" : "",
-      "desc" : "",
-      "striked" : {
-        "s1" : "MRP",
-        "s2" : "₹419",
-        "s3" : "23% off"
-      },
-      "price" : "₹323"
-    },
-    {
-      "img" : "",
-      "alt" : "top_sellers_img1",
-      "title" : "",
-      "desc" : "",
-      "striked" : {
-        "s1" : "MRP",
-        "s2" : "₹419",
-        "s3" : "23% off"
-      },
-      "price" : "₹323"
-    }
-
-  ],
-
-  "MineralSupliment_sec" : [
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/b0f8255d-02c3-4640-b177-2a7240226835.png",
-      "alt" : "Multivitamins_logo",
-      "name" : "Multivitamins",
-      "id" : 1
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/8309a29c-acf2-4bde-ac80-dc26052769c1.png",
-      "alt" : "Zinc_logo",
-      "name" : "Zinc",
-      "id" : 2
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/6fac001e-0aaf-4265-9ee1-0ddff472df24.png",
-      "alt" : "Calcium_logo",
-      "name" : "Calcium",
-      "id" : 3
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/5091c541-5248-4c2a-b68a-9a62fd8506e1.png",
-      "alt" : "Iron_logo",
-      "name" : "Iron",
-      "id" : 4
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/2152f9e9-1cb3-4efb-b86f-2e212f0dde81.png",
-      "alt" : "Magnesium_logo",
-      "name" : "Magnesium",
-      "id" : 5
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ed852cce-174a-4193-a648-de929f3b8c3d.png",
-      "alt" : "Potassium_logo",
-      "name" : "Potassium",
-      "id" : 6
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ca2a3a19-c6ba-4262-a914-d6487c2bdeca.png",
-      "alt" : "Selenium_logo",
-      "name" : "Selenium",
-      "id" : 7
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/1143ab1f-6751-4a27-979c-2ed3f336007c.png",
-      "alt" : "Iodine_logo",
-      "name" : "Iodine",
-      "id" : 8
-    },
-    {
-      "img" : "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/5bce9b0d-2800-461d-baa5-d01e0d8e4d10.png",
-      "alt" : "Copper_logo",
-      "name" : "Copper",
-      "id" : 9
-    }
-  ],
-
-  "Ayurveda_sec" : [
-     {
-      "img" : "https://onemg.gumlet.io/ky83wvqf5xuygq63xgr3.jpg",
-      "name" : "Apple",
-      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
-      "alt" : "ayurvede_apple_img",
-      "id" : 1
-     },
-     {
-      "img" : "https://onemg.gumlet.io/xcyxzwfyinrizijahzoe.jpg",
-      "name" : "Reetha",
-      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
-      "alt" : "ayurvede_Reetha_img",
-      "id" : 2
-     },
-     {
-      "img" : "https://onemg.gumlet.io/anszmuxb3fezhvk63szv.jpg",
-      "name" : "Saraswatarishta",
-      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
-      "alt" : "ayurvede_Saraswatarishta_img",
-      "id" : 3
-     },
-     {
-      "img" : "https://onemg.gumlet.io/cbqztsdftxjkqpwex4vy.png",
-      "name" : "Stone Flower",
-      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
-      "alt" : "ayurvede_Stone_img",
-      "id" : 4
-     },
-     {
-      "img" : "https://onemg.gumlet.io/o0sxobkxrkxyezigfvyc.jpg",
-      "name" : "Anantamul",
-      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
-      "alt" : "ayurvede_apple_img",
-      "id" : 5
-     },
-     {
-      "img" : "https://onemg.gumlet.io/f595svi2mlhmmnyx3xnt.jpg",
-      "name" : "Bamboo",
-      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
-      "alt" : "ayurvede_Bamboo_img",
-      "id" : 6
-     },
-     {
-      "img" : "https://onemg.gumlet.io/udkbccvuqjdb0orcmgzj.jpg",
-      "name" : "Badi Elaichi",
-      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
-      "alt" : "ayurvede_Elaichi_img",
-      "id" : 7
-     },
-     {
-      "img" : "https://onemg.gumlet.io/qnli7xwr95exilvpyqio.jpg",
-      "name" : "Munakka",
-      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
-      "alt" : "ayurvede_Munakka_img",
-      "id" : 8
-     },
-     {
-      "img" : "https://onemg.gumlet.io/kvavoutc8bpjyan5ygk4.jpg",
-      "name" : "Vatsnabh",
-      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
-      "alt" : "ayurvede_Vatsnabh_img",
-      "id" : 9
-     },
-     {
-      "img" : "https://onemg.gumlet.io/gk1qcvewpgqnxwb5suym.jpg",
-      "name" : "Chickpea",
-      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
-      "alt" : "ayurvede_Chickpea_img",
-      "id" : 10
-     },
-     {
-      "img" : "https://onemg.gumlet.io/kk9vujwosiizp5ybpgxl.jpg",
-      "name" : "Akarkara",
-      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
-      "alt" : "ayurvede_Akarkara_img",
-      "id" : 11
-     },
-     {
-      "img" : "https://onemg.gumlet.io/fxsz1qwyjchqjjrot9u2.jpg",
-      "name" : "patala",
-      "desc" : "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
-      "alt" : "ayurvede_Patala_img",
-      "id" : 12
-     }
-  ],
-
-  "multivitamins": [
-    {
-        "id": 1,
-        "name": "HealthVit Vitamin B12 500mcg Tablet",
-        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/devq94ucekijc0d7vlbd/healthvit-vitamin-b12-500mcg-tablet.jpg",
-        "price": 200,
-        "final_price": 128,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 2,
-        "name": "HealthVit Cenvitan Multivitamin Tablet",
-        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/a7xr3jsvuophvvsn7yua/healthvit-cenvitan-men-multivitamin-multimineral-tablet.jpg",
-        "price": 500,
-        "final_price": 299,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 3,
-        "name": "HealthVit ZMA Multivitamins Capsule",
-        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/oxxwpcvmknokvhnmex04/healthvit-zma-capsule.jpg",
-        "price": 1100,
-        "final_price": 649,
-        "ratings": 4.3,
-        "detail": "bottle of 90 capsules",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 4,
-        "name": "HealthyHey Nutrition Selenium Vegetable Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/beohs1b4nqzd5jg1pghg/healthyhey-nutrition-selenium-natural-vitamin-e-vegetable-capsule.jpg",
-        "price": 1599,
-        "final_price": 799,
-        "ratings": 4.5,
-        "detail": "bottle of 120 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    },
-    {
-        "id": 5,
-        "name": "HealthyHey Nutrition CoQ 10 Vegetable Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/3367a0a2ac7b4463b3b96be7c42d7dff/healthyhey-nutrition-coq-10-bioperine-125mg-vegetable-capsule.jpg",
-        "price": 1999,
-        "final_price": 1399,
-        "ratings": 4.1,
-        "detail": "bottle of 60 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 6,
-        "name": "HealthyHey Nutrition Hydrolysed Bovine Collagen",
-        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/m347nngafmfpohyazlls/healthyhey-nutrition-gold-series-hydrolysed-bovine-collagen-type-1-3-orange.jpg",
-        "price": 2499,
-        "final_price": 1299,
-        "ratings": 4.5,
-        "detail": "Jar of 200gm powder",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 7,
-        "name": "Inlife Vitamin B12 ALA Tablet with vitamin B12",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/mzik3zmrcgmafcg0gdyr/inlife-vitamin-b12-ala-tablet.png",
-        "price": 600,
-        "final_price": 399,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 8,
-        "name": "Inlife Iron Folic Acid Supplement Tablet",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/tjoec3grck4nnmnx2pzx/inlife-iron-folic-acid-supplement-with-vitamin-c-e-b12-zinc-selenium-tablet.jpg",
-        "price": 600,
-        "final_price": 300,
-        "ratings": 4.4,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    },
-    {
-        "id": 9,
-        "name": "Inlife Hair, Skin & Nails Gummies Strawberry Gluten",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/usbzyvwnnmrvpyzhakqo/inlife-hair-skin-nails-gummies-strawberry-gluten-free.jpg",
-        "price": 699,
-        "final_price": 384,
-        "ratings": 3.8,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 10,
-        "name": "NOW Foods Potassium Citrate 99mg Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/c6yswyvohau8ur6njjoc/now-foods-potassium-citrate-99mg-capsule.jpg",
-        "price": 2000,
-        "final_price": 1920,
-        "ratings": 4.0,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 11,
-        "name": "NOW Foods Liver Refresh Veg Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/qm9tmat3g6pqfmuka7hz/now-foods-liver-refresh-veg-capsule.jpg",
-        "price": 3199,
-        "final_price": 2502,
-        "ratings": 4.2,
-        "detail": "bottle of 110 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 12,
-        "name": "NOW Foods Calcium D-Glucarate 500mg Veg Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/zghxv9iw6f9v0x3sjpr2/now-foods-calcium-d-glucarate-500mg-veg-capsule.jpg",
-        "price": 3999,
-        "final_price": 3999,
-        "ratings": 4.2,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    },
-    {
-        "id": 13,
-        "name": "GNC Triple Strength Fish Oil Softgel for Bones",
-        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/cropped/knpi7bseg4px54e3bs4k/gnc-triple-strength-fish-oil-softgel.jpg",
-        "price": 1599,
-        "final_price": 943,
-        "ratings": 4.5,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 14,
-        "name": "GNC Pro Performance BCAA Advanced Tangy Orange",
-        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/oxyfi9owon6pcagjmtdp/gnc-pro-performance-amp-gold-series-bcaa-advanced-tangy-orange.jpg",
-        "price": 2299,
-        "final_price": 1799,
-        "ratings": 4.1,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 15,
-        "name": "GNC Pro Whey Protein Chocolate Supreme",
-        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/tufbxxd6ooedkb38yw5v/gnc-pro-performance-100-whey-protein-chocolate-supreme.jpg",
-        "price": 8499,
-        "final_price": 7124,
-        "ratings": 4.4,
-        "detail": "Jar of 2 kg Chocolate flavour powder",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    },
-    {
-        "id": 16,
-        "name": "HealthVit Vitamin B12 500mcg Tablet",
-        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/devq94ucekijc0d7vlbd/healthvit-vitamin-b12-500mcg-tablet.jpg",
-        "price": 200,
-        "final_price": 128,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 17,
-        "name": "HealthVit Cenvitan Multivitamin Tablet",
-        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/a7xr3jsvuophvvsn7yua/healthvit-cenvitan-men-multivitamin-multimineral-tablet.jpg",
-        "price": 500,
-        "final_price": 299,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 18,
-        "name": "HealthVit ZMA Multivitamins Capsule",
-        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/oxxwpcvmknokvhnmex04/healthvit-zma-capsule.jpg",
-        "price": 1100,
-        "final_price": 649,
-        "ratings": 4.3,
-        "detail": "bottle of 90 capsules",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 19,
-        "name": "HealthyHey Nutrition Selenium Vegetable Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/beohs1b4nqzd5jg1pghg/healthyhey-nutrition-selenium-natural-vitamin-e-vegetable-capsule.jpg",
-        "price": 1599,
-        "final_price": 799,
-        "ratings": 4.5,
-        "detail": "bottle of 120 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    },
-    {
-        "id": 20,
-        "name": "HealthyHey Nutrition CoQ 10 Vegetable Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/3367a0a2ac7b4463b3b96be7c42d7dff/healthyhey-nutrition-coq-10-bioperine-125mg-vegetable-capsule.jpg",
-        "price": 1999,
-        "final_price": 1399,
-        "ratings": 4.1,
-        "detail": "bottle of 60 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 21,
-        "name": "HealthyHey Nutrition Hydrolysed Bovine Collagen",
-        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/m347nngafmfpohyazlls/healthyhey-nutrition-gold-series-hydrolysed-bovine-collagen-type-1-3-orange.jpg",
-        "price": 2499,
-        "final_price": 1299,
-        "ratings": 4.5,
-        "detail": "Jar of 200gm powder",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 22,
-        "name": "Inlife Vitamin B12 ALA Tablet with vitamin B12",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/mzik3zmrcgmafcg0gdyr/inlife-vitamin-b12-ala-tablet.png",
-        "price": 600,
-        "final_price": 399,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 23,
-        "name": "Inlife Iron Folic Acid Supplement Tablet",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/tjoec3grck4nnmnx2pzx/inlife-iron-folic-acid-supplement-with-vitamin-c-e-b12-zinc-selenium-tablet.jpg",
-        "price": 600,
-        "final_price": 300,
-        "ratings": 4.4,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    },
-    {
-        "id": 24,
-        "name": "Inlife Hair, Skin & Nails Gummies Strawberry Gluten",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/usbzyvwnnmrvpyzhakqo/inlife-hair-skin-nails-gummies-strawberry-gluten-free.jpg",
-        "price": 699,
-        "final_price": 384,
-        "ratings": 3.8,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 25,
-        "name": "NOW Foods Potassium Citrate 99mg Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/c6yswyvohau8ur6njjoc/now-foods-potassium-citrate-99mg-capsule.jpg",
-        "price": 2000,
-        "final_price": 1920,
-        "ratings": 4.0,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 26,
-        "name": "NOW Foods Liver Refresh Veg Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/qm9tmat3g6pqfmuka7hz/now-foods-liver-refresh-veg-capsule.jpg",
-        "price": 3199,
-        "final_price": 2502,
-        "ratings": 4.2,
-        "detail": "bottle of 110 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 27,
-        "name": "NOW Foods Calcium D-Glucarate 500mg Veg Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/zghxv9iw6f9v0x3sjpr2/now-foods-calcium-d-glucarate-500mg-veg-capsule.jpg",
-        "price": 3999,
-        "final_price": 3999,
-        "ratings": 4.2,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    },
-    {
-        "id": 28,
-        "name": "GNC Triple Strength Fish Oil Softgel for Bones",
-        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/cropped/knpi7bseg4px54e3bs4k/gnc-triple-strength-fish-oil-softgel.jpg",
-        "price": 1599,
-        "final_price": 943,
-        "ratings": 4.5,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 29,
-        "name": "GNC Pro Performance BCAA Advanced Tangy Orange",
-        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/oxyfi9owon6pcagjmtdp/gnc-pro-performance-amp-gold-series-bcaa-advanced-tangy-orange.jpg",
-        "price": 2299,
-        "final_price": 1799,
-        "ratings": 4.1,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 30,
-        "name": "GNC Pro Whey Protein Chocolate Supreme",
-        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/tufbxxd6ooedkb38yw5v/gnc-pro-performance-100-whey-protein-chocolate-supreme.jpg",
-        "price": 8499,
-        "final_price": 7124,
-        "ratings": 4.4,
-        "detail": "Jar of 2 kg Chocolate flavour powder",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    },
-    {
-        "id": 31,
-        "name": "HealthVit Vitamin B12 500mcg Tablet",
-        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/devq94ucekijc0d7vlbd/healthvit-vitamin-b12-500mcg-tablet.jpg",
-        "price": 200,
-        "final_price": 128,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 32,
-        "name": "HealthVit Cenvitan Multivitamin Tablet",
-        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/a7xr3jsvuophvvsn7yua/healthvit-cenvitan-men-multivitamin-multimineral-tablet.jpg",
-        "price": 500,
-        "final_price": 299,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 33,
-        "name": "HealthVit ZMA Multivitamins Capsule",
-        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/oxxwpcvmknokvhnmex04/healthvit-zma-capsule.jpg",
-        "price": 1100,
-        "final_price": 649,
-        "ratings": 4.3,
-        "detail": "bottle of 90 capsules",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 34,
-        "name": "HealthyHey Nutrition Selenium Vegetable Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/beohs1b4nqzd5jg1pghg/healthyhey-nutrition-selenium-natural-vitamin-e-vegetable-capsule.jpg",
-        "price": 1599,
-        "final_price": 799,
-        "ratings": 4.5,
-        "detail": "bottle of 120 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    },
-    {
-        "id": 35,
-        "name": "HealthyHey Nutrition CoQ 10 Vegetable Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/3367a0a2ac7b4463b3b96be7c42d7dff/healthyhey-nutrition-coq-10-bioperine-125mg-vegetable-capsule.jpg",
-        "price": 1999,
-        "final_price": 1399,
-        "ratings": 4.1,
-        "detail": "bottle of 60 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 36,
-        "name": "HealthyHey Nutrition Hydrolysed Bovine Collagen",
-        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/m347nngafmfpohyazlls/healthyhey-nutrition-gold-series-hydrolysed-bovine-collagen-type-1-3-orange.jpg",
-        "price": 2499,
-        "final_price": 1299,
-        "ratings": 4.5,
-        "detail": "Jar of 200gm powder",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 37,
-        "name": "Inlife Vitamin B12 ALA Tablet with vitamin B12",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/mzik3zmrcgmafcg0gdyr/inlife-vitamin-b12-ala-tablet.png",
-        "price": 600,
-        "final_price": 399,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 38,
-        "name": "Inlife Iron Folic Acid Supplement Tablet",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/tjoec3grck4nnmnx2pzx/inlife-iron-folic-acid-supplement-with-vitamin-c-e-b12-zinc-selenium-tablet.jpg",
-        "price": 600,
-        "final_price": 300,
-        "ratings": 4.4,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    },
-    {
-        "id": 39,
-        "name": "Inlife Hair, Skin & Nails Gummies Strawberry Gluten",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/usbzyvwnnmrvpyzhakqo/inlife-hair-skin-nails-gummies-strawberry-gluten-free.jpg",
-        "price": 699,
-        "final_price": 384,
-        "ratings": 3.8,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 40,
-        "name": "NOW Foods Potassium Citrate 99mg Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/c6yswyvohau8ur6njjoc/now-foods-potassium-citrate-99mg-capsule.jpg",
-        "price": 2000,
-        "final_price": 1920,
-        "ratings": 4.0,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 41,
-        "name": "NOW Foods Liver Refresh Veg Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/qm9tmat3g6pqfmuka7hz/now-foods-liver-refresh-veg-capsule.jpg",
-        "price": 3199,
-        "final_price": 2502,
-        "ratings": 4.2,
-        "detail": "bottle of 110 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 42,
-        "name": "NOW Foods Calcium D-Glucarate 500mg Veg Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/zghxv9iw6f9v0x3sjpr2/now-foods-calcium-d-glucarate-500mg-veg-capsule.jpg",
-        "price": 3999,
-        "final_price": 3999,
-        "ratings": 4.2,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    },
-    {
-        "id": 43,
-        "name": "GNC Triple Strength Fish Oil Softgel for Bones",
-        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/cropped/knpi7bseg4px54e3bs4k/gnc-triple-strength-fish-oil-softgel.jpg",
-        "price": 1599,
-        "final_price": 943,
-        "ratings": 4.5,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 44,
-        "name": "GNC Pro Performance BCAA Advanced Tangy Orange",
-        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/oxyfi9owon6pcagjmtdp/gnc-pro-performance-amp-gold-series-bcaa-advanced-tangy-orange.jpg",
-        "price": 2299,
-        "final_price": 1799,
-        "ratings": 4.1,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 45,
-        "name": "GNC Pro Whey Protein Chocolate Supreme",
-        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/tufbxxd6ooedkb38yw5v/gnc-pro-performance-100-whey-protein-chocolate-supreme.jpg",
-        "price": 8499,
-        "final_price": 7124,
-        "ratings": 4.4,
-        "detail": "Jar of 2 kg Chocolate flavour powder",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    },
-    {
-        "id": 46,
-        "name": "HealthVit Vitamin B12 500mcg Tablet",
-        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/devq94ucekijc0d7vlbd/healthvit-vitamin-b12-500mcg-tablet.jpg",
-        "price": 200,
-        "final_price": 128,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 47,
-        "name": "HealthVit Cenvitan Multivitamin Tablet",
-        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/a7xr3jsvuophvvsn7yua/healthvit-cenvitan-men-multivitamin-multimineral-tablet.jpg",
-        "price": 500,
-        "final_price": 299,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 48,
-        "name": "HealthVit ZMA Multivitamins Capsule",
-        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/oxxwpcvmknokvhnmex04/healthvit-zma-capsule.jpg",
-        "price": 1100,
-        "final_price": 649,
-        "ratings": 4.3,
-        "detail": "bottle of 90 capsules",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 49,
-        "name": "HealthyHey Nutrition Selenium Vegetable Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/beohs1b4nqzd5jg1pghg/healthyhey-nutrition-selenium-natural-vitamin-e-vegetable-capsule.jpg",
-        "price": 1599,
-        "final_price": 799,
-        "ratings": 4.5,
-        "detail": "bottle of 120 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    },
-    {
-        "id": 50,
-        "name": "HealthyHey Nutrition CoQ 10 Vegetable Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/3367a0a2ac7b4463b3b96be7c42d7dff/healthyhey-nutrition-coq-10-bioperine-125mg-vegetable-capsule.jpg",
-        "price": 1999,
-        "final_price": 1399,
-        "ratings": 4.1,
-        "detail": "bottle of 60 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 51,
-        "name": "HealthyHey Nutrition Hydrolysed Bovine Collagen",
-        "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/m347nngafmfpohyazlls/healthyhey-nutrition-gold-series-hydrolysed-bovine-collagen-type-1-3-orange.jpg",
-        "price": 2499,
-        "final_price": 1299,
-        "ratings": 4.5,
-        "detail": "Jar of 200gm powder",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 52,
-        "name": "Inlife Vitamin B12 ALA Tablet with vitamin B12",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/mzik3zmrcgmafcg0gdyr/inlife-vitamin-b12-ala-tablet.png",
-        "price": 600,
-        "final_price": 399,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 53,
-        "name": "Inlife Iron Folic Acid Supplement Tablet",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/tjoec3grck4nnmnx2pzx/inlife-iron-folic-acid-supplement-with-vitamin-c-e-b12-zinc-selenium-tablet.jpg",
-        "price": 600,
-        "final_price": 300,
-        "ratings": 4.4,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    },
-    {
-        "id": 54,
-        "name": "Inlife Hair, Skin & Nails Gummies Strawberry Gluten",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/usbzyvwnnmrvpyzhakqo/inlife-hair-skin-nails-gummies-strawberry-gluten-free.jpg",
-        "price": 699,
-        "final_price": 384,
-        "ratings": 3.8,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 55,
-        "name": "NOW Foods Potassium Citrate 99mg Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/c6yswyvohau8ur6njjoc/now-foods-potassium-citrate-99mg-capsule.jpg",
-        "price": 2000,
-        "final_price": 1920,
-        "ratings": 4.0,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 56,
-        "name": "NOW Foods Liver Refresh Veg Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/qm9tmat3g6pqfmuka7hz/now-foods-liver-refresh-veg-capsule.jpg",
-        "price": 3199,
-        "final_price": 2502,
-        "ratings": 4.2,
-        "detail": "bottle of 110 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 57,
-        "name": "NOW Foods Calcium D-Glucarate 500mg Veg Capsule",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/zghxv9iw6f9v0x3sjpr2/now-foods-calcium-d-glucarate-500mg-veg-capsule.jpg",
-        "price": 3999,
-        "final_price": 3999,
-        "ratings": 4.2,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    },
-    {
-        "id": 58,
-        "name": "GNC Triple Strength Fish Oil Softgel for Bones",
-        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/cropped/knpi7bseg4px54e3bs4k/gnc-triple-strength-fish-oil-softgel.jpg",
-        "price": 1599,
-        "final_price": 943,
-        "ratings": 4.5,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 59,
-        "name": "GNC Pro Performance BCAA Advanced Tangy Orange",
-        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/oxyfi9owon6pcagjmtdp/gnc-pro-performance-amp-gold-series-bcaa-advanced-tangy-orange.jpg",
-        "price": 2299,
-        "final_price": 1799,
-        "ratings": 4.1,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 60,
-        "name": "GNC Pro Whey Protein Chocolate Supreme",
-        "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/tufbxxd6ooedkb38yw5v/gnc-pro-performance-100-whey-protein-chocolate-supreme.jpg",
-        "price": 8499,
-        "final_price": 7124,
-        "ratings": 4.4,
-        "detail": "Jar of 2 kg Chocolate flavour powder",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }
-],
-"devices": [
-    {
-        "id": 1,
-        "name":"abc",
-        "url":"abc",
-        "price": 200,
-        "final_price": 128,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 2,
-        "name":"abc",
-        "url":"abc",
-        "price": 500,
-        "final_price": 299,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 3,
-        "name":"abc",
-        "url":"abc",
-        "price": 1100,
-        "final_price": 649,
-        "ratings": 4.3,
-        "detail": "bottle of 90 capsules",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 4,
-        "name":"abc",
-        "url":"abc",
-        "price": 1599,
-        "final_price": 799,
-        "ratings": 4.5,
-        "detail": "bottle of 120 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    },
-    {
-        "id": 5,
-        "name":"abc",
-        "url":"abc",
-        "price": 1999,
-        "final_price": 1399,
-        "ratings": 4.1,
-        "detail": "bottle of 60 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 6,
-        "name":"abc",
-        "url":"abc",
-        "price": 2499,
-        "final_price": 1299,
-        "ratings": 4.5,
-        "detail": "Jar of 200gm powder",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 7,
-        "name":"abc",
-        "url":"abc",
-        "price": 600,
-        "final_price": 399,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 8,
-        "name":"abc",
-        "url":"abc",
-        "price": 600,
-        "final_price": 300,
-        "ratings": 4.4,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    },
-    {
-        "id": 9,
-        "name":"abc",
-        "url":"abc",
-        "price": 699,
-        "final_price": 384,
-        "ratings": 3.8,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 10,
-        "name":"abc",
-        "url":"abc",
-        "price": 2000,
-        "final_price": 1920,
-        "ratings": 4.0,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 11,
-        "name":"abc",
-        "url":"abc",
-        "price": 3199,
-        "final_price": 2502,
-        "ratings": 4.2,
-        "detail": "bottle of 110 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 12,
-        "name":"abc",
-        "url":"abc",
-        "price": 3999,
-        "final_price": 3999,
-        "ratings": 4.2,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    },
-    {
-        "id": 13,
-        "name":"abc",
-        "url":"abc",
-        "price": 1599,
-        "final_price": 943,
-        "ratings": 4.5,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 14,
-        "name":"abc",
-        "url":"abc",
-        "price": 2299,
-        "final_price": 1799,
-        "ratings": 4.1,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 15,
-        "name":"abc",
-        "url":"abc",
-        "price": 8499,
-        "final_price": 7124,
-        "ratings": 4.4,
-        "detail": "Jar of 2 kg Chocolate flavour powder",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    },
-    {
-        "id": 16,
-        "name":"abc",
-        "url":"abc",
-        "price": 200,
-        "final_price": 128,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 17,
-        "name":"abc",
-        "url":"abc",
-        "price": 500,
-        "final_price": 299,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 18,
-        "name":"abc",
-        "url":"abc",
-        "price": 1100,
-        "final_price": 649,
-        "ratings": 4.3,
-        "detail": "bottle of 90 capsules",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 19,
-        "name":"abc",
-        "url":"abc",
-        "price": 1599,
-        "final_price": 799,
-        "ratings": 4.5,
-        "detail": "bottle of 120 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    },
-    {
-        "id": 20,
-        "name":"abc",
-        "url":"abc",
-        "price": 1999,
-        "final_price": 1399,
-        "ratings": 4.1,
-        "detail": "bottle of 60 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 21,
-        "name":"abc",
-        "url":"abc",
-        "price": 2499,
-        "final_price": 1299,
-        "ratings": 4.5,
-        "detail": "Jar of 200gm powder",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 22,
-        "name":"abc",
-        "url":"abc",
-        "price": 600,
-        "final_price": 399,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 23,
-        "name":"abc",
-        "url":"abc",
-        "price": 600,
-        "final_price": 300,
-        "ratings": 4.4,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    },
-    {
-        "id": 24,
-        "name":"abc",
-        "url":"abc",
-        "price": 699,
-        "final_price": 384,
-        "ratings": 3.8,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 25,
-        "name":"abc",
-        "url":"abc",
-        "price": 2000,
-        "final_price": 1920,
-        "ratings": 4.0,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 26,
-        "name":"abc",
-        "url":"abc",
-        "price": 3199,
-        "final_price": 2502,
-        "ratings": 4.2,
-        "detail": "bottle of 110 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 27,
-        "name":"abc",
-        "url":"abc",
-        "price": 3999,
-        "final_price": 3999,
-        "ratings": 4.2,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    },
-    {
-        "id": 28,
-        "name":"abc",
-        "url":"abc",
-        "price": 1599,
-        "final_price": 943,
-        "ratings": 4.5,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 29,
-        "name":"abc",
-        "url":"abc",
-        "price": 2299,
-        "final_price": 1799,
-        "ratings": 4.1,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 30,
-        "name":"abc",
-        "url":"abc",
-        "price": 8499,
-        "final_price": 7124,
-        "ratings": 4.4,
-        "detail": "Jar of 2 kg Chocolate flavour powder",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    },
-    {
-        "id": 31,
-        "name":"abc",
-        "url":"abc",
-        "price": 200,
-        "final_price": 128,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 32,
-        "name":"abc",
-        "url":"abc",
-        "price": 500,
-        "final_price": 299,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 33,
-        "name":"abc",
-        "url":"abc",
-        "price": 1100,
-        "final_price": 649,
-        "ratings": 4.3,
-        "detail": "bottle of 90 capsules",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 34,
-        "name":"abc",
-        "url":"abc",
-        "price": 1599,
-        "final_price": 799,
-        "ratings": 4.5,
-        "detail": "bottle of 120 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    },
-    {
-        "id": 35,
-        "name":"abc",
-        "url":"abc",
-        "price": 1999,
-        "final_price": 1399,
-        "ratings": 4.1,
-        "detail": "bottle of 60 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 36,
-        "name":"abc",
-        "url":"abc",
-        "price": 2499,
-        "final_price": 1299,
-        "ratings": 4.5,
-        "detail": "Jar of 200gm powder",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 37,
-        "name":"abc",
-        "url":"abc",
-        "price": 600,
-        "final_price": 399,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 38,
-        "name":"abc",
-        "url":"abc",
-        "price": 600,
-        "final_price": 300,
-        "ratings": 4.4,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    },
-    {
-        "id": 39,
-        "name":"abc",
-        "url":"abc",
-        "price": 699,
-        "final_price": 384,
-        "ratings": 3.8,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 40,
-        "name":"abc",
-        "url":"abc",
-        "price": 2000,
-        "final_price": 1920,
-        "ratings": 4.0,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 41,
-        "name":"abc",
-        "url":"abc",
-        "price": 3199,
-        "final_price": 2502,
-        "ratings": 4.2,
-        "detail": "bottle of 110 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 42,
-        "name":"abc",
-        "url":"abc",
-        "price": 3999,
-        "final_price": 3999,
-        "ratings": 4.2,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    },
-    {
-        "id": 43,
-        "name":"abc",
-        "url":"abc",
-        "price": 1599,
-        "final_price": 943,
-        "ratings": 4.5,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 44,
-        "name":"abc",
-        "url":"abc",
-        "price": 2299,
-        "final_price": 1799,
-        "ratings": 4.1,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 45,
-        "name":"abc",
-        "url":"abc",
-        "price": 8499,
-        "final_price": 7124,
-        "ratings": 4.4,
-        "detail": "Jar of 2 kg Chocolate flavour powder",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    },
-    {
-        "id": 46,
-        "name":"abc",
-        "url":"abc",
-        "price": 200,
-        "final_price": 128,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 47,
-        "name":"abc",
-        "url":"abc",
-        "price": 500,
-        "final_price": 299,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 48,
-        "name":"abc",
-        "url":"abc",
-        "price": 1100,
-        "final_price": 649,
-        "ratings": 4.3,
-        "detail": "bottle of 90 capsules",
-        "use" : "Mind Care",
-        "brand":"HealthVit"
-    }, 
-    {
-        "id": 49,
-        "name":"abc",
-        "url":"abc",
-        "price": 1599,
-        "final_price": 799,
-        "ratings": 4.5,
-        "detail": "bottle of 120 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    },
-    {
-        "id": 50,
-        "name":"abc",
-        "url":"abc",
-        "price": 1999,
-        "final_price": 1399,
-        "ratings": 4.1,
-        "detail": "bottle of 60 vegicaps",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 51,
-        "name":"abc",
-        "url":"abc",
-        "price": 2499,
-        "final_price": 1299,
-        "ratings": 4.5,
-        "detail": "Jar of 200gm powder",
-        "use" : "Joint & Muscle Care",
-        "brand":"HealthyHey"
-    }, 
-    {
-        "id": 52,
-        "name":"abc",
-        "url":"abc",
-        "price": 600,
-        "final_price": 399,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 53,
-        "name":"abc",
-        "url":"abc",
-        "price": 600,
-        "final_price": 300,
-        "ratings": 4.4,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    },
-    {
-        "id": 54,
-        "name":"abc",
-        "url":"abc",
-        "price": 699,
-        "final_price": 384,
-        "ratings": 3.8,
-        "detail": "bottle of 60 tablets",
-        "use" : "Nutritional Deficiencies",
-        "brand":"Inlife"
-    }, 
-    {
-        "id": 55,
-        "name":"abc",
-        "url":"abc",
-        "price": 2000,
-        "final_price": 1920,
-        "ratings": 4.0,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 56,
-        "name":"abc",
-        "url":"abc",
-        "price": 3199,
-        "final_price": 2502,
-        "ratings": 4.2,
-        "detail": "bottle of 110 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    }, 
-    {
-        "id": 57,
-        "name":"abc",
-        "url":"abc",
-        "price": 3999,
-        "final_price": 3999,
-        "ratings": 4.2,
-        "detail": "bottle of 90 capsules",
-        "use" : "Skin Care",
-        "brand":"Now Foods"
-    },
-    {
-        "id": 58,
-        "name":"abc",
-        "url":"abc",
-        "price": 1599,
-        "final_price": 943,
-        "ratings": 4.5,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 59,
-        "name":"abc",
-        "url":"abc",
-        "price": 2299,
-        "final_price": 1799,
-        "ratings": 4.1,
-        "detail": "bottle of 60 soft gelatin capsules",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }, 
-    {
-        "id": 60,
-        "name":"abc",
-        "url":"abc",
-        "price": 8499,
-        "final_price": 7124,
-        "ratings": 4.4,
-        "detail": "Jar of 2 kg Chocolate flavour powder",
-        "use" : "Cardiac Care",
-        "brand":"GNC"
-    }
-],
-"TopDealsMV":[
-    {
-        "id": 1,
-        "name": "HealthVit Vitamin B12 500mcg Tablet",
-        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/devq94ucekijc0d7vlbd/healthvit-vitamin-b12-500mcg-tablet.jpg",
-        "price": 200,
-        "final_price": 128,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets"
-    },
-    {
-        "id": 7,
-        "name": "Inlife Vitamin B12 ALA Tablet with vitamin B12",
-        "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/mzik3zmrcgmafcg0gdyr/inlife-vitamin-b12-ala-tablet.png",
-        "price": 600,
-        "final_price": 399,
-        "ratings": 4.3,
-        "detail": "bottle of 60 tablets"
-    },
-    {
-        "id": 3,
-        "name": "HealthVit ZMA Multivitamins Capsule",
-        "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/oxxwpcvmknokvhnmex04/healthvit-zma-capsule.jpg",
-        "price": 1100,
-        "final_price": 649,
-        "ratings": 4.3,
-        "detail": "bottle of 90 capsules"
-    }
-],
-"TopDealsDV":[
-    {
-        "id": 1,
-        "name": "Accu-Chek Active Test Strip (Box of 10 Test strips Free)",
-        "url": "https://onemg.gumlet.io/images/w_150,h_150,c_fit,q_auto,f_auto/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
-    },
-    {
-        "id": 2,
-        "name": "Dr. Morepen Biotin+ Tablet for Healthy Hair, Skin & Nails Tablet",
-        "url": "https://onemg.gumlet.io/images/w_150,h_150,c_fit,q_auto,f_auto/pc0kfczcu5phbkk5sy41/dr-morepen-gluco-one-bg-03-blood-glucose-test-strip.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
-    },
-    {
-        "id": 3,
-        "name": "Accu-Chek Active Blood Glucometer Kit (Box of 10 Test strips Free)",
-        "url": "https://onemg.gumlet.io/images/w_150,h_150,c_fit,q_auto,f_auto/0bede5b02bf743ddb910721e0ece0fc7/accu-chek-active-blood-glucometer-kit-box-of-10-test-strips-free.jpg",
-        "price": 995,
-        "final_price": 358,
-        "ratings": 4.5,
-        "detail": "box of 50 Test Strips"
-    }
-],
-"categoriesMV":[
-    {
-        "id": 1,
-        "name": "Multivitamins",
-        "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/mrntmv3lpb7tjzdlkdnc.png"
-    },
-    {
-        "id": 2,
-        "name": "Calcium And Minerals",
-        "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/ljyfbx2xugr0evrtzn8y.jpg"
-    },
-    {
-        "id": 3,
-        "name": "Plant Based Suppliments",
-        "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/wdmr9b68xfgac9po9c4v.png"
-    },
-    {
-        "id": 4,
-        "name": "Biotin",
-        "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/nga8o103x9tr0tnxa9ci.jpg"
-    },
-    {
-        "id": 5,
-        "name": "Immunity Boosters",
-        "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/nsqbbcpoksf2hgexpkud.png"
-    }
-],
-"categoriesDV":[
-    {
-        "id": 1,
-        "name":"Accu-check",
-        "url" : "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/eswhdjdi9mzq1ntjy59m.png"
-    },
-    {
-        "id": 2,
-        "name":"AccuSure",
-        "url" : "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/hq2yxyge4lsxeyvlvjga.png"
-    },
-    {
-        "id": 3,
-        "name":"Dr Morepen",
-        "url" : "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/vnb0nghatul3fy9grums.png"
-    },
-    {
-        "id": 4,
-        "name":"OneTouch",
-        "url" : "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/xrxttu6kyxmbjmt5xsps.jpg"
-    },
-    {
-        "id": 5,
-        "name":"BeatO",
-        "url" : "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/mjsaizdmejqbdokg3olk.png"
-    }
-]
+    "cart": [],
+    "SlidingBox_sec1": [
+        {
+            "img": "https://onemg.gumlet.io/de43ae64-d8d7-485b-ab91-0af519ed941d_1663831589.png?w=899&h=200&format=auto",
+            "alt": "sec1_img1",
+            "id": 1
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/8f58c83e-8fc3-4a45-9278-e30a6859ba9d.png",
+            "alt": "sec1_img2",
+            "id": 2
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/f4ead24d-add9-42fe-a508-c62f4f1feeff.png",
+            "alt": "sec1_img3",
+            "id": 3
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_891,h_200,c_fit,q_auto,f_auto/80d4cc9a-57a9-447e-866d-10d8d99b62de.png",
+            "alt": "sec1_img4",
+            "id": 4
+        },
+        {
+            "img": "https://onemg.gumlet.io/19a4fe54-3a77-411b-9e53-9adbacfbd9e9_1664865792.jpg?w=899&h=200&format=auto",
+            "alt": "sec1_img5",
+            "id": 5
+        },
+        {
+            "img": "https://onemg.gumlet.io/5f1c29c8-9d81-4240-9458-fe18de1000af_1665467859.png?w=891&h=200&format=auto",
+            "alt": "sec1_img6",
+            "id": 6
+        },
+        {
+            "img": "https://onemg.gumlet.io/35d1fb1e-d2da-433b-9f78-54c9f2e49165_1664894436.png?w=899&h=200&format=auto",
+            "alt": "sec1_img7",
+            "id": 7
+        },
+        {
+            "img": "https://onemg.gumlet.io/a5da0db7-ddf0-4890-9829-02d20285e859_1663825108.png?w=899&h=200&format=auto",
+            "alt": "sec1_img8",
+            "id": 8
+        },
+        {
+            "img": "https://onemg.gumlet.io/ca163b43-ce33-4440-b5c8-cb4d7ff58e43_1664853845.jpg?w=899&h=200&format=auto",
+            "alt": "sec1_img9",
+            "id": 9
+        },
+        {
+            "img": "https://onemg.gumlet.io/a6cc9e12-5384-4790-a546-d5424f58d037_1665558947.jpg?w=899&h=200&format=auto",
+            "alt": "sec1_img10",
+            "id": 10
+        }
+    ],
+    "Disease_sec": [
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e3katuw3w1qdfiv0cbjn.png",
+            "alt": "sec2_img1",
+            "name": "Diabetes Care",
+            "id": 1
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/bal76mxxccyhrti2erkn.png",
+            "alt": "sec2_img2",
+            "name": "Cardiac Care",
+            "id": 2
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/l2zrxcsfyguccggnkp4m.png",
+            "alt": "sec2_img3",
+            "name": "Stomach Care",
+            "id": 3
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/klrkvhzloqbyt6z8cvgv.png",
+            "alt": "sec2_img4",
+            "name": "Liver Care",
+            "id": 4
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/zd1jcixlqcmxlxlmgitc.png",
+            "alt": "sec2_img5",
+            "name": "Bone, Joint & Muscle Care",
+            "id": 5
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/c0o3w8wdjnzesk2pshcr.png",
+            "alt": "sec2_img6",
+            "name": "Kidney Care",
+            "id": 6
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/vsyneobahnsdqzllvzuv.png",
+            "alt": "sec2_img7",
+            "name": "Pain Relief",
+            "id": 7
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/wgixpbxnlrd79lzhpsi3.png",
+            "alt": "sec2_img8",
+            "name": "Respiratory Care",
+            "id": 8
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/laztovaqkws3bo1ywff0.png",
+            "alt": "sec2_img9",
+            "name": "Eye Care",
+            "id": 9
+        }
+    ],
+    "brands": [
+        {
+            "id": 1,
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d8cf5b43-f660-47af-be76-c203f422650e.png",
+            "alt": "brand_img1",
+            "name": "Dr. Morepen"
+        },
+        {
+            "id": 2,
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/38e1f526-af63-4ed9-9382-1c807aaf9aab.png",
+            "alt": "brand_img2",
+            "name": "Hansaplast"
+        },
+        {
+            "id": 3,
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d1c09b4a-0bf0-42cf-806d-28e0f7b031bf.png",
+            "alt": "brand_img3",
+            "name": "Dabur"
+        },
+        {
+            "id": 4,
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e16980e0-61f0-4215-bbb9-f1403c23cd52.png",
+            "alt": "brand_img4",
+            "name": "Protinex"
+        },
+        {
+            "id": 5,
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d60a9791-bf2c-40b7-b782-2b5e7d069f8a.jpg",
+            "alt": "brand_img5",
+            "name": "Optimum Nutrition"
+        },
+        {
+            "id": 6,
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/1e238702-1383-4186-81aa-39db49890337.png",
+            "alt": "brand_img6",
+            "name": "Revital"
+        },
+        {
+            "id": 7,
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/1eb7fdd0-bb11-4b5a-aab9-7f99776192b5.png",
+            "alt": "brand_img7",
+            "name": "Organic India"
+        },
+        {
+            "id": 8,
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/34c3b73d-1f59-4f23-9c79-beef864b4bc1.png",
+            "alt": "brand_img8",
+            "name": "Himalaya"
+        },
+        {
+            "id": 9,
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e2b00f58-40d9-4766-9956-3c50e620450a.png",
+            "alt": "brand_img9",
+            "name": "Zandu"
+        }
+    ],
+    "Top_Sellers": [
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ll16prunudl5wg9dkjyo.jpg",
+            "alt": "top_sellers_img1",
+            "title": "Mamaearth Onion Hair Oil",
+            "desc": "bottle of 150 ml oil",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹419",
+                "s3": "23% off"
+            },
+            "price": "₹323"
+        },
+        {
+            "alt": "top_sellers_img1",
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/nhu0rbh3wtdlr7pdhoq4.jpg",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹235",
+                "s3": "8% off"
+            },
+            "price": "₹216",
+            "id": 1
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/smpufwdh6hnpb8bzca01.jpg",
+            "alt": "top_sellers_img2",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹300",
+                "s3": "24% off"
+            },
+            "price": "₹228",
+            "id": 2
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/zmmkiohldjh3mhyhijrs.jpg",
+            "alt": "top_sellers_img3",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹34",
+                "s3": "11% off"
+            },
+            "price": "₹30",
+            "id": 3
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/eywlzc1uguxsy3c6cxpo.jpg",
+            "alt": "top_sellers_img4",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹425",
+                "s3": "26% off"
+            },
+            "price": "₹315",
+            "id": 4
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/cnndmskfmcldpwhljwcp.jpg",
+            "alt": "top_sellers_img5",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹150",
+                "s3": "6% off"
+            },
+            "price": "₹140",
+            "id": 5
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/sq90xrsd0094ag5kxluv.jpg",
+            "alt": "top_sellers_img6",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹54",
+                "s3": "22% off"
+            },
+            "price": "₹42",
+            "id": 6
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/rb8pbcc2gnh5s8tbm853.jpg",
+            "alt": "top_sellers_img7",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹280",
+                "s3": "22% off"
+            },
+            "price": "₹218",
+            "id": 7
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/k2snx8bn1a5rphbbflrw.png",
+            "alt": "top_sellers_img8",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹219",
+                "s3": "43% off"
+            },
+            "price": "₹123",
+            "id": 8
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/nhu0rbh3wtdlr7pdhoq4.jpg",
+            "alt": "top_sellers_img1",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹419",
+                "s3": "23% off"
+            },
+            "price": "₹323"
+        },
+        {
+            "img": "",
+            "alt": "top_sellers_img1",
+            "title": "",
+            "desc": "",
+            "price": "₹323",
+            "id": 9
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/nwxnyqzffmncgh4samzm.jpg",
+            "alt": "top_sellers_img1",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹419",
+                "s3": "23% off"
+            },
+            "price": "₹323",
+            "id": 10
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/fltabmwx0nimierve4fh.jpg",
+            "alt": "top_sellers_img1",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹419",
+                "s3": "23% off"
+            },
+            "price": "₹323",
+            "id": 11
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/mxage34bx5xfak0gkoia.jpg",
+            "alt": "top_sellers_img1",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹419",
+                "s3": "23% off"
+            },
+            "price": "₹323",
+            "id": 12
+        }
+    ],
+    "Popular_Combo": [
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/hkivk33molknvlppjtkg.jpg",
+            "alt": "Popular_Combo_img1",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹670",
+                "s3": "15% off"
+            },
+            "price": "₹568",
+            "id": 1
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/c2sw0gi2dw4cwdf1ecjp.jpg",
+            "alt": "Popular_Combo_img2",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹1299",
+                "s3": "7% off"
+            },
+            "price": "₹1201",
+            "id": 2
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/uca5jm0uqfqpjoyydzh0.jpg",
+            "alt": "Popular_Combo_img1",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹335",
+                "s3": "20% off"
+            },
+            "price": "₹268",
+            "id": 3
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/qir6i2zlhzeddxa4mqt0.jpg",
+            "alt": "Popular_Combo_img1",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹820",
+                "s3": "15% off"
+            },
+            "price": "₹697",
+            "id": 4
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/g6phmkjrdbw3x4nngxlr.jpg",
+            "alt": "Popular_Combo_img1",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹535",
+                "s3": "6% off"
+            },
+            "price": "₹503",
+            "id": 5
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/if0qou7t1ptcaaowcigp.jpg",
+            "alt": "Popular_Combo_img1",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹419",
+                "s3": "23% off"
+            },
+            "price": "₹323",
+            "id": 6
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/nhu0rbh3wtdlr7pdhoq4.jpg",
+            "alt": "Popular_Combo_img1",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "1059",
+                "s3": "19% off"
+            },
+            "price": "₹854",
+            "id": 7
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/oexechydeypou9aw45xc.jpg",
+            "alt": "Popular_Combo_img1",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "340",
+                "s3": "6% off"
+            },
+            "price": "317",
+            "id": 8
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/kig1l1egf5xcijweblix.jpg",
+            "alt": "Popular_Combo_img1",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹419",
+                "s3": "23% off"
+            },
+            "price": "₹323",
+            "id": 9
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/rxyazch4y08jvlgpapnj.jpg",
+            "alt": "Popular_Combo_img1",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹419",
+                "s3": "63% off"
+            },
+            "price": "₹223",
+            "id": 10
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/nhu0rbh3wtdlr7pdhoq4.jpg",
+            "alt": "Popular_Combo_img1",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹419",
+                "s3": "13% off"
+            },
+            "price": "₹373",
+            "id": 11
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/yjf3zipjv3bzx1xdv4xo.jpg",
+            "alt": "Popular_Combo_img1",
+            "name": "Himalaya Herbals Purifying Neem Face..",
+            "desc": "pump bottle of 200 ml Face..",
+            "striked": {
+                "s1": "MRP",
+                "s2": "₹419",
+                "s3": "23% off"
+            },
+            "price": "₹323",
+            "id": 12
+        }
+    ],
+    "MineralSupliment_sec": [
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/b0f8255d-02c3-4640-b177-2a7240226835.png",
+            "alt": "Multivitamins_logo",
+            "name": "Multivitamins",
+            "id": 1
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/8309a29c-acf2-4bde-ac80-dc26052769c1.png",
+            "alt": "Zinc_logo",
+            "name": "Zinc",
+            "id": 2
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/6fac001e-0aaf-4265-9ee1-0ddff472df24.png",
+            "alt": "Calcium_logo",
+            "name": "Calcium",
+            "id": 3
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/5091c541-5248-4c2a-b68a-9a62fd8506e1.png",
+            "alt": "Iron_logo",
+            "name": "Iron",
+            "id": 4
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/2152f9e9-1cb3-4efb-b86f-2e212f0dde81.png",
+            "alt": "Magnesium_logo",
+            "name": "Magnesium",
+            "id": 5
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ed852cce-174a-4193-a648-de929f3b8c3d.png",
+            "alt": "Potassium_logo",
+            "name": "Potassium",
+            "id": 6
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ca2a3a19-c6ba-4262-a914-d6487c2bdeca.png",
+            "alt": "Selenium_logo",
+            "name": "Selenium",
+            "id": 7
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/1143ab1f-6751-4a27-979c-2ed3f336007c.png",
+            "alt": "Iodine_logo",
+            "name": "Iodine",
+            "id": 8
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/5bce9b0d-2800-461d-baa5-d01e0d8e4d10.png",
+            "alt": "Copper_logo",
+            "name": "Copper",
+            "id": 9
+        }
+    ],
+    "Popular_categories": [
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/nnz4wznqh3g1momlj7i6.png",
+            "alt": "diabetes logo",
+            "name": "Diabetes Care",
+            "id": 1
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/c7b76d60-380b-4ac6-a8f2-1c6c99f828c3.png",
+            "alt": "Nutritional_logo",
+            "name": "Nutritional Drinks",
+            "id": 2
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/yom4kujhcrmswwa7yqql.png",
+            "alt": "Healthcare_logo",
+            "name": "Healthcare Devices",
+            "id": 3
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/sjjktxvuqn3hgdf1zthz.png",
+            "alt": "Homeopathy_logo",
+            "name": "Homeopathy",
+            "id": 4
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/mxhslzet9tgwmmginf0x.png",
+            "alt": "Sexual_logo",
+            "name": "Sexual Wellness",
+            "id": 5
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/he8w8sxhmm2la752zjt2.png",
+            "alt": "Skin",
+            "name": "Skin Care",
+            "id": 6
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/xph6jwm1rkm53jytua1e.png",
+            "alt": "Vitamins_logo",
+            "name": "Vitamins & Supplements",
+            "id": 7
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/wxg1pt1dugbbmqk2hfhu.png",
+            "alt": "Pain_logo",
+            "name": "Pain Relief",
+            "id": 8
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/bihah6g7bf8dgwbbe3hc.png",
+            "alt": "Ayurveda_logo",
+            "name": "Ayurveda",
+            "id": 9
+        }
+    ],
+    "Fitness_and_supplements": [
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/hyz3alaomnsvodlfr6yn.png",
+            "alt": "Vitamins-logo",
+            "name": "Vitamins & Supplements",
+            "id": "1"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/cv1so1bd03epqno2z3to.png",
+            "alt": "Protein-logo",
+            "name": "Protein Supplements",
+            "id": "2"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/pae8ardj2unddupp36la.png",
+            "alt": "Health-logo",
+            "name": "Health Food & Drinks",
+            "id": "3"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/p8cjjuj9qbdrikxet8s6.png",
+            "alt": "Nutritional-logo",
+            "name": "Nutritional Drinks",
+            "id": "4"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/b855u2cmitwjv5wfjr1q.png",
+            "alt": "Immunity-logo",
+            "name": "Immunity Boosters",
+            "id": "5"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ogtn4geufd0vbvn6ft3k.png",
+            "alt": "Omega-logo",
+            "name": "Omega & Fish Oil",
+            "id": "6"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/eq1ot7mqxqr4jkd73kf1.png",
+            "alt": "Specialty-logo",
+            "name": "Specialty Supplements",
+            "id": "7"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ligqeno0mnmr2v3ejkda.png",
+            "alt": "Weight-logo",
+            "name": "Weight Management",
+            "id": "8"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/quxjulqgldr5mwacoadc.png",
+            "alt": "Chia-logo",
+            "name": "Chia, Flax, Quinoa & More",
+            "id": "9"
+        }
+    ],
+    "health_utsav": [
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/60494265-24ef-4c0c-870e-4174fe69120d.jpg",
+            "alt": "Accu-logo",
+            "name": "Accu-Chek",
+            "id": "1"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/15ccab4c-69b6-4846-8a97-b1b7efc9c824.png",
+            "alt": "Optimum-logo",
+            "name": "Optimum Nutrition",
+            "id": "2"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/f950811b-6de2-4006-b26e-e5a4e48b0492.png",
+            "alt": "Biluma-logo",
+            "name": "Biluma",
+            "id": "3"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/2e0f0409-f446-4449-8513-78b969b1bab1.png",
+            "alt": "Manforce-logo",
+            "name": "Manforce",
+            "id": "4"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/3495c3c6-418b-460c-9fdb-8145ef59d10d.png",
+            "alt": "Wellbeing-logo",
+            "name": "Wellbeing Nutirition",
+            "id": "5"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/f2770b58-99b6-416a-9675-02dbff40c68e.png",
+            "alt": "Lacto-logo",
+            "name": "Lacto Calamine",
+            "id": "6"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/e6062bf8-9238-4e8d-a175-6aab01283124.png",
+            "alt": "Dr. Vaidya's-logo",
+            "name": "Dr. Vaidya's",
+            "id": "7"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/353c5f6c-65fd-4b27-9462-b290e83df2d1.png",
+            "alt": "Pentasure-logo",
+            "name": "Pentasure",
+            "id": "8"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/52b373f4-98a7-47d5-a1d7-7fad3d28bfec.jpg",
+            "alt": "Celevida-logo",
+            "name": "Celevida",
+            "id": "9"
+        }
+    ],
+    "Homeopathy_brands": [
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/iy3hwyaywbcqhrrqxdv6.png",
+            "alt": "Dr Reckeweg-logo",
+            "name": "Dr Reckeweg",
+            "id": "1"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/otbucp1ifveqrjvfd65j.png",
+            "alt": "SBL-logo",
+            "name": "SBL Homeopathy",
+            "id": "2"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/n4uo5xa4vxadylucybu1.png",
+            "alt": "BJAIN-logo",
+            "name": "BJAIN Homeopathy",
+            "id": "3"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/nksym712wf4y4b9p1k6j.png",
+            "alt": "Willmar-logo",
+            "name": "Dr Willmar Schwabe India",
+            "id": "4"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/b6fcbfc4-40ec-47b6-9837-c44819a5ba54.png",
+            "alt": "ADEL-logo",
+            "name": "ADEL Homeopathy",
+            "id": "5"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/kl9hlgtqytfgfqb6baa5.png",
+            "alt": "Bakson-logo",
+            "name": "Bakson's",
+            "id": "6"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/izx9mv71op8u479tjb2h.png",
+            "alt": "Dr. Vaidya's-logo",
+            "name": "Dr. Batra's Products",
+            "id": "7"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/jcnry9ai50sxgttj3rdq.png",
+            "alt": "HAPDCO-logo",
+            "name": "HAPDCO",
+            "id": "8"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/pujzqz0sfqkfezbb7x3o.png",
+            "alt": "Wheezal-logo",
+            "name": "Wheezal",
+            "id": "9"
+        }
+    ],
+    "Health_FoodsDrinks": [
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/vuze6xhdat3watvwaro9.png",
+            "alt": "Green-tea-logo",
+            "name": "Green Tea & Herbal Tea",
+            "id": "1"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/odov6fsbhdgwfnqnqmyf.jpg",
+            "alt": "Breakfast-logo",
+            "name": "Breakfast Careals",
+            "id": "2"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/rstb8fbortn6f868mznd.png",
+            "alt": "Herbal-logo",
+            "name": "Herbal Juices",
+            "id": "3"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/rabrbljquehqgd6xza9j.png",
+            "alt": "Nutritional-logo",
+            "name": "Nutritional Drinks",
+            "id": "4"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/jvqtphggru8juyrasmj8.png",
+            "alt": "Dry-Fruits-logo",
+            "name": "Dry Fruits",
+            "id": "5"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/tyislu0jse29jkwwegb8.jpg",
+            "alt": "Honey-logo",
+            "name": "Honey",
+            "id": "6"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/j6ztzgme9mhsqobumxdb.png",
+            "alt": "Healthy-logo",
+            "name": "Healthy Snacks",
+            "id": "7"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/vchcj8b7onea3rmfml5z.png",
+            "alt": "Superfoods-logo",
+            "name": "Superfoods",
+            "id": "8"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/rxqxi3eybpds7l8mymrt.png",
+            "alt": "Apple-logo",
+            "name": "Apple Cider Vinegar",
+            "id": "9"
+        }
+    ],
+    "HealthCare_Device": [
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/25832f67-b59e-4c68-81a0-6b67ce0b1a6e.webp",
+            "alt": "Morepen-logo",
+            "name": "Dr Morepen",
+            "id": "1"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/5b24fd4f-ddbe-4b53-b1d3-97107c44762b.webp",
+            "alt": "Accu-logo",
+            "name": "Accu-check",
+            "id": "2"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/c3015a12-3ac7-48d2-92c9-072bc9113010.webp",
+            "alt": "Omron-logo",
+            "name": "Omron",
+            "id": "3"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/c932de9c-ee8b-4edf-ae6b-8b9c882bcb79.webp",
+            "alt": "Contour-logo",
+            "name": "Contour",
+            "id": "4"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/751cc51d-a84e-499e-afe6-7f2197684471.webp",
+            "alt": "OneTouch-logo",
+            "name": "OneTouch",
+            "id": "5"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d6f2e4a2-1dd8-43fe-ae99-fe61777f478d.webp",
+            "alt": "Trust-logo",
+            "name": "Dr Trust",
+            "id": "6"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/32571bdc-487c-4ebe-98f9-9aa91464fd76.webp",
+            "alt": "Tynor-logo",
+            "name": "Tynor",
+            "id": "7"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/02e74893-3203-4bd5-8b1e-375b28f62a62.webp",
+            "alt": "Hansaplast-logo",
+            "name": "Hansaplast",
+            "id": "8"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/295fa7a6-58c0-4ae5-8057-e33bef42b6f2.webp",
+            "alt": "Care-logo",
+            "name": "Care View",
+            "id": "9"
+        }
+    ],
+    "Ayurvede_shop": [
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/3fe7c683-eefe-4a3b-b4bb-0c0997a06e16.jpg",
+            "alt": "Stomach-logo",
+            "name": "Stomach Care",
+            "id": "1"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/1f97d6d6-946a-497b-b4d3-6ba371cbffe5.png",
+            "alt": "Sexual-logo",
+            "name": "Sexual Wellness",
+            "id": "2"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/42328506-48f7-4f0d-a1c0-1ee5378fee8c.png",
+            "alt": "Diabetes-logo",
+            "name": "Diabetes Care",
+            "id": "3"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/0826bd1a-58b1-4de1-a8fc-664f77bd912e.png",
+            "alt": "Bone-logo",
+            "name": "Bone, Joint & Muscle Care",
+            "id": "4"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/bdca4156-0320-4f0d-9168-7fd472d5fc4e.png",
+            "alt": "OneTouch-logo",
+            "name": "Cough, Cold & Fever",
+            "id": "5"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/926a7683-ac0b-4410-817c-723a04ec24c7.png",
+            "alt": "Ayurveda-logo",
+            "name": "Ayurveda Cardiac Care",
+            "id": "6"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/1e52d42e-7a21-4a88-81f1-0853a9b00cb7.png",
+            "alt": "Mind-logo",
+            "name": "Mind Care",
+            "id": "7"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/134a075f-1ac2-4e60-ad55-7263e50dccd6.png",
+            "alt": "Liver-logo",
+            "name": "Liver Care",
+            "id": "8"
+        },
+        {
+            "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/1532432c-f7db-40c5-9968-d9e45afd7942.png",
+            "alt": "Respiratory-logo",
+            "name": "Respiratory Care",
+            "id": "9"
+        }
+    ],
+    "Ayurveda_sec": [
+        {
+            "img": "https://onemg.gumlet.io/ky83wvqf5xuygq63xgr3.jpg",
+            "name": "Apple",
+            "desc": "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+            "alt": "ayurvede_apple_img",
+            "id": 1
+        },
+        {
+            "img": "https://onemg.gumlet.io/xcyxzwfyinrizijahzoe.jpg",
+            "name": "Reetha",
+            "desc": "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+            "alt": "ayurvede_Reetha_img",
+            "id": 2
+        },
+        {
+            "img": "https://onemg.gumlet.io/anszmuxb3fezhvk63szv.jpg",
+            "name": "Saraswatarishta",
+            "desc": "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+            "alt": "ayurvede_Saraswatarishta_img",
+            "id": 3
+        },
+        {
+            "img": "https://onemg.gumlet.io/cbqztsdftxjkqpwex4vy.png",
+            "name": "Stone Flower",
+            "desc": "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+            "alt": "ayurvede_Stone_img",
+            "id": 4
+        },
+        {
+            "img": "https://onemg.gumlet.io/o0sxobkxrkxyezigfvyc.jpg",
+            "name": "Anantamul",
+            "desc": "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+            "alt": "ayurvede_apple_img",
+            "id": 5
+        },
+        {
+            "img": "https://onemg.gumlet.io/f595svi2mlhmmnyx3xnt.jpg",
+            "name": "Bamboo",
+            "desc": "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+            "alt": "ayurvede_Bamboo_img",
+            "id": 6
+        },
+        {
+            "img": "https://onemg.gumlet.io/udkbccvuqjdb0orcmgzj.jpg",
+            "name": "Badi Elaichi",
+            "desc": "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+            "alt": "ayurvede_Elaichi_img",
+            "id": 7
+        },
+        {
+            "img": "https://onemg.gumlet.io/qnli7xwr95exilvpyqio.jpg",
+            "name": "Munakka",
+            "desc": "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+            "alt": "ayurvede_Munakka_img",
+            "id": 8
+        },
+        {
+            "img": "https://onemg.gumlet.io/kvavoutc8bpjyan5ygk4.jpg",
+            "name": "Vatsnabh",
+            "desc": "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+            "alt": "ayurvede_Vatsnabh_img",
+            "id": 9
+        },
+        {
+            "img": "https://onemg.gumlet.io/gk1qcvewpgqnxwb5suym.jpg",
+            "name": "Chickpea",
+            "desc": "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+            "alt": "ayurvede_Chickpea_img",
+            "id": 10
+        },
+        {
+            "img": "https://onemg.gumlet.io/kk9vujwosiizp5ybpgxl.jpg",
+            "name": "Akarkara",
+            "desc": "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+            "alt": "ayurvede_Akarkara_img",
+            "id": 11
+        },
+        {
+            "img": "https://onemg.gumlet.io/fxsz1qwyjchqjjrot9u2.jpg",
+            "name": "patala",
+            "desc": "Apple is a sweet and crunchy fruit that varies from green to red in color. It is righ...",
+            "alt": "ayurvede_Patala_img",
+            "id": 12
+        }
+    ],
+    "multivitamins": [
+        {
+            "id": 1,
+            "name": "HealthVit Vitamin B12 500mcg Tablet",
+            "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/devq94ucekijc0d7vlbd/healthvit-vitamin-b12-500mcg-tablet.jpg",
+            "price": 200,
+            "final_price": 128,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 2,
+            "name": "HealthVit Cenvitan Multivitamin Tablet",
+            "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/a7xr3jsvuophvvsn7yua/healthvit-cenvitan-men-multivitamin-multimineral-tablet.jpg",
+            "price": 500,
+            "final_price": 299,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 3,
+            "name": "HealthVit ZMA Multivitamins Capsule",
+            "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/oxxwpcvmknokvhnmex04/healthvit-zma-capsule.jpg",
+            "price": 1100,
+            "final_price": 649,
+            "ratings": 4.3,
+            "detail": "bottle of 90 capsules",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 4,
+            "name": "HealthyHey Nutrition Selenium Vegetable Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/beohs1b4nqzd5jg1pghg/healthyhey-nutrition-selenium-natural-vitamin-e-vegetable-capsule.jpg",
+            "price": 1599,
+            "final_price": 799,
+            "ratings": 4.5,
+            "detail": "bottle of 120 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 5,
+            "name": "HealthyHey Nutrition CoQ 10 Vegetable Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/3367a0a2ac7b4463b3b96be7c42d7dff/healthyhey-nutrition-coq-10-bioperine-125mg-vegetable-capsule.jpg",
+            "price": 1999,
+            "final_price": 1399,
+            "ratings": 4.1,
+            "detail": "bottle of 60 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 6,
+            "name": "HealthyHey Nutrition Hydrolysed Bovine Collagen",
+            "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/m347nngafmfpohyazlls/healthyhey-nutrition-gold-series-hydrolysed-bovine-collagen-type-1-3-orange.jpg",
+            "price": 2499,
+            "final_price": 1299,
+            "ratings": 4.5,
+            "detail": "Jar of 200gm powder",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 7,
+            "name": "Inlife Vitamin B12 ALA Tablet with vitamin B12",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/mzik3zmrcgmafcg0gdyr/inlife-vitamin-b12-ala-tablet.png",
+            "price": 600,
+            "final_price": 399,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 8,
+            "name": "Inlife Iron Folic Acid Supplement Tablet",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/tjoec3grck4nnmnx2pzx/inlife-iron-folic-acid-supplement-with-vitamin-c-e-b12-zinc-selenium-tablet.jpg",
+            "price": 600,
+            "final_price": 300,
+            "ratings": 4.4,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 9,
+            "name": "Inlife Hair, Skin & Nails Gummies Strawberry Gluten",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/usbzyvwnnmrvpyzhakqo/inlife-hair-skin-nails-gummies-strawberry-gluten-free.jpg",
+            "price": 699,
+            "final_price": 384,
+            "ratings": 3.8,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 10,
+            "name": "NOW Foods Potassium Citrate 99mg Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/c6yswyvohau8ur6njjoc/now-foods-potassium-citrate-99mg-capsule.jpg",
+            "price": 2000,
+            "final_price": 1920,
+            "ratings": 4.0,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 11,
+            "name": "NOW Foods Liver Refresh Veg Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/qm9tmat3g6pqfmuka7hz/now-foods-liver-refresh-veg-capsule.jpg",
+            "price": 3199,
+            "final_price": 2502,
+            "ratings": 4.2,
+            "detail": "bottle of 110 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 12,
+            "name": "NOW Foods Calcium D-Glucarate 500mg Veg Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/zghxv9iw6f9v0x3sjpr2/now-foods-calcium-d-glucarate-500mg-veg-capsule.jpg",
+            "price": 3999,
+            "final_price": 3999,
+            "ratings": 4.2,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 13,
+            "name": "GNC Triple Strength Fish Oil Softgel for Bones",
+            "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/cropped/knpi7bseg4px54e3bs4k/gnc-triple-strength-fish-oil-softgel.jpg",
+            "price": 1599,
+            "final_price": 943,
+            "ratings": 4.5,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 14,
+            "name": "GNC Pro Performance BCAA Advanced Tangy Orange",
+            "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/oxyfi9owon6pcagjmtdp/gnc-pro-performance-amp-gold-series-bcaa-advanced-tangy-orange.jpg",
+            "price": 2299,
+            "final_price": 1799,
+            "ratings": 4.1,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 15,
+            "name": "GNC Pro Whey Protein Chocolate Supreme",
+            "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/tufbxxd6ooedkb38yw5v/gnc-pro-performance-100-whey-protein-chocolate-supreme.jpg",
+            "price": 8499,
+            "final_price": 7124,
+            "ratings": 4.4,
+            "detail": "Jar of 2 kg Chocolate flavour powder",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 16,
+            "name": "HealthVit Vitamin B12 500mcg Tablet",
+            "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/devq94ucekijc0d7vlbd/healthvit-vitamin-b12-500mcg-tablet.jpg",
+            "price": 200,
+            "final_price": 128,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 17,
+            "name": "HealthVit Cenvitan Multivitamin Tablet",
+            "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/a7xr3jsvuophvvsn7yua/healthvit-cenvitan-men-multivitamin-multimineral-tablet.jpg",
+            "price": 500,
+            "final_price": 299,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 18,
+            "name": "HealthVit ZMA Multivitamins Capsule",
+            "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/oxxwpcvmknokvhnmex04/healthvit-zma-capsule.jpg",
+            "price": 1100,
+            "final_price": 649,
+            "ratings": 4.3,
+            "detail": "bottle of 90 capsules",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 19,
+            "name": "HealthyHey Nutrition Selenium Vegetable Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/beohs1b4nqzd5jg1pghg/healthyhey-nutrition-selenium-natural-vitamin-e-vegetable-capsule.jpg",
+            "price": 1599,
+            "final_price": 799,
+            "ratings": 4.5,
+            "detail": "bottle of 120 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 20,
+            "name": "HealthyHey Nutrition CoQ 10 Vegetable Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/3367a0a2ac7b4463b3b96be7c42d7dff/healthyhey-nutrition-coq-10-bioperine-125mg-vegetable-capsule.jpg",
+            "price": 1999,
+            "final_price": 1399,
+            "ratings": 4.1,
+            "detail": "bottle of 60 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 21,
+            "name": "HealthyHey Nutrition Hydrolysed Bovine Collagen",
+            "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/m347nngafmfpohyazlls/healthyhey-nutrition-gold-series-hydrolysed-bovine-collagen-type-1-3-orange.jpg",
+            "price": 2499,
+            "final_price": 1299,
+            "ratings": 4.5,
+            "detail": "Jar of 200gm powder",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 22,
+            "name": "Inlife Vitamin B12 ALA Tablet with vitamin B12",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/mzik3zmrcgmafcg0gdyr/inlife-vitamin-b12-ala-tablet.png",
+            "price": 600,
+            "final_price": 399,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 23,
+            "name": "Inlife Iron Folic Acid Supplement Tablet",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/tjoec3grck4nnmnx2pzx/inlife-iron-folic-acid-supplement-with-vitamin-c-e-b12-zinc-selenium-tablet.jpg",
+            "price": 600,
+            "final_price": 300,
+            "ratings": 4.4,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 24,
+            "name": "Inlife Hair, Skin & Nails Gummies Strawberry Gluten",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/usbzyvwnnmrvpyzhakqo/inlife-hair-skin-nails-gummies-strawberry-gluten-free.jpg",
+            "price": 699,
+            "final_price": 384,
+            "ratings": 3.8,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 25,
+            "name": "NOW Foods Potassium Citrate 99mg Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/c6yswyvohau8ur6njjoc/now-foods-potassium-citrate-99mg-capsule.jpg",
+            "price": 2000,
+            "final_price": 1920,
+            "ratings": 4.0,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 26,
+            "name": "NOW Foods Liver Refresh Veg Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/qm9tmat3g6pqfmuka7hz/now-foods-liver-refresh-veg-capsule.jpg",
+            "price": 3199,
+            "final_price": 2502,
+            "ratings": 4.2,
+            "detail": "bottle of 110 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 27,
+            "name": "NOW Foods Calcium D-Glucarate 500mg Veg Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/zghxv9iw6f9v0x3sjpr2/now-foods-calcium-d-glucarate-500mg-veg-capsule.jpg",
+            "price": 3999,
+            "final_price": 3999,
+            "ratings": 4.2,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 28,
+            "name": "GNC Triple Strength Fish Oil Softgel for Bones",
+            "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/cropped/knpi7bseg4px54e3bs4k/gnc-triple-strength-fish-oil-softgel.jpg",
+            "price": 1599,
+            "final_price": 943,
+            "ratings": 4.5,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 29,
+            "name": "GNC Pro Performance BCAA Advanced Tangy Orange",
+            "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/oxyfi9owon6pcagjmtdp/gnc-pro-performance-amp-gold-series-bcaa-advanced-tangy-orange.jpg",
+            "price": 2299,
+            "final_price": 1799,
+            "ratings": 4.1,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 30,
+            "name": "GNC Pro Whey Protein Chocolate Supreme",
+            "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/tufbxxd6ooedkb38yw5v/gnc-pro-performance-100-whey-protein-chocolate-supreme.jpg",
+            "price": 8499,
+            "final_price": 7124,
+            "ratings": 4.4,
+            "detail": "Jar of 2 kg Chocolate flavour powder",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 31,
+            "name": "HealthVit Vitamin B12 500mcg Tablet",
+            "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/devq94ucekijc0d7vlbd/healthvit-vitamin-b12-500mcg-tablet.jpg",
+            "price": 200,
+            "final_price": 128,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 32,
+            "name": "HealthVit Cenvitan Multivitamin Tablet",
+            "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/a7xr3jsvuophvvsn7yua/healthvit-cenvitan-men-multivitamin-multimineral-tablet.jpg",
+            "price": 500,
+            "final_price": 299,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 33,
+            "name": "HealthVit ZMA Multivitamins Capsule",
+            "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/oxxwpcvmknokvhnmex04/healthvit-zma-capsule.jpg",
+            "price": 1100,
+            "final_price": 649,
+            "ratings": 4.3,
+            "detail": "bottle of 90 capsules",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 34,
+            "name": "HealthyHey Nutrition Selenium Vegetable Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/beohs1b4nqzd5jg1pghg/healthyhey-nutrition-selenium-natural-vitamin-e-vegetable-capsule.jpg",
+            "price": 1599,
+            "final_price": 799,
+            "ratings": 4.5,
+            "detail": "bottle of 120 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 35,
+            "name": "HealthyHey Nutrition CoQ 10 Vegetable Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/3367a0a2ac7b4463b3b96be7c42d7dff/healthyhey-nutrition-coq-10-bioperine-125mg-vegetable-capsule.jpg",
+            "price": 1999,
+            "final_price": 1399,
+            "ratings": 4.1,
+            "detail": "bottle of 60 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 36,
+            "name": "HealthyHey Nutrition Hydrolysed Bovine Collagen",
+            "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/m347nngafmfpohyazlls/healthyhey-nutrition-gold-series-hydrolysed-bovine-collagen-type-1-3-orange.jpg",
+            "price": 2499,
+            "final_price": 1299,
+            "ratings": 4.5,
+            "detail": "Jar of 200gm powder",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 37,
+            "name": "Inlife Vitamin B12 ALA Tablet with vitamin B12",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/mzik3zmrcgmafcg0gdyr/inlife-vitamin-b12-ala-tablet.png",
+            "price": 600,
+            "final_price": 399,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 38,
+            "name": "Inlife Iron Folic Acid Supplement Tablet",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/tjoec3grck4nnmnx2pzx/inlife-iron-folic-acid-supplement-with-vitamin-c-e-b12-zinc-selenium-tablet.jpg",
+            "price": 600,
+            "final_price": 300,
+            "ratings": 4.4,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 39,
+            "name": "Inlife Hair, Skin & Nails Gummies Strawberry Gluten",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/usbzyvwnnmrvpyzhakqo/inlife-hair-skin-nails-gummies-strawberry-gluten-free.jpg",
+            "price": 699,
+            "final_price": 384,
+            "ratings": 3.8,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 40,
+            "name": "NOW Foods Potassium Citrate 99mg Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/c6yswyvohau8ur6njjoc/now-foods-potassium-citrate-99mg-capsule.jpg",
+            "price": 2000,
+            "final_price": 1920,
+            "ratings": 4.0,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 41,
+            "name": "NOW Foods Liver Refresh Veg Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/qm9tmat3g6pqfmuka7hz/now-foods-liver-refresh-veg-capsule.jpg",
+            "price": 3199,
+            "final_price": 2502,
+            "ratings": 4.2,
+            "detail": "bottle of 110 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 42,
+            "name": "NOW Foods Calcium D-Glucarate 500mg Veg Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/zghxv9iw6f9v0x3sjpr2/now-foods-calcium-d-glucarate-500mg-veg-capsule.jpg",
+            "price": 3999,
+            "final_price": 3999,
+            "ratings": 4.2,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 43,
+            "name": "GNC Triple Strength Fish Oil Softgel for Bones",
+            "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/cropped/knpi7bseg4px54e3bs4k/gnc-triple-strength-fish-oil-softgel.jpg",
+            "price": 1599,
+            "final_price": 943,
+            "ratings": 4.5,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 44,
+            "name": "GNC Pro Performance BCAA Advanced Tangy Orange",
+            "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/oxyfi9owon6pcagjmtdp/gnc-pro-performance-amp-gold-series-bcaa-advanced-tangy-orange.jpg",
+            "price": 2299,
+            "final_price": 1799,
+            "ratings": 4.1,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 45,
+            "name": "GNC Pro Whey Protein Chocolate Supreme",
+            "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/tufbxxd6ooedkb38yw5v/gnc-pro-performance-100-whey-protein-chocolate-supreme.jpg",
+            "price": 8499,
+            "final_price": 7124,
+            "ratings": 4.4,
+            "detail": "Jar of 2 kg Chocolate flavour powder",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 46,
+            "name": "HealthVit Vitamin B12 500mcg Tablet",
+            "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/devq94ucekijc0d7vlbd/healthvit-vitamin-b12-500mcg-tablet.jpg",
+            "price": 200,
+            "final_price": 128,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 47,
+            "name": "HealthVit Cenvitan Multivitamin Tablet",
+            "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/a7xr3jsvuophvvsn7yua/healthvit-cenvitan-men-multivitamin-multimineral-tablet.jpg",
+            "price": 500,
+            "final_price": 299,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 48,
+            "name": "HealthVit ZMA Multivitamins Capsule",
+            "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/oxxwpcvmknokvhnmex04/healthvit-zma-capsule.jpg",
+            "price": 1100,
+            "final_price": 649,
+            "ratings": 4.3,
+            "detail": "bottle of 90 capsules",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 49,
+            "name": "HealthyHey Nutrition Selenium Vegetable Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/beohs1b4nqzd5jg1pghg/healthyhey-nutrition-selenium-natural-vitamin-e-vegetable-capsule.jpg",
+            "price": 1599,
+            "final_price": 799,
+            "ratings": 4.5,
+            "detail": "bottle of 120 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 50,
+            "name": "HealthyHey Nutrition CoQ 10 Vegetable Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/3367a0a2ac7b4463b3b96be7c42d7dff/healthyhey-nutrition-coq-10-bioperine-125mg-vegetable-capsule.jpg",
+            "price": 1999,
+            "final_price": 1399,
+            "ratings": 4.1,
+            "detail": "bottle of 60 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 51,
+            "name": "HealthyHey Nutrition Hydrolysed Bovine Collagen",
+            "url": "https://onemg.gumlet.io/images/f_auto,w_150,h_150,c_fit,q_auto/m347nngafmfpohyazlls/healthyhey-nutrition-gold-series-hydrolysed-bovine-collagen-type-1-3-orange.jpg",
+            "price": 2499,
+            "final_price": 1299,
+            "ratings": 4.5,
+            "detail": "Jar of 200gm powder",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 52,
+            "name": "Inlife Vitamin B12 ALA Tablet with vitamin B12",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/mzik3zmrcgmafcg0gdyr/inlife-vitamin-b12-ala-tablet.png",
+            "price": 600,
+            "final_price": 399,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 53,
+            "name": "Inlife Iron Folic Acid Supplement Tablet",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/tjoec3grck4nnmnx2pzx/inlife-iron-folic-acid-supplement-with-vitamin-c-e-b12-zinc-selenium-tablet.jpg",
+            "price": 600,
+            "final_price": 300,
+            "ratings": 4.4,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 54,
+            "name": "Inlife Hair, Skin & Nails Gummies Strawberry Gluten",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/usbzyvwnnmrvpyzhakqo/inlife-hair-skin-nails-gummies-strawberry-gluten-free.jpg",
+            "price": 699,
+            "final_price": 384,
+            "ratings": 3.8,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 55,
+            "name": "NOW Foods Potassium Citrate 99mg Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/c6yswyvohau8ur6njjoc/now-foods-potassium-citrate-99mg-capsule.jpg",
+            "price": 2000,
+            "final_price": 1920,
+            "ratings": 4.0,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 56,
+            "name": "NOW Foods Liver Refresh Veg Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/qm9tmat3g6pqfmuka7hz/now-foods-liver-refresh-veg-capsule.jpg",
+            "price": 3199,
+            "final_price": 2502,
+            "ratings": 4.2,
+            "detail": "bottle of 110 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 57,
+            "name": "NOW Foods Calcium D-Glucarate 500mg Veg Capsule",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/zghxv9iw6f9v0x3sjpr2/now-foods-calcium-d-glucarate-500mg-veg-capsule.jpg",
+            "price": 3999,
+            "final_price": 3999,
+            "ratings": 4.2,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 58,
+            "name": "GNC Triple Strength Fish Oil Softgel for Bones",
+            "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/cropped/knpi7bseg4px54e3bs4k/gnc-triple-strength-fish-oil-softgel.jpg",
+            "price": 1599,
+            "final_price": 943,
+            "ratings": 4.5,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 59,
+            "name": "GNC Pro Performance BCAA Advanced Tangy Orange",
+            "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/oxyfi9owon6pcagjmtdp/gnc-pro-performance-amp-gold-series-bcaa-advanced-tangy-orange.jpg",
+            "price": 2299,
+            "final_price": 1799,
+            "ratings": 4.1,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 60,
+            "name": "GNC Pro Whey Protein Chocolate Supreme",
+            "url": "https://onemg.gumlet.io/images/h_150,c_fit,f_auto,w_150,q_auto/tufbxxd6ooedkb38yw5v/gnc-pro-performance-100-whey-protein-chocolate-supreme.jpg",
+            "price": 8499,
+            "final_price": 7124,
+            "ratings": 4.4,
+            "detail": "Jar of 2 kg Chocolate flavour powder",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        }
+    ],
+    "devices": [
+        {
+            "id": 1,
+            "name": "abc",
+            "url": "abc",
+            "price": 200,
+            "final_price": 128,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 2,
+            "name": "abc",
+            "url": "abc",
+            "price": 500,
+            "final_price": 299,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 3,
+            "name": "abc",
+            "url": "abc",
+            "price": 1100,
+            "final_price": 649,
+            "ratings": 4.3,
+            "detail": "bottle of 90 capsules",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 4,
+            "name": "abc",
+            "url": "abc",
+            "price": 1599,
+            "final_price": 799,
+            "ratings": 4.5,
+            "detail": "bottle of 120 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 5,
+            "name": "abc",
+            "url": "abc",
+            "price": 1999,
+            "final_price": 1399,
+            "ratings": 4.1,
+            "detail": "bottle of 60 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 6,
+            "name": "abc",
+            "url": "abc",
+            "price": 2499,
+            "final_price": 1299,
+            "ratings": 4.5,
+            "detail": "Jar of 200gm powder",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 7,
+            "name": "abc",
+            "url": "abc",
+            "price": 600,
+            "final_price": 399,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 8,
+            "name": "abc",
+            "url": "abc",
+            "price": 600,
+            "final_price": 300,
+            "ratings": 4.4,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 9,
+            "name": "abc",
+            "url": "abc",
+            "price": 699,
+            "final_price": 384,
+            "ratings": 3.8,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 10,
+            "name": "abc",
+            "url": "abc",
+            "price": 2000,
+            "final_price": 1920,
+            "ratings": 4.0,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 11,
+            "name": "abc",
+            "url": "abc",
+            "price": 3199,
+            "final_price": 2502,
+            "ratings": 4.2,
+            "detail": "bottle of 110 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 12,
+            "name": "abc",
+            "url": "abc",
+            "price": 3999,
+            "final_price": 3999,
+            "ratings": 4.2,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 13,
+            "name": "abc",
+            "url": "abc",
+            "price": 1599,
+            "final_price": 943,
+            "ratings": 4.5,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 14,
+            "name": "abc",
+            "url": "abc",
+            "price": 2299,
+            "final_price": 1799,
+            "ratings": 4.1,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 15,
+            "name": "abc",
+            "url": "abc",
+            "price": 8499,
+            "final_price": 7124,
+            "ratings": 4.4,
+            "detail": "Jar of 2 kg Chocolate flavour powder",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 16,
+            "name": "abc",
+            "url": "abc",
+            "price": 200,
+            "final_price": 128,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 17,
+            "name": "abc",
+            "url": "abc",
+            "price": 500,
+            "final_price": 299,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 18,
+            "name": "abc",
+            "url": "abc",
+            "price": 1100,
+            "final_price": 649,
+            "ratings": 4.3,
+            "detail": "bottle of 90 capsules",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 19,
+            "name": "abc",
+            "url": "abc",
+            "price": 1599,
+            "final_price": 799,
+            "ratings": 4.5,
+            "detail": "bottle of 120 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 20,
+            "name": "abc",
+            "url": "abc",
+            "price": 1999,
+            "final_price": 1399,
+            "ratings": 4.1,
+            "detail": "bottle of 60 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 21,
+            "name": "abc",
+            "url": "abc",
+            "price": 2499,
+            "final_price": 1299,
+            "ratings": 4.5,
+            "detail": "Jar of 200gm powder",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 22,
+            "name": "abc",
+            "url": "abc",
+            "price": 600,
+            "final_price": 399,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 23,
+            "name": "abc",
+            "url": "abc",
+            "price": 600,
+            "final_price": 300,
+            "ratings": 4.4,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 24,
+            "name": "abc",
+            "url": "abc",
+            "price": 699,
+            "final_price": 384,
+            "ratings": 3.8,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 25,
+            "name": "abc",
+            "url": "abc",
+            "price": 2000,
+            "final_price": 1920,
+            "ratings": 4.0,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 26,
+            "name": "abc",
+            "url": "abc",
+            "price": 3199,
+            "final_price": 2502,
+            "ratings": 4.2,
+            "detail": "bottle of 110 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 27,
+            "name": "abc",
+            "url": "abc",
+            "price": 3999,
+            "final_price": 3999,
+            "ratings": 4.2,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 28,
+            "name": "abc",
+            "url": "abc",
+            "price": 1599,
+            "final_price": 943,
+            "ratings": 4.5,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 29,
+            "name": "abc",
+            "url": "abc",
+            "price": 2299,
+            "final_price": 1799,
+            "ratings": 4.1,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 30,
+            "name": "abc",
+            "url": "abc",
+            "price": 8499,
+            "final_price": 7124,
+            "ratings": 4.4,
+            "detail": "Jar of 2 kg Chocolate flavour powder",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 31,
+            "name": "abc",
+            "url": "abc",
+            "price": 200,
+            "final_price": 128,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 32,
+            "name": "abc",
+            "url": "abc",
+            "price": 500,
+            "final_price": 299,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 33,
+            "name": "abc",
+            "url": "abc",
+            "price": 1100,
+            "final_price": 649,
+            "ratings": 4.3,
+            "detail": "bottle of 90 capsules",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 34,
+            "name": "abc",
+            "url": "abc",
+            "price": 1599,
+            "final_price": 799,
+            "ratings": 4.5,
+            "detail": "bottle of 120 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 35,
+            "name": "abc",
+            "url": "abc",
+            "price": 1999,
+            "final_price": 1399,
+            "ratings": 4.1,
+            "detail": "bottle of 60 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 36,
+            "name": "abc",
+            "url": "abc",
+            "price": 2499,
+            "final_price": 1299,
+            "ratings": 4.5,
+            "detail": "Jar of 200gm powder",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 37,
+            "name": "abc",
+            "url": "abc",
+            "price": 600,
+            "final_price": 399,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 38,
+            "name": "abc",
+            "url": "abc",
+            "price": 600,
+            "final_price": 300,
+            "ratings": 4.4,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 39,
+            "name": "abc",
+            "url": "abc",
+            "price": 699,
+            "final_price": 384,
+            "ratings": 3.8,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 40,
+            "name": "abc",
+            "url": "abc",
+            "price": 2000,
+            "final_price": 1920,
+            "ratings": 4.0,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 41,
+            "name": "abc",
+            "url": "abc",
+            "price": 3199,
+            "final_price": 2502,
+            "ratings": 4.2,
+            "detail": "bottle of 110 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 42,
+            "name": "abc",
+            "url": "abc",
+            "price": 3999,
+            "final_price": 3999,
+            "ratings": 4.2,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 43,
+            "name": "abc",
+            "url": "abc",
+            "price": 1599,
+            "final_price": 943,
+            "ratings": 4.5,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 44,
+            "name": "abc",
+            "url": "abc",
+            "price": 2299,
+            "final_price": 1799,
+            "ratings": 4.1,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 45,
+            "name": "abc",
+            "url": "abc",
+            "price": 8499,
+            "final_price": 7124,
+            "ratings": 4.4,
+            "detail": "Jar of 2 kg Chocolate flavour powder",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 46,
+            "name": "abc",
+            "url": "abc",
+            "price": 200,
+            "final_price": 128,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 47,
+            "name": "abc",
+            "url": "abc",
+            "price": 500,
+            "final_price": 299,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 48,
+            "name": "abc",
+            "url": "abc",
+            "price": 1100,
+            "final_price": 649,
+            "ratings": 4.3,
+            "detail": "bottle of 90 capsules",
+            "use": "Mind Care",
+            "brand": "HealthVit"
+        },
+        {
+            "id": 49,
+            "name": "abc",
+            "url": "abc",
+            "price": 1599,
+            "final_price": 799,
+            "ratings": 4.5,
+            "detail": "bottle of 120 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 50,
+            "name": "abc",
+            "url": "abc",
+            "price": 1999,
+            "final_price": 1399,
+            "ratings": 4.1,
+            "detail": "bottle of 60 vegicaps",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 51,
+            "name": "abc",
+            "url": "abc",
+            "price": 2499,
+            "final_price": 1299,
+            "ratings": 4.5,
+            "detail": "Jar of 200gm powder",
+            "use": "Joint & Muscle Care",
+            "brand": "HealthyHey"
+        },
+        {
+            "id": 52,
+            "name": "abc",
+            "url": "abc",
+            "price": 600,
+            "final_price": 399,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 53,
+            "name": "abc",
+            "url": "abc",
+            "price": 600,
+            "final_price": 300,
+            "ratings": 4.4,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 54,
+            "name": "abc",
+            "url": "abc",
+            "price": 699,
+            "final_price": 384,
+            "ratings": 3.8,
+            "detail": "bottle of 60 tablets",
+            "use": "Nutritional Deficiencies",
+            "brand": "Inlife"
+        },
+        {
+            "id": 55,
+            "name": "abc",
+            "url": "abc",
+            "price": 2000,
+            "final_price": 1920,
+            "ratings": 4.0,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 56,
+            "name": "abc",
+            "url": "abc",
+            "price": 3199,
+            "final_price": 2502,
+            "ratings": 4.2,
+            "detail": "bottle of 110 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 57,
+            "name": "abc",
+            "url": "abc",
+            "price": 3999,
+            "final_price": 3999,
+            "ratings": 4.2,
+            "detail": "bottle of 90 capsules",
+            "use": "Skin Care",
+            "brand": "Now Foods"
+        },
+        {
+            "id": 58,
+            "name": "abc",
+            "url": "abc",
+            "price": 1599,
+            "final_price": 943,
+            "ratings": 4.5,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 59,
+            "name": "abc",
+            "url": "abc",
+            "price": 2299,
+            "final_price": 1799,
+            "ratings": 4.1,
+            "detail": "bottle of 60 soft gelatin capsules",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        },
+        {
+            "id": 60,
+            "name": "abc",
+            "url": "abc",
+            "price": 8499,
+            "final_price": 7124,
+            "ratings": 4.4,
+            "detail": "Jar of 2 kg Chocolate flavour powder",
+            "use": "Cardiac Care",
+            "brand": "GNC"
+        }
+    ],
+    "TopDealsMV": [
+        {
+            "id": 1,
+            "name": "HealthVit Vitamin B12 500mcg Tablet",
+            "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/devq94ucekijc0d7vlbd/healthvit-vitamin-b12-500mcg-tablet.jpg",
+            "price": 200,
+            "final_price": 128,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets"
+        },
+        {
+            "id": 7,
+            "name": "Inlife Vitamin B12 ALA Tablet with vitamin B12",
+            "url": "https://onemg.gumlet.io/images/f_auto,h_150,w_150,q_auto,c_fit/cropped/mzik3zmrcgmafcg0gdyr/inlife-vitamin-b12-ala-tablet.png",
+            "price": 600,
+            "final_price": 399,
+            "ratings": 4.3,
+            "detail": "bottle of 60 tablets"
+        },
+        {
+            "id": 3,
+            "name": "HealthVit ZMA Multivitamins Capsule",
+            "url": "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/oxxwpcvmknokvhnmex04/healthvit-zma-capsule.jpg",
+            "price": 1100,
+            "final_price": 649,
+            "ratings": 4.3,
+            "detail": "bottle of 90 capsules"
+        }
+    ],
+    "TopDealsDV": [
+        {
+            "id": 1,
+            "name": "Accu-Chek Active Test Strip (Box of 10 Test strips Free)",
+            "url": "https://onemg.gumlet.io/images/w_150,h_150,c_fit,q_auto,f_auto/e6c28fd45d4f499dbbe755cf4b77d4e1/accu-chek-active-test-strip.jpg",
+            "price": 995,
+            "final_price": 358,
+            "ratings": 4.5,
+            "detail": "box of 50 Test Strips"
+        },
+        {
+            "id": 2,
+            "name": "Dr. Morepen Biotin+ Tablet for Healthy Hair, Skin & Nails Tablet",
+            "url": "https://onemg.gumlet.io/images/w_150,h_150,c_fit,q_auto,f_auto/pc0kfczcu5phbkk5sy41/dr-morepen-gluco-one-bg-03-blood-glucose-test-strip.jpg",
+            "price": 995,
+            "final_price": 358,
+            "ratings": 4.5,
+            "detail": "box of 50 Test Strips"
+        },
+        {
+            "id": 3,
+            "name": "Accu-Chek Active Blood Glucometer Kit (Box of 10 Test strips Free)",
+            "url": "https://onemg.gumlet.io/images/w_150,h_150,c_fit,q_auto,f_auto/0bede5b02bf743ddb910721e0ece0fc7/accu-chek-active-blood-glucometer-kit-box-of-10-test-strips-free.jpg",
+            "price": 995,
+            "final_price": 358,
+            "ratings": 4.5,
+            "detail": "box of 50 Test Strips"
+        }
+    ],
+    "categoriesMV": [
+        {
+            "id": 1,
+            "name": "Multivitamins",
+            "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/mrntmv3lpb7tjzdlkdnc.png"
+        },
+        {
+            "id": 2,
+            "name": "Calcium And Minerals",
+            "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/ljyfbx2xugr0evrtzn8y.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Plant Based Suppliments",
+            "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/wdmr9b68xfgac9po9c4v.png"
+        },
+        {
+            "id": 4,
+            "name": "Biotin",
+            "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/nga8o103x9tr0tnxa9ci.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Immunity Boosters",
+            "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/nsqbbcpoksf2hgexpkud.png"
+        }
+    ],
+    "categoriesDV": [
+        {
+            "id": 1,
+            "name": "Accu-check",
+            "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/eswhdjdi9mzq1ntjy59m.png"
+        },
+        {
+            "id": 2,
+            "name": "AccuSure",
+            "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/hq2yxyge4lsxeyvlvjga.png"
+        },
+        {
+            "id": 3,
+            "name": "Dr Morepen",
+            "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/vnb0nghatul3fy9grums.png"
+        },
+        {
+            "id": 4,
+            "name": "OneTouch",
+            "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/xrxttu6kyxmbjmt5xsps.jpg"
+        },
+        {
+            "id": 5,
+            "name": "BeatO",
+            "url": "https://onemg.gumlet.io/q_auto,c_fit,f_auto,h_150,a_ignore,w_150/mjsaizdmejqbdokg3olk.png"
+        }
+    ],
+    "users": [
+        {
+            "name": "admin",
+            "email": "admin@gmail.com",
+            "password": "123",
+            "id": 1
+        },
+        {
+            "name": "a",
+            "email": "a@gmail.com",
+            "password": "123",
+            "id": 2
+        }
+    ]
 }

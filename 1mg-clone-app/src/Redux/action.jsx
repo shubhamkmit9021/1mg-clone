@@ -5,6 +5,7 @@ import {
   SETCART,
   COUPON,
   EMPTYCART,
+  ISAUTH,
 } from "./actionType";
 
 export const addtocart = (data) => ({
@@ -26,4 +27,9 @@ export const coupon = (data) => ({
 export const emptycart = () => ({
   type: EMPTYCART,
   payload: "",
+});
+
+export const isauth = (data) => ({
+  type: ISAUTH,
+  payload: data,
 });

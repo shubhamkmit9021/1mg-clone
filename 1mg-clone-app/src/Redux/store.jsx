@@ -16,5 +16,6 @@ store.subscribe(() => {
     cartItems: store.getState().cartItems,
     totalBill: tb,
     couponDiscount: store.getState().couponDiscount,
+    isAuth: store.getState().isAuth,
   });
 });

@@ -5,6 +5,7 @@ import {
   UPDATE,
   SETCART,
   EMPTYCART,
+  ISAUTH,
 } from "./actionType";
 
 const calcTotal = (temp) => {
@@ -31,6 +32,7 @@ export default function reducre(store, { type, payload, isRemoveButton }) {
       if (itemExist) temp = [...store.cartItems];
       else temp = [...store.cartItems, payload];
       return {
+        ...store,
         cartItems: [...temp],
         totalBill: calcTotal(temp),
         couponDiscount: store.couponDiscount,
@@ -43,6 +45,7 @@ export default function reducre(store, { type, payload, isRemoveButton }) {
           if (item.id !== payload.id) arr.push(item);
         });
         return {
+          ...store,
           cartItems: [...arr],
           totalBill: calcTotal(arr),
           couponDiscount: store.couponDiscount,
@@ -56,6 +59,7 @@ export default function reducre(store, { type, payload, isRemoveButton }) {
             }
           });
           return {
+            ...store,
             cartItems: [...store.cartItems],
             totalBill: calcTotal(store.cartItems),
             couponDiscount: store.couponDiscount,
@@ -66,6 +70,7 @@ export default function reducre(store, { type, payload, isRemoveButton }) {
             if (item.id !== payload.id) arr.push(item);
           });
           return {
+            ...store,
             cartItems: [...arr],
             totalBill: calcTotal(arr),
             couponDiscount: store.couponDiscount,
@@ -78,6 +83,8 @@ export default function reducre(store, { type, payload, isRemoveButton }) {
 
     case EMPTYCART:
       return { ...store, cartItems: [], totalBilly: 0, couponDiscount: 0 };
+    case ISAUTH:
+      return { ...store, isAuth: payload };
     default:
       return store;
   }

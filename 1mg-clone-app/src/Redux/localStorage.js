@@ -6,6 +6,7 @@ export const loadState = () => {
         cartItems: [],
         totalBill: 0,
         couponDiscount: 0,
+        isAuth: false,
       };
     }
     return JSON.parse(serializedState);

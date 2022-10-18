@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <div>
       <Footer3 />
-      <Footer4 />
-      <Footer5 />
+      {/* <Footer4 /> */}
+      {/* <Footer5 /> */}
     </div>
   );
 }

@@ -3,8 +3,15 @@ import { BsFillLightningChargeFill } from "react-icons/bs";
 import { BiCurrentLocation } from "react-icons/bi";
 import { ImLocation } from "react-icons/im";
 import { AiOutlineSearch } from "react-icons/ai";
+import { useRef } from "react";
 
 const MiddleNav = () => {
+  const fetchData = (e) => {
+    fetch(`https://json-server-1mg.herokuapp.com/cities`)
+      .then((res) => res.json())
+      .then((data) => console.log(data));
+  };
+
   return (
     <>
       <Flex m="1">
@@ -37,6 +44,9 @@ const MiddleNav = () => {
                     md: "md",
                     lg: "lg",
                     xl: "xl",
+                  }}
+                  onChange={(e) => {
+                    console.log(e.target);
                   }}
                 />
               </Box>

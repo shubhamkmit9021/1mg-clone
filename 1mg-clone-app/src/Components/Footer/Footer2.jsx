@@ -78,6 +78,7 @@ const Footer2 = () => {
                   variant="unstyled"
                   px="2"
                   bg="#ddd"
+                  p
                   placeholder="Enter Phone Number"
                 />
               </InputGroup>
@@ -91,6 +92,7 @@ const Footer2 = () => {
                 color="white"
                 borderRadius="6"
                 _hover={{ cursor: "pointer" }}
+                onClick={ () => console.log("yes")}
               >
                 Send Link
               </Box>

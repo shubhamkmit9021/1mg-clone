@@ -30,7 +30,7 @@ export default function CartItems(props) {
           {name}
         </Box>
         <Spacer />
-        <Box p="4">{price - (price / 100) * discount}</Box>
+        <Box p="4">{Math.floor(price - (price / 100) * discount)}</Box>
       </Flex>
       <Flex>
         <Box p="4" color={greyColor}>
@@ -38,7 +38,10 @@ export default function CartItems(props) {
         </Box>
         <Spacer />
         <Box p="4" color={greyColor}>
-          MRP <span style={{ textDecoration: "line-through" }}>₹{price}</span>
+          MRP{" "}
+          <span style={{ textDecoration: "line-through" }}>
+            ₹{Math.floor(price)}
+          </span>
         </Box>
       </Flex>
       <Flex>

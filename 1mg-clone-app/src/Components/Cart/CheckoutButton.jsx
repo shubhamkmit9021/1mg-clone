@@ -1,15 +1,18 @@
-import { Box, Button } from "@chakra-ui/react";
+import { Box, Button, useToast } from "@chakra-ui/react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { lightOrange } from "../../Colors/Color";
 import { emptycart } from "../../Redux/action";
-import payment from "./Payment/payment";
 
 export default function CheckoutButton() {
   let cartItems = useSelector((store) => store.cartItems);
   const discount = useSelector((store) => store.couponDiscount);
   const dispatch = useDispatch();
   let location = "Delhi";
+  let toast = useToast();
+
+  const reduxIsAuth = useSelector((store) => store.isAuth);
+
   const payment = (cartItems) => {
     fetch(
       "https://express-stripe-server.herokuapp.com/create-checkout-session",
@@ -21,8 +24,8 @@ export default function CheckoutButton() {
         body: JSON.stringify({
           items: [...cartItems],
           urls: {
-            success: `http://localhost:3000/`,
-            cancle: `http://localhost:3000/`,
+            success: `https://json-server-1mg.herokuapp.com/`,
+            cancle: `https://json-server-1mg.herokuapp.com/`,
           },
         }),
       }
@@ -34,9 +37,7 @@ export default function CheckoutButton() {
         return res.json().then((json) => Promise.reject(json));
       })
       .then(({ url }) => {
-        setInterval(() => {
-          dispatch(emptycart());
-        }, 6000);
+        dispatch(emptycart());
         window.location = url;
       })
       .catch((e) => {
@@ -77,8 +78,30 @@ export default function CheckoutButton() {
 
               return item;
             });
+            const reqItem = [];
 
-            payment(cItem);
+            cItem.forEach((item) => {
+              const obj = {
+                name: item.name,
+                id: item.id,
+                price: Math.floor(item.price),
+                quantity: item.quantity,
+              };
+              reqItem.push(obj);
+            });
+            console.log(cItem, reqItem);
+            if (reduxIsAuth) {
+              payment(reqItem);
+            } else {
+              toast({
+                title: "Please Login",
+                description: "Keep shopping.",
+                status: "error",
+                duration: 4000,
+                isClosable: true,
+                position: "top",
+              });
+            }
           }}
         >
           Checkout

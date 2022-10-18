@@ -40,7 +40,10 @@ function App() {
   return (
     <Box>
       <ScrollToTop />
+      {/* <ScrollToBottom /> */}
       <UpperNav />
+      {/* <UpperMiddle /> */}
+      {/* <UpperHeading /> */}
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/cart" element={<Cart />}></Route>

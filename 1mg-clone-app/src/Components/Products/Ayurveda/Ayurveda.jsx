@@ -98,6 +98,7 @@ const Ayurveda = () => {
         ))}
       </Slider>
       <Box my="7"></Box>
+      <Box bg="#ddd" h="30px"></Box>
     </>
   );
 };

@@ -1,11 +1,11 @@
 import { Box, Flex, Image, Show } from "@chakra-ui/react";
-import SlidingBox from "../GetData/SlidingBox";
+import SlidingBoxCopy from "../GetData/SlidingBoxCopy";
 
 export const UpperMiddle = () => {
   return (
     <Flex _hover={{ cursor: "pointer" }}>
       <Box w={{ base: "100%", sm: "100%", md: "100%", lg: "65%" }} mt="-25px">
-        <SlidingBox />
+        <SlidingBoxCopy />
       </Box>
       <Show above="md">
         <Box w="35%">
