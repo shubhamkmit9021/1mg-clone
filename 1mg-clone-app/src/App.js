@@ -8,8 +8,9 @@ import SlidePhoto from './Components Abhishek/sld';
 function App() {
   return (
     <div className="App">
+      
+      <Signup/>
       <Login/>
-      {/* <Signup/> */}
     </div>
   );
 }

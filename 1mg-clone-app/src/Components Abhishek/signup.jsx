@@ -51,7 +51,7 @@ const Signup = () => {
             });
             toast({
                 title: "User created",
-                description: "Try another user details.",
+                description: "Place your first Order.",
                 status: "success",
                 duration: 4000,
                 isClosable: true,

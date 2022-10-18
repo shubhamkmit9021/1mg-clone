@@ -7,28 +7,10 @@
       "id": 1
     },
     {
-      "name": "dsfd",
-      "email": "s@gmail.com",
-      "password": "sfasf",
+      "name": "a",
+      "email": "a@gmail.com",
+      "password": "123",
       "id": 2
-    },
-    {
-      "name": "shubham",
-      "email": "shubham@gmail.com",
-      "password": "123",
-      "id": 3
-    },
-    {
-      "name": "shubham",
-      "email": "shub@gmail.com",
-      "password": "123",
-      "id": 4
-    },
-    {
-      "name": "kuchbhi",
-      "email": "kuchbhi@gmail.com",
-      "password": "123",
-      "id": 5
     }
   ]
 }

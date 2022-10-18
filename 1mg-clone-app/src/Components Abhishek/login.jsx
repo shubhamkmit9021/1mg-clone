@@ -35,8 +35,8 @@ const Login = () => {
         if (flag) {
             localStorage.setItem("isAuth", true);
             toast({
-                title: "Logged in  success.",
-                description: "Keep sailing ",
+                title: "Logged in  successfully.",
+                description: "Keep shopping.",
                 status: "success",
                 duration: 4000,
                 isClosable: true,
@@ -45,8 +45,8 @@ const Login = () => {
             setNav(true);
         } else {
             toast({
-                title: "Invalid credential ",
-                description: "Have entered wrong crendentials",
+                title: "Invalid credentials !",
+                description: "Please enter correct details.",
                 status: "error",
                 duration: 4000,
                 isClosable: true,
