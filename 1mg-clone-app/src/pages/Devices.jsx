@@ -37,8 +37,10 @@ import {
 //   MDBPaginationLink
 // } from "mdb-react-ui-kit";
 import { lightOrange } from "../Colors/Color";
+import { addtocart } from "../Redux/action";
+import { useDispatch } from "react-redux";
 
-function Multivitamins() {
+function Devices() {
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState([]);
   const [deals, setDeals] = useState([]);
@@ -56,7 +58,7 @@ function Multivitamins() {
 
   const loadProducts = async () => {
     return await axios
-      .get(`https://json-server-1mg.herokuapp.com/devices`)
+      .get(`https://json-server-1mg.herokuapp.com/multivitamins`)
       .then((response) => setData(response.data))
       .catch((err) => console.log(err));
   };
@@ -67,27 +69,27 @@ function Multivitamins() {
     if (value == "Ratings") {
       return await axios
         .get(
-          `https://json-server-1mg.herokuapp.com/devices?_sort=ratings&_order=desc`
+          `https://json-server-1mg.herokuapp.com/multivitamins?_sort=ratings&_order=desc`
         )
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     } else if (value == "Price : Low To High") {
       return await axios
         .get(
-          `https://json-server-1mg.herokuapp.com/devices?_sort=final_price&_order=asc`
+          `https://json-server-1mg.herokuapp.com/multivitamins?_sort=final_price&_order=asc`
         )
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     } else if (value == "Price : High To Low") {
       return await axios
         .get(
-          `https://json-server-1mg.herokuapp.com/devices?_sort=final_price&_order=desc`
+          `https://json-server-1mg.herokuapp.com/multivitamins?_sort=final_price&_order=desc`
         )
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     } else {
       return await axios
-        .get(`https://json-server-1mg.herokuapp.com/devices`)
+        .get(`https://json-server-1mg.herokuapp.com/multivitamins`)
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     }
@@ -97,10 +99,10 @@ function Multivitamins() {
   const indexOfFirstData = indexOfLastData - dataPerPage;
   const currentData = data.slice(indexOfFirstData, indexOfLastData);
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
-
+  const dispatch = useDispatch();
   useEffect(() => {
     setLoading(true);
-    fetch(`https://json-server-1mg.herokuapp.com/TopDealsDV`)
+    fetch(`https://json-server-1mg.herokuapp.com/TopDealsMV`)
       .then((res) => res.json())
       .then((res) => setDeals(res))
       .catch(() => setError(true))
@@ -108,7 +110,7 @@ function Multivitamins() {
   }, []);
   useEffect(() => {
     setLoading(true);
-    fetch(`https://json-server-1mg.herokuapp.com/categoriesDV`)
+    fetch(`https://json-server-1mg.herokuapp.com/categoriesMV`)
       .then((res) => res.json())
       .then((res) => setCategories(res))
       .catch(() => setError(true))
@@ -528,126 +530,18 @@ function Multivitamins() {
                 </BreadcrumbItem>
 
                 <BreadcrumbItem>
-                  <BreadcrumbLink href="#">Diabetese</BreadcrumbLink>
+                  <BreadcrumbLink href="#">
+                    Vitamins & Nutritions
+                  </BreadcrumbLink>
                 </BreadcrumbItem>
 
                 <BreadcrumbItem isCurrentPage color="black">
-                  <BreadcrumbLink href="#">Devices</BreadcrumbLink>
+                  <BreadcrumbLink href="#">Multivitamins</BreadcrumbLink>
                 </BreadcrumbItem>
               </Breadcrumb>
               <Heading align="left" w="95%">
-                DIABETES MONITORING
+                VITAMINS & SUPPLEMENTS
               </Heading>
-              <Box padding="10px">
-                <Box padding="10px">
-                  <Box>
-                    <Heading>Shop By Categories</Heading>
-                  </Box>
-                </Box>
-                <Box>
-                  <Grid
-                    templateColumns="repeat(5, 1fr)"
-                    gap={25}
-                    p="2%"
-                    bg="#f6f6f6"
-                  >
-                    {categories.map((category) => (
-                      <GridItem w="100%" p="2%">
-                        <Box
-                          boxShadow="dark-lg"
-                          p="6"
-                          rounded="md"
-                          borderRadius="2xl"
-                          height="220px"
-                        >
-                          <Center>
-                            <Image
-                              src={category.url}
-                              align="center"
-                              height="150px"
-                            />
-                          </Center>
-                          <Center>
-                            <VStack>
-                              <Text align="center" justify="inherit">
-                                {category.name}
-                              </Text>
-                            </VStack>
-                          </Center>
-                        </Box>
-                      </GridItem>
-                    ))}
-                  </Grid>
-                </Box>
-              </Box>
-              <Box padding="10px">
-                <Box
-                  display="flex"
-                  justifyContent="space-between"
-                  padding="10px"
-                >
-                  <Box>
-                    <Heading>Top Deals</Heading>
-                  </Box>
-                  <Box>
-                    <Button
-                      bg={lightOrange}
-                      _hover={{ bg: "teal" }}
-                      color="white"
-                    >
-                      See All
-                    </Button>
-                  </Box>
-                </Box>
-                <Box>
-                  <Grid templateColumns="repeat(3, 1fr)" gap={4} bg="#f6f6f6">
-                    {deals.map((deal) => (
-                      <GridItem>
-                        <Box
-                          boxShadow="dark-lg"
-                          p="6"
-                          rounded="md"
-                          borderRadius="2xl"
-                          height="400px"
-                        >
-                          <Center>
-                            <Image
-                              src={deal.url}
-                              align="center"
-                              height="150px"
-                            />
-                          </Center>
-                          <Center>
-                            <VStack>
-                              <Text align="center" justify="inherit">
-                                {deal.name}
-                              </Text>
-                              <Text align="center" justify="inherit">
-                                {deal.detail}
-                              </Text>
-                              <Flex>
-                                <Box p="4">
-                                  <Text as="s" align="center" justify="inherit">
-                                    MRP : ₹ {deal.price}
-                                  </Text>
-                                </Box>
-                                <Box p="4">
-                                  <Text align="center" justify="inherit">
-                                    ₹ {deal.final_price}
-                                  </Text>
-                                </Box>
-                              </Flex>
-                              <Button align="center" justify="inherit">
-                                Add To Cart
-                              </Button>
-                            </VStack>
-                          </Center>
-                        </Box>
-                      </GridItem>
-                    ))}
-                  </Grid>
-                </Box>
-              </Box>
               <Box padding="10px">
                 <Box padding="10px" alignItems="center">
                   <Flex>
@@ -694,4 +588,4 @@ function Multivitamins() {
   );
 }
 
-export default Multivitamins;
+export default Devices;
