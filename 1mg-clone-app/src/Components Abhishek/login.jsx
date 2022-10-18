@@ -61,7 +61,7 @@ const Login = () => {
     }
 
     return (
-        <Box border='2px solid black' borderRadius='20px' w='max-content' margin='auto' mt='100px'>
+        <Box border='2px solid black' borderRadius='20px' w='max-content' margin='auto' >
 
             <HStack spacing=''>
                 <Box w='500px' h='500px' bg='white' p='50px' pt='80px' borderRight='1px solid #CBD5E0' borderTopLeftRadius='20px' borderBottomLeftRadius='20px'>
@@ -69,7 +69,7 @@ const Login = () => {
                     <SlidePhoto />
                 </Box>
 
-                <Box w='500px' h='500px' bg='white' p='20px' borderRadius='20px'>
+                <Box w='500px' h='500px' bg='white' p='20px' borderTopRightRadius='20px' borderBottomRightRadius='20px'>
                     <VStack>
                         <Box className="crossBox" w='100%'>
                             <Flex>
