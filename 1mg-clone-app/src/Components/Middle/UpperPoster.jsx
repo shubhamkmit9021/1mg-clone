@@ -3,7 +3,7 @@ import React from 'react'
 
 const UpperPoster = () => {
   return (
-    <Box mt='-10px' bg='#f6f6f6' >
+    <Box mt='-10px' bg='#ddd' >
         <Box py='8'>
             <Image  _hover={{ cursor:'pointer' }} src='https://res.cloudinary.com/du8msdgbj/image/upload/v1647251796/ueyxzzku83yuvpqxyrwe.png' w='90%' h='120px' m='auto' alt='sec2_poster' />
         </Box>

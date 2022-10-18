@@ -10,7 +10,7 @@ const Heading = () => {
           <Box>
             <Text fontSize={{ base: "lg", sm: "lg", md: "xl", lg: "2xl" }}>
               {" "}
-              Mineral Supplements
+              Homeopathy top brands
             </Text>
           </Box>
           <Spacer />

@@ -11,7 +11,7 @@ const Footer1 = () => {
         fontSize="16px"
         fontFamily='"Clear Sans", "Helvetica Neue"'
       >
-        <Box py="2">
+        <Box mt='3' py="2">
           <Text as="b" fontSize="20px">
             Stay Healthy with Tata 1mg: Your Favourite Online Pharmacy and
             Healthcare Platform.{" "}

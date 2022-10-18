@@ -9,12 +9,11 @@ const Heading = () => {
         <Flex>
           <Box>
             <Text fontSize={{ base: "lg", sm: "lg", md: "xl", lg: "2xl" }}>
-              {" "}
-              Mineral Supplements
+            Popular Combo Deals
             </Text>
           </Box>
           <Spacer />
-          <Link to="/Multivitamins">
+          <Link to="/devices">
             <Box
               w="max-content"
               bg="tomato"
