@@ -92,7 +92,12 @@ const MiddleNav = () => {
         </Box>
         <Spacer />
 
-        <Box w={{ lg: "20%", xl: "33%" }} h="3rem" mx={{ lg: "2", xl: "1" }}>
+        <Box
+          w={{ lg: "20%", xl: "33%" }}
+          h="3rem"
+          mx={{ lg: "2", xl: "1" }}
+          fontSize={["10px", "12px", "14px"]}
+        >
           <Flex>
             <Show above="xl">
               <Flex alignItems="center">
@@ -100,9 +105,7 @@ const MiddleNav = () => {
                   <BsFillLightningChargeFill />
                 </Box>
                 <Box>
-                  <Text fontSize="16px">
-                    QUICK BUY! Get 25% off on medicines*
-                  </Text>
+                  <Text>QUICK BUY! Get 25% off on medicines*</Text>
                 </Box>
               </Flex>
             </Show>

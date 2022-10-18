@@ -22,10 +22,20 @@ const Posts = ({ data, loading }) => {
 
   return (
     <Box>
-      <Grid bg="#f6f6f6" templateColumns="repeat(3, 1fr)" gap={5}>
+      <Grid
+        bg="#f6f6f6"
+        fontSize={["10px", "10px", "14px"]}
+        templateColumns={["repeat(1,1fr)", "repeat(2, 1fr)", "repeat(3, 1fr)"]}
+        gap={[2, 3, 4]}
+      >
         {data.map((item) => (
-          <GridItem w="100%" p="2%" bg="white">
-            <Box boxShadow="dark-lg" p="6" borderRadius="2xl" height="450px">
+          <GridItem w="100%" p="2%" bg="#f6f6f6">
+            <Box
+              boxShadow="rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px"
+              p="6"
+              borderRadius="2xl"
+              height="450px"
+            >
               <Box
                 width="90%"
                 display="flex"
@@ -75,13 +85,18 @@ const Posts = ({ data, loading }) => {
                   </Flex>
 
                   <Box
+                    pb="10px"
+                    mb="10px"
                     width="90%"
                     display="flex"
                     justifyContent="space-between"
                     alignItems="center"
                   >
-                    <Text>₹ {item.final_price}</Text>
+                    <Box display="flex">
+                      <Text>₹</Text> <Text>{item.final_price}</Text>
+                    </Box>
                     <Button
+                      mb="10px"
                       bg="white"
                       _hover={{ bg: "whilte" }}
                       color={lightOrange}
