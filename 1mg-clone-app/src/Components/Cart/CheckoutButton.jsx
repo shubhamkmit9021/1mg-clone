@@ -24,8 +24,8 @@ export default function CheckoutButton() {
         body: JSON.stringify({
           items: [...cartItems],
           urls: {
-            success: `https://json-server-1mg.herokuapp.com/`,
-            cancle: `https://json-server-1mg.herokuapp.com/`,
+            success: `https://comforting-dolphin-aca10b.netlify.app/`,
+            cancle: `https://comforting-dolphin-aca10b.netlify.app/`,
           },
         }),
       }
