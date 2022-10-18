@@ -1,4 +1,20 @@
-import { Box, Flex, HStack, Image, Text, Spacer, Show } from "@chakra-ui/react";
+import { Box, Flex, Image, Text, Spacer, Show } from "@chakra-ui/react";
+import {
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalCloseButton,
+  ModalBody,
+  Input,
+  Button,
+  HStack,
+  useDisclosure,
+  FormControl,
+  FormLabel,
+  FormErrorMessage,
+  FormHelperText,
+} from "@chakra-ui/react";
 import React from "react";
 import { GrCart } from "react-icons/gr";
 import LowerNav from "./LowerNav";
@@ -7,9 +23,17 @@ import { Link } from "react-router-dom";
 import { lightOrange } from "../../Colors/Color";
 import { useSelector } from "react-redux";
 import { store } from "../../Redux/store";
+import { useRef, useState } from "react";
+import LoginCommon from "../Login/LoginCommon";
 
 const UpperNav = () => {
   const cartItems = useSelector((store) => store.cartItems);
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const initialRef = React.useRef(null);
+  const finalRef = React.useRef(null);
+  const ref = useRef(null);
+  let a = localStorage.getItem("isAuth");
+  const [isAuth, SetIsAuth] = useState(a);
   return (
     <>
       <HStack py="1" px="1" mx="1">
@@ -85,19 +109,50 @@ const UpperNav = () => {
           justifyContent="space-evenly"
         >
           <Box>
-            <Text
-              fontSize={{
-                base: "16px",
-                sm: "16px",
-                md: "18px",
-                lg: "16px",
-                xl: "14px",
+            {!isAuth ? (
+              <Box>
+                <Text
+                  onClick={onOpen}
+                  fontSize={{
+                    base: "16px",
+                    sm: "16px",
+                    md: "18px",
+                    lg: "16px",
+                    xl: "14px",
+                  }}
+                  _hover={{ cursor: "pointer" }}
+                >
+                  {" "}
+                  Login | Sign Up{" "}
+                </Text>
+              </Box>
+            ) : (
+              <Box
+                cursor="pointer"
+                onClick={() => {
+                  localStorage.setItem("isAuth", "false");
+                  SetIsAuth(false);
+                }}
+              >
+                LOGOUT
+              </Box>
+            )}
+
+            <LoginCommon
+              isOpen={isOpen}
+              onClose={onClose}
+              details={{
+                Title: "Login",
+                desc: "Get access to your orders, lab tests & doctor consultations",
+                inputLabel: "Email",
+                inputWarning: "Please enter a valid Email ID",
+                buttonTitle: "LOGIN",
+                one: "New on 1mg? Sign Up",
+                two: `By logging in, you agree to our
+                Terms and Conditions & Privacy Policy`,
+                three: "Need Help? Get In Touch",
               }}
-              _hover={{ cursor: "pointer" }}
-            >
-              {" "}
-              Login | Sign Up{" "}
-            </Text>{" "}
+            />
           </Box>
           <Show above="lg">
             <Box>

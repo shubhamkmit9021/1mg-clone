@@ -26,7 +26,7 @@ const SlidingBox = () => {
   useEffect(() => {
     const getdata = () => {
       setLoading(true);
-      fetch(`http://localhost:3000/SlidingBox_sec1`)
+      fetch(`https://json-server-1mg.onrender.com/SlidingBox_sec1`)
         .then((res) => res.json())
         .then((data) => {
           setAllData(data);

@@ -1,4 +1,4 @@
-export default function payment(cartItems) {
+export default async function payment(cartItems) {
   fetch("https://express-stripe-server.herokuapp.com/create-checkout-session", {
     method: "POST",
     headers: {
@@ -7,8 +7,8 @@ export default function payment(cartItems) {
     body: JSON.stringify({
       items: [...cartItems],
       urls: {
-        success: `http://localhost:3000/`,
-        cancle: `http://localhost:3000/`,
+        success: `https://comforting-dolphin-aca10b.netlify.app`,
+        cancle: `https://comforting-dolphin-aca10b.netlify.app/cart`,
       },
     }),
   })

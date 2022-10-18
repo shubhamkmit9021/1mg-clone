@@ -56,7 +56,7 @@ function Multivitamins() {
 
   const loadProducts = async () => {
     return await axios
-      .get(`http://localhost:3000/devices`)
+      .get(`https://json-server-1mg.onrender.com/devices`)
       .then((response) => setData(response.data))
       .catch((err) => console.log(err));
   };
@@ -66,22 +66,28 @@ function Multivitamins() {
     setSortValue(value);
     if (value == "Ratings") {
       return await axios
-        .get(`http://localhost:3000/devices?_sort=ratings&_order=desc`)
+        .get(
+          `https://json-server-1mg.onrender.com/devices?_sort=ratings&_order=desc`
+        )
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     } else if (value == "Price : Low To High") {
       return await axios
-        .get(`http://localhost:3000/devices?_sort=final_price&_order=asc`)
+        .get(
+          `https://json-server-1mg.onrender.com/devices?_sort=final_price&_order=asc`
+        )
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     } else if (value == "Price : High To Low") {
       return await axios
-        .get(`http://localhost:3000/devices?_sort=final_price&_order=desc`)
+        .get(
+          `https://json-server-1mg.onrender.com/devices?_sort=final_price&_order=desc`
+        )
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     } else {
       return await axios
-        .get(`http://localhost:3000/devices`)
+        .get(`https://json-server-1mg.onrender.com/devices`)
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     }
@@ -94,7 +100,7 @@ function Multivitamins() {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`http://localhost:3000/TopDealsDV`)
+    fetch(`https://json-server-1mg.onrender.com/TopDealsDV`)
       .then((res) => res.json())
       .then((res) => setDeals(res))
       .catch(() => setError(true))
@@ -102,7 +108,7 @@ function Multivitamins() {
   }, []);
   useEffect(() => {
     setLoading(true);
-    fetch(`http://localhost:3000/categoriesDV`)
+    fetch(`https://json-server-1mg.onrender.com/categoriesDV`)
       .then((res) => res.json())
       .then((res) => setCategories(res))
       .catch(() => setError(true))

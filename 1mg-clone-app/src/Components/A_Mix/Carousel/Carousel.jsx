@@ -25,7 +25,7 @@ function Carousel() {
 export default Carousel;
 
 export const getTodos = () => {
-  return fetch(`http://localhost:3000/sec1`).then((res) => res.json());
+  return fetch(`https://json-server-1mg.onrender.com/sec1`).then((res) => res.json());
 };
 
 // const flickityOptions = {

@@ -55,7 +55,7 @@ const DiseaseSec = () => {
   useEffect(() => {
     const getdata = () => {
       setLoading(true);
-      fetch(`http://localhost:3000/Disease_sec`)
+      fetch(`https://json-server-1mg.onrender.com/Disease_sec`)
         .then((res) => res.json())
         .then((data) => {
           setAllData(data);
