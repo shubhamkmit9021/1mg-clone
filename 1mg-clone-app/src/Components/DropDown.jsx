@@ -4,16 +4,22 @@ import { Link } from "react-router-dom";
 
 export default function DropDown({ first, second, third, fourth, fifth }) {
   return (
-    <MenuList>
+    <MenuList zIndex="1000">
       <Link to={"/" + first}>
         <MenuItem>{first}</MenuItem>
       </Link>
       <Link to={"/" + second}>
         <MenuItem>{second}</MenuItem>
       </Link>
-      <MenuItem>{third}</MenuItem>
-      <MenuItem>{fourth}</MenuItem>
-      <MenuItem>{fifth}</MenuItem>
+      <Link to={"/" + first}>
+        <MenuItem>{third}</MenuItem>
+      </Link>
+      <Link to={"/" + second}>
+        <MenuItem>{fourth}</MenuItem>
+      </Link>
+      <Link to={"/" + first}>
+        <MenuItem>{fifth}</MenuItem>
+      </Link>
     </MenuList>
   );
 }

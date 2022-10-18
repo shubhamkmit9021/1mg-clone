@@ -7,8 +7,8 @@ export default async function payment(cartItems) {
     body: JSON.stringify({
       items: [...cartItems],
       urls: {
-        success: `https://comforting-dolphin-aca10b.netlify.app`,
-        cancle: `https://comforting-dolphin-aca10b.netlify.app/cart`,
+        success: `https://json-server-1mg.herokuapp.com/`,
+        cancle: `https://json-server-1mg.herokuapp.com/cart`,
       },
     }),
   })

@@ -56,7 +56,7 @@ function Multivitamins() {
 
   const loadProducts = async () => {
     return await axios
-      .get(`https://json-server-1mg.onrender.com/devices`)
+      .get(`https://json-server-1mg.herokuapp.com/devices`)
       .then((response) => setData(response.data))
       .catch((err) => console.log(err));
   };
@@ -67,27 +67,27 @@ function Multivitamins() {
     if (value == "Ratings") {
       return await axios
         .get(
-          `https://json-server-1mg.onrender.com/devices?_sort=ratings&_order=desc`
+          `https://json-server-1mg.herokuapp.com/devices?_sort=ratings&_order=desc`
         )
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     } else if (value == "Price : Low To High") {
       return await axios
         .get(
-          `https://json-server-1mg.onrender.com/devices?_sort=final_price&_order=asc`
+          `https://json-server-1mg.herokuapp.com/devices?_sort=final_price&_order=asc`
         )
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     } else if (value == "Price : High To Low") {
       return await axios
         .get(
-          `https://json-server-1mg.onrender.com/devices?_sort=final_price&_order=desc`
+          `https://json-server-1mg.herokuapp.com/devices?_sort=final_price&_order=desc`
         )
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     } else {
       return await axios
-        .get(`https://json-server-1mg.onrender.com/devices`)
+        .get(`https://json-server-1mg.herokuapp.com/devices`)
         .then((response) => setData(response.data))
         .catch((err) => console.log(err));
     }
@@ -100,7 +100,7 @@ function Multivitamins() {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`https://json-server-1mg.onrender.com/TopDealsDV`)
+    fetch(`https://json-server-1mg.herokuapp.com/TopDealsDV`)
       .then((res) => res.json())
       .then((res) => setDeals(res))
       .catch(() => setError(true))
@@ -108,7 +108,7 @@ function Multivitamins() {
   }, []);
   useEffect(() => {
     setLoading(true);
-    fetch(`https://json-server-1mg.onrender.com/categoriesDV`)
+    fetch(`https://json-server-1mg.herokuapp.com/categoriesDV`)
       .then((res) => res.json())
       .then((res) => setCategories(res))
       .catch(() => setError(true))

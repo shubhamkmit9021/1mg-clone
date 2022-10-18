@@ -20,13 +20,14 @@ export default function Home() {
   return (
     <Box bg="##f6f6f6">
       {" "}
+      <UpperMiddle />
+      <UpperHeading />
       <UpperPoster />
       <DiseaseSec />
       <Brands />
       <MineralSupliment />
       <Ayurveda />
-      <Footer1 />
-      <CarousalComponent
+      {/* <CarousalComponent
         data={HomeData.ShopbyHealthConcerns}
         text={"Shop by Health Concerns"}
       />
@@ -59,7 +60,7 @@ export default function Home() {
       <CarousalComponent
         data={HomeData.IntheSpotlight}
         text={"In the spotlight"}
-      />
+      /> */}
       <HomeFooter />
     </Box>
   );

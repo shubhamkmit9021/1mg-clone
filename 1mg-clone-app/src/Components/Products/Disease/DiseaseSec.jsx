@@ -55,7 +55,7 @@ const DiseaseSec = () => {
   useEffect(() => {
     const getdata = () => {
       setLoading(true);
-      fetch(`https://json-server-1mg.onrender.com/Disease_sec`)
+      fetch(`https://json-server-1mg.herokuapp.com/Disease_sec`)
         .then((res) => res.json())
         .then((data) => {
           setAllData(data);
@@ -80,7 +80,7 @@ const DiseaseSec = () => {
         </Box>
       )}
 
-      <Slider {...settings} pl="10%">
+      <Slider {...settings}>
         {allData.map((elem) => (
           <Box key={elem.id}>
             <Box style={{ cursor: "pointer" }}>
