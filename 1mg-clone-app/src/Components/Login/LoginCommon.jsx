@@ -45,7 +45,7 @@ export default function LoginCommon({
   };
   async function handleClick(e) {
     console.log(values);
-    let res3 = await fetch("http://localhost:3001/users");
+    let res3 = await fetch("https://json-server-1mg.herokuapp.com/users");
     let res4 = await res3.json();
     console.log(res4, "res4");
     res4.map((elem) => {

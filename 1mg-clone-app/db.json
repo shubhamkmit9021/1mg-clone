@@ -311,15 +311,6 @@
                 "s2": "₹419",
                 "s3": "23% off"
             },
-<<<<<<< HEAD
-            "price": "₹323"
-        },
-        {
-            "img": "",
-            "alt": "top_sellers_img1",
-            "title": "",
-            "desc": "",
-=======
             "price": "₹323",
             "id": 10
         },
@@ -328,21 +319,11 @@
             "alt": "top_sellers_img1",
             "name": "Himalaya Herbals Purifying Neem Face..",
             "desc": "pump bottle of 200 ml Face..",
->>>>>>> 9c424bfe2e4c85ca9fa5b3ee41d9b0cec452de80
             "striked": {
                 "s1": "MRP",
                 "s2": "₹419",
                 "s3": "23% off"
             },
-<<<<<<< HEAD
-            "price": "₹323"
-        },
-        {
-            "img": "",
-            "alt": "top_sellers_img1",
-            "title": "",
-            "desc": "",
-=======
             "price": "₹323",
             "id": 11
         },
@@ -351,21 +332,11 @@
             "alt": "top_sellers_img1",
             "name": "Himalaya Herbals Purifying Neem Face..",
             "desc": "pump bottle of 200 ml Face..",
->>>>>>> 9c424bfe2e4c85ca9fa5b3ee41d9b0cec452de80
             "striked": {
                 "s1": "MRP",
                 "s2": "₹419",
                 "s3": "23% off"
             },
-<<<<<<< HEAD
-            "price": "₹323"
-        },
-        {
-            "img": "",
-            "alt": "top_sellers_img1",
-            "title": "",
-            "desc": "",
-=======
             "price": "₹323",
             "id": 12
         }
@@ -441,21 +412,11 @@
             "alt": "Popular_Combo_img1",
             "name": "Himalaya Herbals Purifying Neem Face..",
             "desc": "pump bottle of 200 ml Face..",
->>>>>>> 9c424bfe2e4c85ca9fa5b3ee41d9b0cec452de80
             "striked": {
                 "s1": "MRP",
                 "s2": "₹419",
                 "s3": "23% off"
             },
-<<<<<<< HEAD
-            "price": "₹323"
-        },
-        {
-            "img": "",
-            "alt": "top_sellers_img1",
-            "title": "",
-            "desc": "",
-=======
             "price": "₹323",
             "id": 6
         },
@@ -490,33 +451,11 @@
             "alt": "Popular_Combo_img1",
             "name": "Himalaya Herbals Purifying Neem Face..",
             "desc": "pump bottle of 200 ml Face..",
->>>>>>> 9c424bfe2e4c85ca9fa5b3ee41d9b0cec452de80
             "striked": {
                 "s1": "MRP",
                 "s2": "₹419",
                 "s3": "23% off"
             },
-<<<<<<< HEAD
-            "price": "₹323"
-        },
-        {
-            "img": "",
-            "alt": "top_sellers_img1",
-            "title": "",
-            "desc": "",
-            "striked": {
-                "s1": "MRP",
-                "s2": "₹419",
-                "s3": "23% off"
-            },
-            "price": "₹323"
-        },
-        {
-            "img": "",
-            "alt": "top_sellers_img1",
-            "title": "",
-            "desc": "",
-=======
             "price": "₹323",
             "id": 9
         },
@@ -551,18 +490,13 @@
             "alt": "Popular_Combo_img1",
             "name": "Himalaya Herbals Purifying Neem Face..",
             "desc": "pump bottle of 200 ml Face..",
->>>>>>> 9c424bfe2e4c85ca9fa5b3ee41d9b0cec452de80
             "striked": {
                 "s1": "MRP",
                 "s2": "₹419",
                 "s3": "23% off"
             },
-<<<<<<< HEAD
-            "price": "₹323"
-=======
             "price": "₹323",
             "id": 12
->>>>>>> 9c424bfe2e4c85ca9fa5b3ee41d9b0cec452de80
         }
     ],
     "MineralSupliment_sec": [
@@ -621,8 +555,6 @@
             "id": 9
         }
     ],
-<<<<<<< HEAD
-=======
     "Popular_categories": [
         {
             "img": "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/nnz4wznqh3g1momlj7i6.png",
@@ -1015,9 +947,6 @@
             "id": "9"
         }
     ],
-
-
->>>>>>> 9c424bfe2e4c85ca9fa5b3ee41d9b0cec452de80
     "Ayurveda_sec": [
         {
             "img": "https://onemg.gumlet.io/ky83wvqf5xuygq63xgr3.jpg",

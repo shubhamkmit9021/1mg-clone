@@ -80,7 +80,7 @@ const DiseaseSec = () => {
         </Box>
       )}
 
-      <Slider {...settings} pl="10%">
+      <Slider {...settings}>
         {allData.map((elem) => (
           <Box key={elem.id}>
             <Box style={{ cursor: "pointer" }}>

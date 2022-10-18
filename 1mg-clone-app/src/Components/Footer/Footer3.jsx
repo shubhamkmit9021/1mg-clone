@@ -303,11 +303,6 @@ const Footer3 = () => {
           </GridItem>
         </Grid>
       </Box>
-
-      <>
-        <Footer4 />
-        <Footer5 />
-      </>
     </Box>
   );
 };

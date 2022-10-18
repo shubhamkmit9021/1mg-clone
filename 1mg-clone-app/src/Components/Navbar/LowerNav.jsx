@@ -51,7 +51,8 @@ const LowerNav = () => {
           <MenuButton onHover={{ color: "tomato", cursor: "pointer" }}>
             <Text fontSize="12px"> Vitamins & Nutrition </Text>
           </MenuButton>
-          <DropDown onEnter={{ color: "tomato", cursor: "pointer" }}
+          <DropDown
+            onEnter={{ color: "tomato", cursor: "pointer" }}
             first="Multivitamins"
             second="Devices"
             third="Vitamins A-Z"
@@ -249,4 +250,3 @@ const LowerNav = () => {
 };
 
 export default LowerNav;
-

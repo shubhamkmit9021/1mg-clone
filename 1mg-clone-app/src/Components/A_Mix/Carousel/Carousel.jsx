@@ -25,7 +25,11 @@ function Carousel() {
 export default Carousel;
 
 export const getTodos = () => {
+<<<<<<< HEAD
   return fetch(`https://json-server-1mg.herokuapp.com/sec1`).then((res) => res.json());
+=======
+  return fetch(`https://json-server-1mg.herokuapp.com/`).then((res) => res.json());
+>>>>>>> master
 };
 
 // const flickityOptions = {

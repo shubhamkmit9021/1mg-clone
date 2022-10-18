@@ -2,7 +2,11 @@ import { useState, useEffect } from "react";
 import { Sec1ImgList } from "./Sec1ImgList";
 
 const getData = (page) => {
+<<<<<<< HEAD
   return fetch(`https://json-server-1mg.herokuapp.com/sec1`).then((res) => {
+=======
+  return fetch(`https://json-server-1mg.herokuapp.com/`).then((res) => {
+>>>>>>> master
     return res.json();
   });
 };
