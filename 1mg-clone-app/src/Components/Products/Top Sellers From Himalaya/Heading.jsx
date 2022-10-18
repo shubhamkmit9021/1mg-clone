@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Spacer, Flex, Text } from "@chakra-ui/react";
-import { Link, Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Heading = () => {
   return (
@@ -9,12 +9,11 @@ const Heading = () => {
         <Flex>
           <Box>
             <Text fontSize={{ base: "lg", sm: "lg", md: "xl", lg: "2xl" }}>
-              {" "}
-              Featured brands
+              Top Sellers From Himalaya Personal Care
             </Text>
           </Box>
           <Spacer />
-          <Link to="/Multivitamins">
+          <Link to="/devices">
             <Box
               w="max-content"
               bg="tomato"
@@ -23,9 +22,6 @@ const Heading = () => {
               color="white"
               borderRadius="6"
               _hover={{ cursor: "pointer" }}
-              onClick={() => {
-                <Navigate to="/Multivitamins" />;
-              }}
             >
               SEE ALL
             </Box>

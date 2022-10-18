@@ -3,10 +3,11 @@ import { BsFillLightningChargeFill } from "react-icons/bs";
 import { BiCurrentLocation } from "react-icons/bi";
 import { ImLocation } from "react-icons/im";
 import { AiOutlineSearch } from "react-icons/ai";
+import { useRef } from "react";
 
 const MiddleNav = () => {
   const fetchData = (e) => {
-    fetch(`http://localhost:3000/cities`)
+    fetch(`https://json-server-1mg.herokuapp.com/cities`)
       .then((res) => res.json())
       .then((data) => console.log(data));
   };

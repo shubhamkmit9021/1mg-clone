@@ -1,32 +1,60 @@
 import React from "react";
-import TabCarousal from "../Components/Middle/TabCarousal";
+import { Box } from "@chakra-ui/react";
+
 import HomeFooter from "../Components/Footer/HomeFooter";
+
 import { UpperHeading } from "../Components/Middle/UpperHeading";
 import { UpperMiddle } from "../Components/Middle/UpperMiddle";
 import UpperPoster from "../Components/Middle/UpperPoster";
-import CarousalComponent from "../Components/Middle/CarousalComponent";
-import { HomeData } from "../Components/Middle/HomeData";
-import { bgGrey } from "../Colors/Color";
-import { Box } from "@chakra-ui/react";
+
+import DiseaseSec from "../Components/Products/Disease/DiseaseSec";
+import Brands from "../Components/Products/Featured brands/Brands";
+import TopSellers from "../Components/Products/Top Sellers From Himalaya/TopSellers";
+
+import PopularCategories from "../Components/Products/Popular categories/PopularCategories";
+import FitnessSupplements from "../Components/Products/Fitness and supplements/FitnessSupplements";
+import PopularCombo from "../Components/Products/Popular Combo Deals/PopularCombo";
 
 import Ayurveda from "../Components/Products/Ayurveda/Ayurveda";
 import MineralSupliment from "../Components/Products/Mineral Supplements/MineralSupliment";
 
+import HealthUtsav from "../Components/Products/HEALTH UTSAV/HealthUtsav";
+
+import HomeopathyBrands from "../Components/Products/Homeopathy top brands/HomeopathyBrands";
+
+import HealthFoodsDrinks from "../Components/Products/Health food & drinks/HealthFoodsDrinks";
+
+import HealthCareDevice from "../Components/Products/Healthcare Devices - Top Brands/HealthCareDevice";
+import AyurvedaShop from "../Components/Products/Ayurveda - Shop by concern/AyurvedaShop";
+
 import Footer1 from "../Components/Footer/Footer1";
-import DiseaseSec from "../Components/Products/Disease/DiseaseSec";
-import Brands from "../Components/Products/Featured brands/Brands";
+
+import TabCarousal from "../Components/Middle/TabCarousal";
+import CarousalComponent from "../Components/Middle/CarousalComponent";
+import { HomeData } from "../Components/Middle/HomeData";
+import { bgGrey } from "../Colors/Color";
 
 export default function Home() {
   return (
     <Box bg="##f6f6f6">
       {" "}
+      <UpperMiddle />
+      <UpperHeading />
       <UpperPoster />
       <DiseaseSec />
       <Brands />
+      <TopSellers />
+      <PopularCategories />
+      <FitnessSupplements />
+      <PopularCombo />
+      <HealthUtsav />
+      <HomeopathyBrands />
+      <HealthFoodsDrinks />
       <MineralSupliment />
+      <HealthCareDevice />
+      <AyurvedaShop />
       <Ayurveda />
-      <Footer1 />
-      <CarousalComponent
+      {/* <CarousalComponent
         data={HomeData.ShopbyHealthConcerns}
         text={"Shop by Health Concerns"}
       />
@@ -59,7 +87,7 @@ export default function Home() {
       <CarousalComponent
         data={HomeData.IntheSpotlight}
         text={"In the spotlight"}
-      />
+      /> */}
       <HomeFooter />
     </Box>
   );

@@ -24,8 +24,8 @@ export default function CheckoutButton() {
         body: JSON.stringify({
           items: [...cartItems],
           urls: {
-            success: `http://localhost:3000/`,
-            cancle: `http://localhost:3000/`,
+            success: `https://json-server-1mg.herokuapp.com/`,
+            cancle: `https://json-server-1mg.herokuapp.com/`,
           },
         }),
       }

@@ -42,8 +42,8 @@ function App() {
       <ScrollToTop />
       {/* <ScrollToBottom /> */}
       <UpperNav />
-      <UpperMiddle />
-      <UpperHeading />
+      {/* <UpperMiddle /> */}
+      {/* <UpperHeading /> */}
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
