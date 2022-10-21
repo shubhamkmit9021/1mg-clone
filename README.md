@@ -1,5 +1,7 @@
 # [1mg-clone](https://www.1mg.com/)
 
+### [link](https://tata-1mg-clone-team1.netlify.app/)
+
 ## Team Members ----------Roll Code ----------- Tasks
 - Abhishek Mahakud ---------------- pw06_015  --------------- login/signup
 - Deepak Singh Rathore ------------ pw06_021  --------------- cart/payment
