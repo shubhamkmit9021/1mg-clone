@@ -1,4 +1,4 @@
-# [1mg-clone](https://www.1mg.com/)
+# [Tata 1mg](https://www.1mg.com/)
 
 ## [Deployed link](https://tata-1mg-clone-team1.netlify.app/)    ||       [Blog link](https://medium.com/@shubhamkmit9021/tata-1mg-clone-c637f589f284)
 
